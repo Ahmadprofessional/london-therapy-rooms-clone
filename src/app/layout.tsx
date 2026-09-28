@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins, Open_Sans } from "next/font/google";
+import { Poppins, Open_Sans, Roboto } from "next/font/google";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -8,6 +8,8 @@ const poppins = Poppins({
   weight: ["200", "300", "400", "500", "600", "700"],
   style: ["normal", "italic"],
 });
+
+const roboto = Roboto({ variable: "--font-roboto", subsets: ["latin"], weight: ["400"] });
 
 const openSans = Open_Sans({
   variable: "--font-open-sans",
@@ -39,7 +41,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en-US" className={`${poppins.variable} ${openSans.variable}`}>
+    <html lang="en-US" className={`${poppins.variable} ${openSans.variable} ${roboto.variable}`}>
       <body>{children}</body>
     </html>
   );

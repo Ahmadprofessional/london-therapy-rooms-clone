@@ -32,7 +32,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
 
 export const HERO = {
   eyebrow: "London Therapy Rooms  to",
-  titleLines: ["Rent in Marylebone, Harley Street District", "Central London , W1G 0EB"],
+  titleLines: ["Rent in Marylebone, Harley Street", "District Central London , W1G 0EB"],
   slides: [
     "/images/2024/08/IMG-20240826-WA0037.jpg",
     "/images/2024/08/IMG-20240826-WA0040.jpg",
