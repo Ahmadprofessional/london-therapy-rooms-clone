@@ -1,0 +1,6 @@
+# section 11 id= visible=true
+section.elementor-section.elementor-top-section.elementor-element | box=0,3054,1440,57 | fontSize:16px; fontWeight:200; fontFamily:Poppins, sans-serif; lineHeight:26.4px; color:rgb(40, 40, 40); margin:0px 0px 50px; position:relative | SETTINGS={"animation":"fadeIn"}
+  div.elementor-container.elementor-column-gap-default | box=150,3054,1140,57 | margin:0px 150px; maxWidth:1140px; display:flex; position:relative
+    div.elementor-widget-wrap.elementor-element-populated | box=150,3054,1140,57 | padding:10px; display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=160,3064,1120,37 | textAlign:center; position:relative
+        h2.elementor-heading-title.elementor-size-default | box=160,3064,1120,37 | fontSize:28.83px; fontWeight:500; fontStyle:italic; lineHeight:37.479px; color:rgb(226, 140, 31) | TEXT="Our London Therapy Rooms to Rent"

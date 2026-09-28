@@ -1,0 +1,815 @@
+{
+ "i": 19,
+ "id": "",
+ "visible": true,
+ "tree": {
+  "tag": "section",
+  "cls": "elementor-section elementor-top-section elementor-element elementor-section-boxed",
+  "settings": "{\"animation\":\"fadeIn\"}",
+  "s": {
+   "fontSize": "16px",
+   "fontWeight": "200",
+   "fontFamily": "Poppins, sans-serif",
+   "lineHeight": "26.4px",
+   "color": "rgb(40, 40, 40)",
+   "backgroundPosition": "0% 0%",
+   "margin": "-57.5938px 0px 100.797px",
+   "width": "1440px",
+   "height": "359.562px",
+   "display": "block",
+   "flexDirection": "row",
+   "flexWrap": "nowrap",
+   "position": "relative",
+   "opacity": "1",
+   "objectFit": "fill",
+   "_box": [
+    0,
+    6648,
+    1440,
+    360
+   ]
+  },
+  "c": [
+   {
+    "tag": "div",
+    "cls": "elementor-container elementor-column-gap-default",
+    "s": {
+     "fontSize": "16px",
+     "fontWeight": "200",
+     "fontFamily": "Poppins, sans-serif",
+     "lineHeight": "26.4px",
+     "color": "rgb(40, 40, 40)",
+     "backgroundPosition": "0% 0%",
+     "margin": "0px 150px",
+     "width": "1140px",
+     "height": "359.562px",
+     "maxWidth": "1140px",
+     "display": "flex",
+     "flexDirection": "row",
+     "flexWrap": "nowrap",
+     "position": "relative",
+     "opacity": "1",
+     "objectFit": "fill",
+     "_box": [
+      150,
+      6648,
+      1140,
+      360
+     ]
+    },
+    "c": [
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-50 elementor-top-column elementor-element",
+      "settings": "{\"animation\":\"fadeIn\"}",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(40, 40, 40)",
+       "backgroundPosition": "0% 0%",
+       "width": "570px",
+       "height": "359.562px",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        150,
+        6648,
+        570,
+        360
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(40, 40, 40)",
+         "backgroundPosition": "0% 0%",
+         "padding": "10px",
+         "width": "570px",
+         "height": "359.562px",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "objectFit": "fill",
+         "_box": [
+          150,
+          6648,
+          570,
+          360
+         ]
+        },
+        "c": [
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-image",
+          "widget": "image.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "550px",
+           "height": "135px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            160,
+            6658,
+            550,
+            135
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "550px",
+             "height": "135px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              160,
+              6658,
+              550,
+              135
+             ]
+            },
+            "c": [
+             {
+              "tag": "img",
+              "cls": "elementor-animation-grow attachment-full size-full wp-image-586",
+              "img": {
+               "src": "https://londontherapyroomstorent.com/wp-content/uploads/2024/08/dr55.png",
+               "alt": "",
+               "nw": 268,
+               "nh": 288
+              },
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "268px",
+               "height": "135px",
+               "maxWidth": "100%",
+               "display": "inline-block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "overflow": "clip",
+               "opacity": "1",
+               "transition": "transform 0.9s",
+               "objectFit": "contain",
+               "_box": [
+                301,
+                6658,
+                268,
+                135
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "550px",
+           "height": "17.5938px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            160,
+            6813,
+            550,
+            18
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "550px",
+             "height": "17.5938px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              160,
+              6813,
+              550,
+              18
+             ]
+            },
+            "c": [
+             {
+              "tag": "h3",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "Dana Nizomova",
+              "s": {
+               "fontSize": "22px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "fontStyle": "italic",
+               "lineHeight": "17.6px",
+               "letterSpacing": "-0.4px",
+               "color": "rgb(0, 0, 0)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "550px",
+               "height": "17.5938px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                160,
+                6813,
+                550,
+                18
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-text-editor",
+          "widget": "text-editor.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "300",
+           "fontFamily": "\"Open Sans\", sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "width": "550px",
+           "height": "63.7812px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            160,
+            6851,
+            550,
+            64
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "300",
+             "fontFamily": "\"Open Sans\", sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "margin": "11px 0px 0px",
+             "width": "550px",
+             "height": "52.7812px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              160,
+              6862,
+              550,
+              53
+             ]
+            },
+            "c": [
+             {
+              "tag": "p",
+              "cls": "",
+              "text": "Expert in Permanent make up, Semi permanent lip blush, brows and lash line.",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "300",
+               "fontFamily": "\"Open Sans\", sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "550px",
+               "height": "52.7812px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                160,
+                6862,
+                550,
+                53
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-50 elementor-top-column elementor-element",
+      "settings": "{\"animation\":\"fadeIn\"}",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(40, 40, 40)",
+       "backgroundPosition": "0% 0%",
+       "width": "570px",
+       "height": "359.562px",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        720,
+        6648,
+        570,
+        360
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(40, 40, 40)",
+         "backgroundPosition": "0% 0%",
+         "padding": "10px",
+         "width": "570px",
+         "height": "359.562px",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "objectFit": "fill",
+         "_box": [
+          720,
+          6648,
+          570,
+          360
+         ]
+        },
+        "c": [
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-image",
+          "widget": "image.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "550px",
+           "height": "138px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            730,
+            6658,
+            550,
+            138
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "550px",
+             "height": "138px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              730,
+              6658,
+              550,
+              138
+             ]
+            },
+            "c": [
+             {
+              "tag": "img",
+              "cls": "elementor-animation-grow attachment-full size-full wp-image-1301",
+              "img": {
+               "src": "https://londontherapyroomstorent.com/wp-content/uploads/2025/02/drr444.png",
+               "alt": "",
+               "nw": 504,
+               "nh": 328
+              },
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "423.5px",
+               "height": "138px",
+               "maxWidth": "100%",
+               "display": "inline-block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "overflow": "clip",
+               "opacity": "1",
+               "transition": "transform 0.9s",
+               "objectFit": "contain",
+               "_box": [
+                793,
+                6658,
+                424,
+                138
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "550px",
+           "height": "17.5938px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            730,
+            6816,
+            550,
+            18
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "550px",
+             "height": "17.5938px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              730,
+              6816,
+              550,
+              18
+             ]
+            },
+            "c": [
+             {
+              "tag": "h3",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "Hollie Bryant",
+              "s": {
+               "fontSize": "22px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "fontStyle": "italic",
+               "lineHeight": "17.6px",
+               "letterSpacing": "-0.4px",
+               "color": "rgb(0, 0, 0)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "550px",
+               "height": "17.5938px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                730,
+                6816,
+                550,
+                18
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "550px",
+           "height": "11.7969px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            730,
+            6854,
+            550,
+            12
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "margin": "-5px 0px 0px",
+             "width": "550px",
+             "height": "16.7969px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              730,
+              6849,
+              550,
+              17
+             ]
+            },
+            "c": [
+             {
+              "tag": "h4",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "Surgical Wound Specialist",
+              "s": {
+               "fontSize": "14px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "fontStyle": "italic",
+               "lineHeight": "16.8px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "550px",
+               "height": "16.7969px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                730,
+                6849,
+                550,
+                17
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget__width-initial elementor-widget elementor-widget-text-editor",
+          "widget": "text-editor.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "300",
+           "fontFamily": "\"Open Sans\", sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "width": "550px",
+           "height": "112.172px",
+           "maxWidth": "102.379%",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            730,
+            6886,
+            550,
+            112
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "300",
+             "fontFamily": "\"Open Sans\", sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "margin": "33px 0px 0px",
+             "width": "550px",
+             "height": "79.1719px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              730,
+              6919,
+              550,
+              79
+             ]
+            },
+            "c": [
+             {
+              "tag": "p",
+              "cls": "",
+              "text": "Nurser prescriber and professional cosmetic nurse practitioner with 17 years of post-registration experience, is now working in South Wales & Harley Street, London.",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "300",
+               "fontFamily": "\"Open Sans\", sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "550px",
+               "height": "79.1719px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                730,
+                6919,
+                550,
+                79
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,30 @@
+# section 1 id= visible=true
+section.elementor-section.elementor-top-section.elementor-element | box=0,41,1440,101 | fontSize:16px; fontWeight:200; fontFamily:Poppins, sans-serif; lineHeight:26.4px; color:rgb(40, 40, 40); padding:0px 100px 4px; position:relative; zIndex:10 | SETTINGS={"background_background":"classic"}
+  div.elementor-background-overlay | box=0,41,1440,101 | backgroundColor:rgb(0, 0, 0); position:absolute; opacity:0.5
+  div.elementor-widget-wrap.elementor-element-populated | box=100,37,1240,101 | margin:-4px 0px 0px; display:flex; flexWrap:wrap; alignItems:center; position:relative
+    section.elementor-section.elementor-inner-section.elementor-element | box=100,39,1240,99 | margin:2px 0px 0px; position:relative
+      div.elementor-widget-wrap.elementor-element-populated | box=100,42,298,96 | margin:2.96875px 0px 0px; display:flex; flexWrap:wrap; alignItems:center; position:relative
+        div.elementor-element.elementor-widget__width-initial.elementor-widget | [site-logo.default] | box=100,42,244,96 | maxWidth:82%; position:relative
+          a.elementor-clickable | box=100,42,244,96 | fontSize:18px; lineHeight:29.7px; color:rgb(226, 140, 31); display:inline | HREF=https://londontherapyroomstorent.com/
+            div.hfe-site-logo-container | box=100,42,244,96 | textAlign:left
+              img.hfe-site-logo-img.elementor-animation- | box=100,42,161,96 | maxWidth:67%; display:inline; overflow:clip | IMG=/images/2024/09/logo-Copypng-11-11-11-11-300x179.png (300x179) alt="logo - Copypng-11-11-11-11"
+      div.elementor-widget-wrap.elementor-element-populated | box=398,39,942,99 | display:flex; flexWrap:wrap; alignItems:center; position:relative
+        div.elementor-element.elementor-widget__width-initial.hfe-nav-menu__align-left | [navigation-menu.default] | box=398,65,939,48 | maxWidth:99.635%; position:relative
+          div.hfe-nav-menu.hfe-layout-horizontal.hfe-nav-menu-layout | box=398,65,939,48 | display:flex; flexDirection:column; justifyContent:flex-start
+            div.hfe-nav-menu__toggle.elementor-clickable | box=0,0,0,0 | fontSize:22px; lineHeight:22px; color:rgb(73, 76, 79); margin:0px 0px 0px auto; borderRadius:3px; position:relative; opacity:0
+              span.screen-reader-text | box=0,0,0,0 | margin:-1px; overflow:hidden; position:absolute | TEXT="Menu"
+              div.hfe-nav-menu-icon | box=0,0,0,0 | color:rgb(226, 140, 31); textAlign:center; padding:7.7px; display:inline-block
+                svg.e-font-icon-svg.e-fas-align-justify | box=0,0,0,0 | fontSize:25px; lineHeight:25px; display:inline; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-fas-align-justify" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M432 416H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z"></path></svg>
+            ul.hfe-nav-menu | box=398,65,797,48 | margin:0px 141.656px 0px 0px; display:flex; flexWrap:wrap; justifyContent:flex-start
+              li.menu-item.menu-item-type-post_type.menu-item-object-page | box=398,65,83,48 | fontSize:16px; lineHeight:26.4px; margin:0px 15px 0px 0px; display:list-item; position:relative
+                a.hfe-menu-item | box=398,65,83,48 | fontSize:18px; fontWeight:300; lineHeight:18px; color:rgb(164, 139, 101); padding:15px; display:flex; justifyContent:space-between; alignItems:center | TEXT="Home" | HREF=https://londontherapyroomstorent.com/
+              li.menu-item.menu-item-type-post_type.menu-item-object-page | box=496,65,109,48 | fontSize:16px; lineHeight:26.4px; margin:0px 15px 0px 0px; display:list-item; position:relative
+                a.hfe-menu-item | box=496,65,109,48 | fontSize:18px; fontWeight:300; lineHeight:18px; color:rgb(255, 255, 255); padding:15px; display:flex; justifyContent:space-between; alignItems:center | TEXT="About Us" | HREF=https://londontherapyroomstorent.com/about/
+              li.menu-item.menu-item-type-custom.menu-item-object-custom | box=620,65,91,48 | fontSize:16px; lineHeight:26.4px; margin:0px 15px 0px 0px; display:list-item; position:relative
+                a.hfe-menu-item | box=620,65,91,48 | fontSize:18px; fontWeight:300; lineHeight:18px; color:rgb(255, 255, 255); padding:15px; display:flex; justifyContent:space-between; alignItems:center | TEXT="Rooms" | HREF=https://londontherapyroomstorent.com/#Rooms
+              li.menu-item.menu-item-type-custom.menu-item-object-custom | box=727,65,178,48 | fontSize:16px; lineHeight:26.4px; margin:0px 15px 0px 0px; display:list-item; position:relative
+                a.hfe-menu-item | box=727,65,178,48 | fontSize:18px; fontWeight:300; lineHeight:18px; color:rgb(255, 255, 255); padding:15px; display:flex; justifyContent:space-between; alignItems:center | TEXT="Our Practitioners" | HREF=https://londontherapyroomstorent.com/#PRACTITIONERS
+              li.menu-item.menu-item-type-custom.menu-item-object-custom | box=919,65,132,48 | fontSize:16px; lineHeight:26.4px; margin:0px 15px 0px 0px; display:list-item; position:relative
+                a.hfe-menu-item | box=919,65,132,48 | fontSize:18px; fontWeight:300; lineHeight:18px; color:rgb(255, 255, 255); padding:15px; display:flex; justifyContent:space-between; alignItems:center | TEXT="Our Mission" | HREF=https://londontherapyroomstorent.com/#vision
+              li.menu-item.menu-item-type-custom.menu-item-object-custom | box=1066,65,129,48 | fontSize:16px; lineHeight:26.4px; display:list-item; position:relative
+                a.hfe-menu-item | box=1066,65,129,48 | fontSize:18px; fontWeight:300; lineHeight:18px; color:rgb(255, 255, 255); padding:15px; display:flex; justifyContent:space-between; alignItems:center | TEXT="Contact Us" | HREF=https://londontherapyroomstorent.com/#Contact

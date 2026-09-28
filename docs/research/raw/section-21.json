@@ -1,0 +1,2550 @@
+{
+ "i": 21,
+ "id": "",
+ "visible": true,
+ "tree": {
+  "tag": "section",
+  "cls": "elementor-section elementor-top-section elementor-element elementor-section-boxed",
+  "settings": "{\"animation\":\"fadeIn\"}",
+  "s": {
+   "fontSize": "16px",
+   "fontWeight": "200",
+   "fontFamily": "Poppins, sans-serif",
+   "lineHeight": "26.4px",
+   "color": "rgb(40, 40, 40)",
+   "backgroundPosition": "0% 0%",
+   "margin": "43.1875px 0px 0px",
+   "width": "1440px",
+   "height": "347px",
+   "display": "block",
+   "flexDirection": "row",
+   "flexWrap": "nowrap",
+   "position": "relative",
+   "opacity": "1",
+   "objectFit": "fill",
+   "_box": [
+    0,
+    7311,
+    1440,
+    347
+   ]
+  },
+  "c": [
+   {
+    "tag": "div",
+    "cls": "elementor-container elementor-column-gap-default",
+    "s": {
+     "fontSize": "16px",
+     "fontWeight": "200",
+     "fontFamily": "Poppins, sans-serif",
+     "lineHeight": "26.4px",
+     "color": "rgb(40, 40, 40)",
+     "backgroundPosition": "0% 0%",
+     "margin": "0px 21px",
+     "width": "1398px",
+     "height": "347px",
+     "maxWidth": "1398px",
+     "display": "flex",
+     "flexDirection": "row",
+     "flexWrap": "nowrap",
+     "position": "relative",
+     "opacity": "1",
+     "objectFit": "fill",
+     "_box": [
+      21,
+      7311,
+      1398,
+      347
+     ]
+    },
+    "c": [
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-50 elementor-top-column elementor-element",
+      "settings": "{\"background_background\":\"classic\"}",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(40, 40, 40)",
+       "backgroundPosition": "0% 0%",
+       "width": "562.844px",
+       "height": "347px",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        21,
+        7311,
+        563,
+        347
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated e-swiper-container",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(40, 40, 40)",
+         "backgroundColor": "rgb(40, 40, 40)",
+         "backgroundPosition": "0% 0%",
+         "padding": "30px",
+         "width": "562.844px",
+         "height": "347px",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s",
+         "objectFit": "fill",
+         "_box": [
+          21,
+          7311,
+          563,
+          347
+         ]
+        },
+        "c": [
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-testimonial--skin-default elementor-testimonial--layout-image_inline elementor-testimonial--align-center",
+          "widget": "testimonial-carousel.default",
+          "settings": "{\"autoplay_speed\":2000,\"speed\":500,\"autoplay\":\"yes\",\"loop\":\"yes\",\"pause_on_hover\":\"yes\",\"pause_on_interaction\":\"yes\",\"space_between\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"space_between_tablet\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"space_between_mobile\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]}}",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "backgroundPosition": "0% 0%",
+           "width": "502.844px",
+           "height": "287px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            51,
+            7341,
+            503,
+            287
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "backgroundPosition": "0% 0%",
+             "width": "502.844px",
+             "height": "287px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              51,
+              7341,
+              503,
+              287
+             ]
+            },
+            "c": [
+             {
+              "tag": "div",
+              "cls": "elementor-swiper",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "backgroundPosition": "0% 0%",
+               "width": "502.844px",
+               "height": "287px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "position": "relative",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                51,
+                7341,
+                503,
+                287
+               ]
+              },
+              "c": [
+               {
+                "tag": "div",
+                "cls": "elementor-main-swiper swiper swiper-initialized swiper-horizontal",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(40, 40, 40)",
+                 "backgroundPosition": "0% 0%",
+                 "margin": "0px 12.5781px",
+                 "width": "477.688px",
+                 "height": "287px",
+                 "display": "block",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "overflow": "hidden",
+                 "zIndex": "1",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  64,
+                  7341,
+                  478,
+                  287
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "div",
+                  "cls": "swiper-wrapper",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(40, 40, 40)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "477.688px",
+                   "height": "287px",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "alignItems": "stretch",
+                   "position": "relative",
+                   "zIndex": "1",
+                   "opacity": "1",
+                   "transform": "matrix(1, 0, 0, 1, -1952, 0)",
+                   "transition": "transform",
+                   "objectFit": "fill",
+                   "_box": [
+                    -1888,
+                    7341,
+                    478,
+                    287
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "div",
+                    "cls": "swiper-slide swiper-slide-duplicate",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "padding": "20px",
+                     "margin": "0px 10px 0px 0px",
+                     "width": "478px",
+                     "height": "287px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "1",
+                     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                     "transition": "border 0.5s, background 0.5s, transform 0.5s",
+                     "objectFit": "fill",
+                     "_box": [
+                      -1888,
+                      7341,
+                      478,
+                      287
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "elementor-testimonial",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "textAlign": "center",
+                       "backgroundPosition": "0% 0%",
+                       "width": "438px",
+                       "height": "247px",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        -1868,
+                        7361,
+                        438,
+                        247
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__content",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "width": "438px",
+                         "height": "180px",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          -1868,
+                          7361,
+                          438,
+                          180
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "div",
+                          "cls": "elementor-testimonial__text",
+                          "text": "I really loved this clinic, they are very accommodating, the place is very clean and beautiful with every detail. It's very easy to find which is only 2 minutes walk from Bond St station or less than 5mnt walk from Oxford Circus underground, and lot of shops and restaurants close by. There is a parking garage just opposite John Lewis which is only 2mnt walk to the clinic.",
+                          "s": {
+                           "fontSize": "15px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "fontStyle": "italic",
+                           "lineHeight": "22.5px",
+                           "color": "rgb(255, 255, 255)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "438px",
+                           "height": "180px",
+                           "display": "block",
+                           "flexDirection": "row",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            -1868,
+                            7361,
+                            438,
+                            180
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "b",
+                            "cls": "",
+                            "text": "Rented Full Day Room",
+                            "s": {
+                             "fontSize": "15px",
+                             "fontWeight": "700",
+                             "fontFamily": "Poppins, sans-serif",
+                             "fontStyle": "italic",
+                             "lineHeight": "22.5px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "display": "inline",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              -1733,
+                              7361,
+                              168,
+                              21
+                             ]
+                            }
+                           }
+                          ]
+                         }
+                        ]
+                       },
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__footer",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "margin": "25px 0px 0px",
+                         "width": "438px",
+                         "height": "42px",
+                         "display": "flex",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "justifyContent": "center",
+                         "alignItems": "center",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          -1868,
+                          7566,
+                          438,
+                          42
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "cite",
+                          "cls": "elementor-testimonial__cite",
+                          "s": {
+                           "fontSize": "14px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "lineHeight": "21px",
+                           "color": "rgb(40, 40, 40)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "84.1094px",
+                           "height": "42px",
+                           "display": "flex",
+                           "flexDirection": "column",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            -1691,
+                            7566,
+                            84,
+                            42
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__name",
+                            "text": "Dr Ridley",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "700",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "84.1094px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              -1691,
+                              7566,
+                              84,
+                              21
+                             ]
+                            }
+                           },
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__title",
+                            "text": "August 2024",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "84.1094px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              -1691,
+                              7587,
+                              84,
+                              21
+                             ]
+                            }
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "swiper-slide",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "padding": "20px",
+                     "margin": "0px 10px 0px 0px",
+                     "width": "478px",
+                     "height": "287px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "1",
+                     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                     "transition": "border 0.5s, background 0.5s, transform 0.5s",
+                     "objectFit": "fill",
+                     "_box": [
+                      -1400,
+                      7341,
+                      478,
+                      287
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "elementor-testimonial",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "textAlign": "center",
+                       "backgroundPosition": "0% 0%",
+                       "width": "438px",
+                       "height": "157px",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        -1380,
+                        7361,
+                        438,
+                        157
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__content",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "width": "438px",
+                         "height": "90px",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          -1380,
+                          7361,
+                          438,
+                          90
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "div",
+                          "cls": "elementor-testimonial__text",
+                          "text": "I rented a room from Sofia she was very friendly and welcoming. The room was very clean and bright in a quiet location.\nI would definitely rent there again and recommend anyone to use!",
+                          "s": {
+                           "fontSize": "15px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "fontStyle": "italic",
+                           "lineHeight": "22.5px",
+                           "color": "rgb(255, 255, 255)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "438px",
+                           "height": "90px",
+                           "display": "block",
+                           "flexDirection": "row",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            -1380,
+                            7361,
+                            438,
+                            90
+                           ]
+                          }
+                         }
+                        ]
+                       },
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__footer",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "margin": "25px 0px 0px",
+                         "width": "438px",
+                         "height": "42px",
+                         "display": "flex",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "justifyContent": "center",
+                         "alignItems": "center",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          -1380,
+                          7476,
+                          438,
+                          42
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "cite",
+                          "cls": "elementor-testimonial__cite",
+                          "s": {
+                           "fontSize": "14px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "lineHeight": "21px",
+                           "color": "rgb(40, 40, 40)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "84.1094px",
+                           "height": "42px",
+                           "display": "flex",
+                           "flexDirection": "column",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            -1203,
+                            7476,
+                            84,
+                            42
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__name",
+                            "text": "J pill",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "700",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "84.1094px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              -1203,
+                              7476,
+                              84,
+                              21
+                             ]
+                            }
+                           },
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__title",
+                            "text": "August 2024",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "84.1094px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              -1203,
+                              7497,
+                              84,
+                              21
+                             ]
+                            }
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "swiper-slide",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "padding": "20px",
+                     "margin": "0px 10px 0px 0px",
+                     "width": "478px",
+                     "height": "287px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "1",
+                     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                     "transition": "border 0.5s, background 0.5s, transform 0.5s",
+                     "objectFit": "fill",
+                     "_box": [
+                      -912,
+                      7341,
+                      478,
+                      287
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "elementor-testimonial",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "textAlign": "center",
+                       "backgroundPosition": "0% 0%",
+                       "width": "438px",
+                       "height": "202px",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        -892,
+                        7361,
+                        438,
+                        202
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__content",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "width": "438px",
+                         "height": "135px",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          -892,
+                          7361,
+                          438,
+                          135
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "div",
+                          "cls": "elementor-testimonial__text",
+                          "text": "We hired a room for our weekly clients for injections and we require a clean, good hygiene along with aesthetically pleasing clinic looking room. The rooms, waiting area and the toilets in this clinic are very clean. We would highly recommend as the price for the quality of the room you get is\namazing!",
+                          "s": {
+                           "fontSize": "15px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "fontStyle": "italic",
+                           "lineHeight": "22.5px",
+                           "color": "rgb(255, 255, 255)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "438px",
+                           "height": "135px",
+                           "display": "block",
+                           "flexDirection": "row",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            -892,
+                            7361,
+                            438,
+                            135
+                           ]
+                          }
+                         }
+                        ]
+                       },
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__footer",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "margin": "25px 0px 0px",
+                         "width": "438px",
+                         "height": "42px",
+                         "display": "flex",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "justifyContent": "center",
+                         "alignItems": "center",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          -892,
+                          7521,
+                          438,
+                          42
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "cite",
+                          "cls": "elementor-testimonial__cite",
+                          "s": {
+                           "fontSize": "14px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "lineHeight": "21px",
+                           "color": "rgb(40, 40, 40)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "97.1719px",
+                           "height": "42px",
+                           "display": "flex",
+                           "flexDirection": "column",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            -722,
+                            7521,
+                            97,
+                            42
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__name",
+                            "text": "PMU by Nisha",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "700",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "97.1719px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              -722,
+                              7521,
+                              97,
+                              21
+                             ]
+                            }
+                           },
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__title",
+                            "text": "August 2024",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "97.1719px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              -722,
+                              7542,
+                              97,
+                              21
+                             ]
+                            }
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "swiper-slide swiper-slide-prev",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "padding": "20px",
+                     "margin": "0px 10px 0px 0px",
+                     "width": "478px",
+                     "height": "287px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "1",
+                     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                     "transition": "border 0.5s, background 0.5s, transform 0.5s",
+                     "objectFit": "fill",
+                     "_box": [
+                      -424,
+                      7341,
+                      478,
+                      287
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "elementor-testimonial",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "textAlign": "center",
+                       "backgroundPosition": "0% 0%",
+                       "width": "438px",
+                       "height": "89.5px",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        -404,
+                        7361,
+                        438,
+                        90
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__content",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "width": "438px",
+                         "height": "22.5px",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          -404,
+                          7361,
+                          438,
+                          23
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "div",
+                          "cls": "elementor-testimonial__text",
+                          "text": "Very friendly, nice and clean.",
+                          "s": {
+                           "fontSize": "15px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "fontStyle": "italic",
+                           "lineHeight": "22.5px",
+                           "color": "rgb(255, 255, 255)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "438px",
+                           "height": "22.5px",
+                           "display": "block",
+                           "flexDirection": "row",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            -404,
+                            7361,
+                            438,
+                            23
+                           ]
+                          }
+                         }
+                        ]
+                       },
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__footer",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "margin": "25px 0px 0px",
+                         "width": "438px",
+                         "height": "42px",
+                         "display": "flex",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "justifyContent": "center",
+                         "alignItems": "center",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          -404,
+                          7408,
+                          438,
+                          42
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "cite",
+                          "cls": "elementor-testimonial__cite",
+                          "s": {
+                           "fontSize": "14px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "lineHeight": "21px",
+                           "color": "rgb(40, 40, 40)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "132.469px",
+                           "height": "42px",
+                           "display": "flex",
+                           "flexDirection": "column",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            -252,
+                            7408,
+                            132,
+                            42
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__name",
+                            "text": "Aesthetics London",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "700",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "132.469px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              -252,
+                              7408,
+                              132,
+                              21
+                             ]
+                            }
+                           },
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__title",
+                            "text": "August 2024",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "132.469px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              -252,
+                              7429,
+                              132,
+                              21
+                             ]
+                            }
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "swiper-slide swiper-slide-active",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "padding": "20px",
+                     "margin": "0px 10px 0px 0px",
+                     "width": "478px",
+                     "height": "287px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "1",
+                     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                     "transition": "border 0.5s, background 0.5s, transform 0.5s",
+                     "objectFit": "fill",
+                     "_box": [
+                      64,
+                      7341,
+                      478,
+                      287
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "elementor-testimonial",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "textAlign": "center",
+                       "backgroundPosition": "0% 0%",
+                       "width": "438px",
+                       "height": "112px",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        84,
+                        7361,
+                        438,
+                        112
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__content",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "width": "438px",
+                         "height": "45px",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          84,
+                          7361,
+                          438,
+                          45
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "div",
+                          "cls": "elementor-testimonial__text",
+                          "text": "Lovely place, I definitely recommend this place. The rooms are amazing for a day rental I had here.",
+                          "s": {
+                           "fontSize": "15px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "fontStyle": "italic",
+                           "lineHeight": "22.5px",
+                           "color": "rgb(255, 255, 255)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "438px",
+                           "height": "45px",
+                           "display": "block",
+                           "flexDirection": "row",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            84,
+                            7361,
+                            438,
+                            45
+                           ]
+                          }
+                         }
+                        ]
+                       },
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__footer",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "margin": "25px 0px 0px",
+                         "width": "438px",
+                         "height": "42px",
+                         "display": "flex",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "justifyContent": "center",
+                         "alignItems": "center",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          84,
+                          7431,
+                          438,
+                          42
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "cite",
+                          "cls": "elementor-testimonial__cite",
+                          "s": {
+                           "fontSize": "14px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "lineHeight": "21px",
+                           "color": "rgb(40, 40, 40)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "113.25px",
+                           "height": "42px",
+                           "display": "flex",
+                           "flexDirection": "column",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            246,
+                            7431,
+                            113,
+                            42
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__name",
+                            "text": "Henna K",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "700",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "113.25px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              246,
+                              7431,
+                              113,
+                              21
+                             ]
+                            }
+                           },
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__title",
+                            "text": "September 2023",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "113.25px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              246,
+                              7452,
+                              113,
+                              21
+                             ]
+                            }
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "swiper-slide swiper-slide-next",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "padding": "20px",
+                     "margin": "0px 10px 0px 0px",
+                     "width": "478px",
+                     "height": "287px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "1",
+                     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                     "transition": "border 0.5s, background 0.5s, transform 0.5s",
+                     "objectFit": "fill",
+                     "_box": [
+                      552,
+                      7341,
+                      478,
+                      287
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "elementor-testimonial",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "textAlign": "center",
+                       "backgroundPosition": "0% 0%",
+                       "width": "438px",
+                       "height": "112px",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        572,
+                        7361,
+                        438,
+                        112
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__content",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "width": "438px",
+                         "height": "45px",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          572,
+                          7361,
+                          438,
+                          45
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "div",
+                          "cls": "elementor-testimonial__text",
+                          "text": "Excellent premises, great location! Very friendly staff, receptionists are great! I highly do recommend this clinic!",
+                          "s": {
+                           "fontSize": "15px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "fontStyle": "italic",
+                           "lineHeight": "22.5px",
+                           "color": "rgb(255, 255, 255)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "438px",
+                           "height": "45px",
+                           "display": "block",
+                           "flexDirection": "row",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            572,
+                            7361,
+                            438,
+                            45
+                           ]
+                          }
+                         }
+                        ]
+                       },
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__footer",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "margin": "25px 0px 0px",
+                         "width": "438px",
+                         "height": "42px",
+                         "display": "flex",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "justifyContent": "center",
+                         "alignItems": "center",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          572,
+                          7431,
+                          438,
+                          42
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "cite",
+                          "cls": "elementor-testimonial__cite",
+                          "s": {
+                           "fontSize": "14px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "lineHeight": "21px",
+                           "color": "rgb(40, 40, 40)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "113.25px",
+                           "height": "42px",
+                           "display": "flex",
+                           "flexDirection": "column",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            734,
+                            7431,
+                            113,
+                            42
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__name",
+                            "text": "NuSkin",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "700",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "113.25px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              734,
+                              7431,
+                              113,
+                              21
+                             ]
+                            }
+                           },
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__title",
+                            "text": "September 2023",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "113.25px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              734,
+                              7452,
+                              113,
+                              21
+                             ]
+                            }
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "swiper-slide",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "padding": "20px",
+                     "margin": "0px 10px 0px 0px",
+                     "width": "478px",
+                     "height": "287px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "1",
+                     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                     "transition": "border 0.5s, background 0.5s, transform 0.5s",
+                     "objectFit": "fill",
+                     "_box": [
+                      1040,
+                      7341,
+                      478,
+                      287
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "elementor-testimonial",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "textAlign": "center",
+                       "backgroundPosition": "0% 0%",
+                       "width": "438px",
+                       "height": "179.5px",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        1060,
+                        7361,
+                        438,
+                        180
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__content",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "width": "438px",
+                         "height": "112.5px",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          1060,
+                          7361,
+                          438,
+                          113
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "div",
+                          "cls": "elementor-testimonial__text",
+                          "text": "Beautiful, spacious and very comfortable room, the couch is very comforting, my patients really love it. The clinic owner is very nice and helpful, nothing is too much trouble to her. I recommend this place.",
+                          "s": {
+                           "fontSize": "15px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "fontStyle": "italic",
+                           "lineHeight": "22.5px",
+                           "color": "rgb(255, 255, 255)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "438px",
+                           "height": "112.5px",
+                           "display": "block",
+                           "flexDirection": "row",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            1060,
+                            7361,
+                            438,
+                            113
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "b",
+                            "cls": "",
+                            "text": "Beautiful Room Right In The Heart Of London",
+                            "s": {
+                             "fontSize": "15px",
+                             "fontWeight": "700",
+                             "fontFamily": "Poppins, sans-serif",
+                             "fontStyle": "italic",
+                             "lineHeight": "22.5px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "display": "inline",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              1074,
+                              7361,
+                              339,
+                              21
+                             ]
+                            }
+                           }
+                          ]
+                         }
+                        ]
+                       },
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__footer",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "margin": "25px 0px 0px",
+                         "width": "438px",
+                         "height": "42px",
+                         "display": "flex",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "justifyContent": "center",
+                         "alignItems": "center",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          1060,
+                          7498,
+                          438,
+                          42
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "cite",
+                          "cls": "elementor-testimonial__cite",
+                          "s": {
+                           "fontSize": "14px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "lineHeight": "21px",
+                           "color": "rgb(40, 40, 40)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "187.453px",
+                           "height": "42px",
+                           "display": "flex",
+                           "flexDirection": "column",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            1185,
+                            7498,
+                            187,
+                            42
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__name",
+                            "text": "Private Doctors North East",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "700",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "187.453px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              1185,
+                              7498,
+                              187,
+                              21
+                             ]
+                            }
+                           },
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__title",
+                            "text": "August 2024",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "187.453px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              1185,
+                              7519,
+                              187,
+                              21
+                             ]
+                            }
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "swiper-slide",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "padding": "20px",
+                     "margin": "0px 10px 0px 0px",
+                     "width": "478px",
+                     "height": "287px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "1",
+                     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                     "transition": "border 0.5s, background 0.5s, transform 0.5s",
+                     "objectFit": "fill",
+                     "_box": [
+                      1528,
+                      7341,
+                      478,
+                      287
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "elementor-testimonial",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "textAlign": "center",
+                       "backgroundPosition": "0% 0%",
+                       "width": "438px",
+                       "height": "247px",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        1548,
+                        7361,
+                        438,
+                        247
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__content",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "width": "438px",
+                         "height": "180px",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          1548,
+                          7361,
+                          438,
+                          180
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "div",
+                          "cls": "elementor-testimonial__text",
+                          "text": "I really loved this clinic, they are very accommodating, the place is very clean and beautiful with every detail. It's very easy to find which is only 2 minutes walk from Bond St station or less than 5mnt walk from Oxford Circus underground, and lot of shops and restaurants close by. There is a parking garage just opposite John Lewis which is only 2mnt walk to the clinic.",
+                          "s": {
+                           "fontSize": "15px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "fontStyle": "italic",
+                           "lineHeight": "22.5px",
+                           "color": "rgb(255, 255, 255)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "438px",
+                           "height": "180px",
+                           "display": "block",
+                           "flexDirection": "row",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            1548,
+                            7361,
+                            438,
+                            180
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "b",
+                            "cls": "",
+                            "text": "Rented Full Day Room",
+                            "s": {
+                             "fontSize": "15px",
+                             "fontWeight": "700",
+                             "fontFamily": "Poppins, sans-serif",
+                             "fontStyle": "italic",
+                             "lineHeight": "22.5px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "display": "inline",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              1683,
+                              7361,
+                              168,
+                              21
+                             ]
+                            }
+                           }
+                          ]
+                         }
+                        ]
+                       },
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__footer",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "margin": "25px 0px 0px",
+                         "width": "438px",
+                         "height": "42px",
+                         "display": "flex",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "justifyContent": "center",
+                         "alignItems": "center",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          1548,
+                          7566,
+                          438,
+                          42
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "cite",
+                          "cls": "elementor-testimonial__cite",
+                          "s": {
+                           "fontSize": "14px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "lineHeight": "21px",
+                           "color": "rgb(40, 40, 40)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "84.1094px",
+                           "height": "42px",
+                           "display": "flex",
+                           "flexDirection": "column",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            1725,
+                            7566,
+                            84,
+                            42
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__name",
+                            "text": "Dr Ridley",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "700",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "84.1094px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              1725,
+                              7566,
+                              84,
+                              21
+                             ]
+                            }
+                           },
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__title",
+                            "text": "August 2024",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "84.1094px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              1725,
+                              7587,
+                              84,
+                              21
+                             ]
+                            }
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "swiper-slide swiper-slide-duplicate",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "padding": "20px",
+                     "margin": "0px 10px 0px 0px",
+                     "width": "478px",
+                     "height": "287px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "1",
+                     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                     "transition": "border 0.5s, background 0.5s, transform 0.5s",
+                     "objectFit": "fill",
+                     "_box": [
+                      2016,
+                      7341,
+                      478,
+                      287
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "elementor-testimonial",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "textAlign": "center",
+                       "backgroundPosition": "0% 0%",
+                       "width": "438px",
+                       "height": "157px",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        2036,
+                        7361,
+                        438,
+                        157
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__content",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "width": "438px",
+                         "height": "90px",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          2036,
+                          7361,
+                          438,
+                          90
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "div",
+                          "cls": "elementor-testimonial__text",
+                          "text": "I rented a room from Sofia she was very friendly and welcoming. The room was very clean and bright in a quiet location.\nI would definitely rent there again and recommend anyone to use!",
+                          "s": {
+                           "fontSize": "15px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "fontStyle": "italic",
+                           "lineHeight": "22.5px",
+                           "color": "rgb(255, 255, 255)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "438px",
+                           "height": "90px",
+                           "display": "block",
+                           "flexDirection": "row",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            2036,
+                            7361,
+                            438,
+                            90
+                           ]
+                          }
+                         }
+                        ]
+                       },
+                       {
+                        "tag": "div",
+                        "cls": "elementor-testimonial__footer",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(40, 40, 40)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "margin": "25px 0px 0px",
+                         "width": "438px",
+                         "height": "42px",
+                         "display": "flex",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "justifyContent": "center",
+                         "alignItems": "center",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          2036,
+                          7476,
+                          438,
+                          42
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "cite",
+                          "cls": "elementor-testimonial__cite",
+                          "s": {
+                           "fontSize": "14px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "lineHeight": "21px",
+                           "color": "rgb(40, 40, 40)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "width": "84.1094px",
+                           "height": "42px",
+                           "display": "flex",
+                           "flexDirection": "column",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            2213,
+                            7476,
+                            84,
+                            42
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__name",
+                            "text": "J pill",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "700",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "84.1094px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              2213,
+                              7476,
+                              84,
+                              21
+                             ]
+                            }
+                           },
+                           {
+                            "tag": "span",
+                            "cls": "elementor-testimonial__title",
+                            "text": "August 2024",
+                            "s": {
+                             "fontSize": "14px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "21px",
+                             "color": "rgb(255, 255, 255)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "84.1094px",
+                             "height": "21px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              2213,
+                              7497,
+                              84,
+                              21
+                             ]
+                            }
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "swiper-notification",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(40, 40, 40)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "absolute",
+                   "right": "502.844px",
+                   "bottom": "287px",
+                   "zIndex": "-1000",
+                   "opacity": "0",
+                   "objectFit": "fill",
+                   "_box": [
+                    51,
+                    7341,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-50 elementor-top-column elementor-element",
+      "settings": "{\"background_background\":\"classic\"}",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(40, 40, 40)",
+       "backgroundPosition": "0% 0%",
+       "width": "835.141px",
+       "height": "347px",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+       "objectFit": "fill",
+       "_box": [
+        584,
+        7311,
+        835,
+        347
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(40, 40, 40)",
+         "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/Waiting-area-1.png\")",
+         "backgroundSize": "cover",
+         "backgroundPosition": "50% 50%",
+         "width": "835.141px",
+         "height": "347px",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "objectFit": "fill",
+         "_box": [
+          584,
+          7311,
+          835,
+          347
+         ]
+        }
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

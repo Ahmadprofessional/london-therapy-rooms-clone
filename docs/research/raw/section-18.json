@@ -1,0 +1,1233 @@
+{
+ "i": 18,
+ "id": "",
+ "visible": true,
+ "tree": {
+  "tag": "section",
+  "cls": "elementor-section elementor-top-section elementor-element elementor-section-boxed",
+  "settings": "{\"animation\":\"fadeIn\"}",
+  "s": {
+   "fontSize": "16px",
+   "fontWeight": "200",
+   "fontFamily": "Poppins, sans-serif",
+   "lineHeight": "26.4px",
+   "color": "rgb(40, 40, 40)",
+   "backgroundPosition": "0% 0%",
+   "margin": "-57.5938px 0px 100.797px",
+   "width": "1440px",
+   "height": "582.062px",
+   "display": "block",
+   "flexDirection": "row",
+   "flexWrap": "nowrap",
+   "position": "relative",
+   "opacity": "1",
+   "objectFit": "fill",
+   "_box": [
+    0,
+    6023,
+    1440,
+    582
+   ]
+  },
+  "c": [
+   {
+    "tag": "div",
+    "cls": "elementor-container elementor-column-gap-default",
+    "s": {
+     "fontSize": "16px",
+     "fontWeight": "200",
+     "fontFamily": "Poppins, sans-serif",
+     "lineHeight": "26.4px",
+     "color": "rgb(40, 40, 40)",
+     "backgroundPosition": "0% 0%",
+     "margin": "0px 150px",
+     "width": "1140px",
+     "height": "582.062px",
+     "maxWidth": "1140px",
+     "display": "flex",
+     "flexDirection": "row",
+     "flexWrap": "nowrap",
+     "position": "relative",
+     "opacity": "1",
+     "objectFit": "fill",
+     "_box": [
+      150,
+      6023,
+      1140,
+      582
+     ]
+    },
+    "c": [
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-33 elementor-top-column elementor-element",
+      "settings": "{\"animation\":\"fadeIn\"}",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(40, 40, 40)",
+       "backgroundPosition": "0% 0%",
+       "width": "379.984px",
+       "height": "582.062px",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        150,
+        6023,
+        380,
+        582
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(40, 40, 40)",
+         "backgroundPosition": "0% 0%",
+         "padding": "10px",
+         "width": "379.984px",
+         "height": "582.062px",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "objectFit": "fill",
+         "_box": [
+          150,
+          6023,
+          380,
+          582
+         ]
+        },
+        "c": [
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-image",
+          "widget": "image.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "132px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            160,
+            6033,
+            360,
+            132
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "359.984px",
+             "height": "132px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              160,
+              6033,
+              360,
+              132
+             ]
+            },
+            "c": [
+             {
+              "tag": "img",
+              "cls": "elementor-animation-grow attachment-full size-full wp-image-1302",
+              "img": {
+               "src": "https://londontherapyroomstorent.com/wp-content/uploads/2025/02/fer.jpg",
+               "alt": "",
+               "nw": 296,
+               "nh": 314
+              },
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "296px",
+               "height": "132px",
+               "maxWidth": "100%",
+               "display": "inline-block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "overflow": "clip",
+               "opacity": "1",
+               "transition": "transform 0.9s",
+               "objectFit": "contain",
+               "_box": [
+                192,
+                6033,
+                296,
+                132
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "17.5938px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            160,
+            6185,
+            360,
+            18
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "359.984px",
+             "height": "17.5938px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              160,
+              6185,
+              360,
+              18
+             ]
+            },
+            "c": [
+             {
+              "tag": "h3",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "Dr Malgorzata Stanzek",
+              "s": {
+               "fontSize": "22px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "fontStyle": "italic",
+               "lineHeight": "17.6px",
+               "letterSpacing": "-0.4px",
+               "color": "rgb(0, 0, 0)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "17.5938px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                160,
+                6185,
+                360,
+                18
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-text-editor",
+          "widget": "text-editor.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "300",
+           "fontFamily": "\"Open Sans\", sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "width": "359.984px",
+           "height": "130.75px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            160,
+            6223,
+            360,
+            131
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "300",
+             "fontFamily": "\"Open Sans\", sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "margin": "25.1875px 0px 0px",
+             "width": "359.984px",
+             "height": "105.562px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              160,
+              6248,
+              360,
+              106
+             ]
+            },
+            "c": [
+             {
+              "tag": "p",
+              "cls": "",
+              "text": "Dr Malgorzata Stanzek is a GP and Doctor of Aesthetic Medicine graduated at the School of Aesthetic Medicine and Anti-aging in Warsaw at Polish Medical Association.",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "300",
+               "fontFamily": "\"Open Sans\", sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "105.562px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                160,
+                6248,
+                360,
+                106
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-33 elementor-top-column elementor-element",
+      "settings": "{\"animation\":\"fadeIn\"}",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(40, 40, 40)",
+       "backgroundPosition": "0% 0%",
+       "width": "379.984px",
+       "height": "582.062px",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        530,
+        6023,
+        380,
+        582
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(40, 40, 40)",
+         "backgroundPosition": "0% 0%",
+         "padding": "10px",
+         "width": "379.984px",
+         "height": "582.062px",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "objectFit": "fill",
+         "_box": [
+          530,
+          6023,
+          380,
+          582
+         ]
+        },
+        "c": [
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-image",
+          "widget": "image.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "132px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            540,
+            6033,
+            360,
+            132
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "359.984px",
+             "height": "132px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              540,
+              6033,
+              360,
+              132
+             ]
+            },
+            "c": [
+             {
+              "tag": "img",
+              "cls": "elementor-animation-grow attachment-full size-full wp-image-1298",
+              "img": {
+               "src": "https://londontherapyroomstorent.com/wp-content/uploads/2025/02/dr33.png",
+               "alt": "",
+               "nw": 450,
+               "nh": 360
+              },
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "132px",
+               "maxWidth": "100%",
+               "display": "inline-block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "overflow": "clip",
+               "opacity": "1",
+               "transition": "transform 0.9s",
+               "objectFit": "contain",
+               "_box": [
+                540,
+                6033,
+                360,
+                132
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "17.5938px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            540,
+            6185,
+            360,
+            18
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "359.984px",
+             "height": "17.5938px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              540,
+              6185,
+              360,
+              18
+             ]
+            },
+            "c": [
+             {
+              "tag": "h3",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "Dr Federica Boecklin",
+              "s": {
+               "fontSize": "22px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "fontStyle": "italic",
+               "lineHeight": "17.6px",
+               "letterSpacing": "-0.4px",
+               "color": "rgb(0, 0, 0)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "17.5938px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                540,
+                6185,
+                360,
+                18
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "11.7969px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            540,
+            6223,
+            360,
+            12
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "margin": "-5px 0px 0px",
+             "width": "359.984px",
+             "height": "16.7969px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              540,
+              6218,
+              360,
+              17
+             ]
+            },
+            "c": [
+             {
+              "tag": "h4",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "Integrative Medicine Specialist in London",
+              "s": {
+               "fontSize": "14px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "fontStyle": "italic",
+               "lineHeight": "16.8px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "16.7969px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                540,
+                6218,
+                360,
+                17
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget__width-initial elementor-widget elementor-widget-text-editor",
+          "widget": "text-editor.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "300",
+           "fontFamily": "\"Open Sans\", sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "width": "368.547px",
+           "height": "211.125px",
+           "maxWidth": "102.379%",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            540,
+            6254,
+            369,
+            211
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "text": "Dr Federica Boecklin is a distinguished specialist in integrative medicine based in London, boasting over 30 years of extensive experience. She is renowned for her expertisein integrated cancer care, women’s health, pain management, stress management, children’sand adolescent health, and healthy ageing",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "300",
+             "fontFamily": "\"Open Sans\", sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "368.547px",
+             "height": "211.125px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              540,
+              6254,
+              369,
+              211
+             ]
+            }
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-33 elementor-top-column elementor-element",
+      "settings": "{\"animation\":\"fadeIn\"}",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(40, 40, 40)",
+       "backgroundPosition": "0% 0%",
+       "width": "379.984px",
+       "height": "582.062px",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        910,
+        6023,
+        380,
+        582
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(40, 40, 40)",
+         "backgroundPosition": "0% 0%",
+         "padding": "10px",
+         "width": "379.984px",
+         "height": "582.062px",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "objectFit": "fill",
+         "_box": [
+          910,
+          6023,
+          380,
+          582
+         ]
+        },
+        "c": [
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-image",
+          "widget": "image.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "132px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            920,
+            6033,
+            360,
+            132
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "359.984px",
+             "height": "132px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              920,
+              6033,
+              360,
+              132
+             ]
+            },
+            "c": [
+             {
+              "tag": "img",
+              "cls": "elementor-animation-grow attachment-full size-full wp-image-1366",
+              "img": {
+               "src": "https://londontherapyroomstorent.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-16-at-11.38.15_28d57dcf.jpg",
+               "alt": "",
+               "nw": 1080,
+               "nh": 1430
+              },
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "132px",
+               "maxWidth": "100%",
+               "display": "inline-block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "overflow": "clip",
+               "opacity": "1",
+               "transition": "transform 0.9s",
+               "objectFit": "contain",
+               "_box": [
+                920,
+                6033,
+                360,
+                132
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "17.5938px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            920,
+            6185,
+            360,
+            18
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "359.984px",
+             "height": "17.5938px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              920,
+              6185,
+              360,
+              18
+             ]
+            },
+            "c": [
+             {
+              "tag": "h3",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "Kelly Sun",
+              "s": {
+               "fontSize": "22px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "fontStyle": "italic",
+               "lineHeight": "17.6px",
+               "letterSpacing": "-0.4px",
+               "color": "rgb(0, 0, 0)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "17.5938px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                920,
+                6185,
+                360,
+                18
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "28.5938px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            920,
+            6223,
+            360,
+            29
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "margin": "-5px 0px 0px",
+             "width": "359.984px",
+             "height": "33.5938px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              920,
+              6218,
+              360,
+              34
+             ]
+            },
+            "c": [
+             {
+              "tag": "h4",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "Acupuncturist \nBAcC Member with 30 years of experience",
+              "s": {
+               "fontSize": "14px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "fontStyle": "italic",
+               "lineHeight": "16.8px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "33.5938px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                920,
+                6218,
+                360,
+                34
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget__width-initial elementor-widget elementor-widget-text-editor",
+          "widget": "text-editor.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "300",
+           "fontFamily": "\"Open Sans\", sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "width": "359.984px",
+           "height": "323.875px",
+           "maxWidth": "102.379%",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            920,
+            6271,
+            360,
+            324
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "300",
+             "fontFamily": "\"Open Sans\", sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "margin": "7.1875px 0px 0px",
+             "width": "359.984px",
+             "height": "316.688px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              920,
+              6278,
+              360,
+              317
+             ]
+            },
+            "c": [
+             {
+              "tag": "p",
+              "cls": "",
+              "text": "Qualified in both China and the UK, and have successfully treated many thousands of patients in both countries. My parents were medical doctors in China, and I have built extensively on their experience in both Traditional Chinese and Western medicine.",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "300",
+               "fontFamily": "\"Open Sans\", sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "158.344px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                920,
+                6278,
+                360,
+                158
+               ]
+              }
+             },
+             {
+              "tag": "p",
+              "cls": "",
+              "text": "Traditional Chinese medicine (TCM) is an ancient form of medicine practiced in China for over 3000 years. The aim of Traditional Chinese medicine, which includes acupuncture, herbal medicine and body-based mindfulness practices is to treat the person as a whole.",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "300",
+               "fontFamily": "\"Open Sans\", sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "158.344px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                920,
+                6437,
+                360,
+                158
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

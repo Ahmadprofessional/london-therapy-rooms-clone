@@ -1,0 +1,109 @@
+# section 5 id= visible=true
+section.elementor-section.elementor-top-section.elementor-element | box=0,1379,1440,483 | fontSize:16px; fontWeight:200; fontFamily:Poppins, sans-serif; lineHeight:26.4px; color:rgb(40, 40, 40); margin:70px 0px; position:relative | SETTINGS={"animation":"fadeIn"}
+  div.elementor-container.elementor-column-gap-no | box=170,1379,1100,483 | maxWidth:1100px; display:flex; position:relative
+    div.elementor-widget-wrap.elementor-element-populated | box=170,1379,550,483 | backgroundColor:rgb(164, 139, 101); padding:36px 70px 23px; display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=240,1415,410,26 | margin:0px 0px 20px; position:relative
+        h3.elementor-heading-title.elementor-size-default | box=240,1415,410,26 | fontSize:20px; fontWeight:500; lineHeight:26px; color:rgb(0, 0, 0) | TEXT="Room 1 Dimensions"
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=240,1461,410,0 | margin:0px 0px 20px; position:relative
+        div.elementor-widget-container | box=240,1436,410,22 | margin:-24.5938px 0px 0px
+          h3.elementor-heading-title.elementor-size-default | box=240,1436,410,22 | fontSize:17px; fontWeight:500; lineHeight:22.1px; color:rgb(255, 255, 255) | TEXT="4.71m x 3.41m"
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=240,1481,410,18 | margin:0px 0px 20px; position:relative
+        div.elementor-widget-container | box=240,1473,410,26 | margin:-8.1875px 0px 0px
+          h3.elementor-heading-title.elementor-size-default | box=240,1473,410,26 | fontSize:20px; fontWeight:500; lineHeight:26px; color:rgb(0, 0, 0) | TEXT="Suitable For"
+      div.elementor-element.elementor-widget__width-initial.elementor-icon-list--layout-traditional | [icon-list.default] | box=240,1519,367,95 | maxWidth:89.539%; position:relative
+        div.elementor-widget-container | box=240,1508,367,106 | margin:-11px 0px 0px
+          li.elementor-icon-list-item | box=240,1508,367,26 | display:flex; alignItems:center; position:relative
+            svg.e-font-icon-svg.e-far-dot-circle | box=240,1514,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+            span.elementor-icon-list-text | box=258,1508,97,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Osteopathy"
+          li.elementor-icon-list-item | box=240,1534,367,26 | display:flex; alignItems:center; position:relative
+            svg.e-font-icon-svg.e-far-dot-circle | box=240,1540,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+            span.elementor-icon-list-text | box=258,1534,115,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Physiotherapy"
+          li.elementor-icon-list-item | box=240,1560,367,26 | display:flex; alignItems:center; position:relative
+            svg.e-font-icon-svg.e-far-dot-circle | box=240,1567,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+            span.elementor-icon-list-text | box=258,1560,127,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Beauty Therapy"
+          li.elementor-icon-list-item | box=240,1587,367,26 | display:flex; alignItems:center; position:relative
+            svg.e-font-icon-svg.e-far-dot-circle | box=240,1593,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+            span.elementor-icon-list-text | box=258,1587,171,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Aesthetic Treatments"
+      div.elementor-element.elementor-widget__width-initial.elementor-icon-list--layout-traditional | [icon-list.default] | box=240,1613,378,106 | maxWidth:92.273%; position:relative
+        li.elementor-icon-list-item | box=240,1613,378,26 | display:flex; alignItems:center; position:relative
+          svg.e-font-icon-svg.e-far-dot-circle | box=240,1619,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+          span.elementor-icon-list-text | box=258,1613,144,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Massage Therapy"
+        li.elementor-icon-list-item | box=240,1640,378,26 | display:flex; alignItems:center; position:relative
+          svg.e-font-icon-svg.e-far-dot-circle | box=240,1646,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+          span.elementor-icon-list-text | box=258,1640,151,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Nutritional Therapy"
+        li.elementor-icon-list-item | box=240,1666,378,26 | display:flex; alignItems:center; position:relative
+          svg.e-font-icon-svg.e-far-dot-circle | box=240,1672,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+          span.elementor-icon-list-text | box=258,1666,165,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Medical Consultants"
+        li.elementor-icon-list-item | box=240,1692,378,26 | display:flex; alignItems:center; position:relative
+          svg.e-font-icon-svg.e-far-dot-circle | box=240,1699,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+          span.elementor-icon-list-text | box=258,1692,161,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Functional Medicine"
+      div.elementor-element.elementor-widget__width-initial.elementor-widget | [ucaddon_uc_icon_accordion.default] | box=240,1719,410,50 | maxWidth:111.908%; position:relative
+        div.elementor-widget-container | box=240,1727,410,42 | margin:8.1875px 0px 0px
+          div.uc_ac_box.elementor-repeater-item-3b96039 | box=240,1727,410,42 | overflow:hidden
+            div.uc-heading.uc_trigger | box=240,1727,410,42 | display:flex; alignItems:center
+              div.ue_title | box=240,1736,353,25 | fontSize:15px; fontWeight:600; lineHeight:24.75px; color:rgb(0, 0, 0) | TEXT="Room Breakdown (click to expand)"
+              div.ue_expand_inside | box=608,1727,42,42 | lineHeight:16px; color:rgb(191, 191, 191); display:flex; justifyContent:center; alignItems:center
+                i.fas.fa-plus | box=622,1739,14,16 | fontWeight:900; fontFamily:"Font Awesome 6 Free"; display:inline-block | ICON=fas fa-plus
+                i.fas.fa-minus | box=0,0,0,0 | fontWeight:900; fontFamily:"Font Awesome 6 Free"; display:inline-block | ICON=fas fa-minus
+            div.uc_content | box=0,0,0,0 | color:rgb(255, 255, 255); backgroundColor:rgb(0, 0, 0); padding:20px
+              div.elementor-container.elementor-column-gap-default | box=0,0,0,0 | margin:0px auto; maxWidth:1140px; display:flex; position:relative
+                div.elementor-widget-wrap.elementor-element-populated | box=0,0,0,0 | padding:10px; display:flex; flexWrap:wrap; position:relative
+                div.elementor-widget-wrap.elementor-element-populated | box=0,0,0,0 | padding:10px; display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor-button-info.elementor-align-left | [button.default] | box=240,1769,410,66 | textAlign:left; position:relative
+        div.elementor-widget-container | box=240,1789,410,46 | margin:20px 0px 0px
+          a.elementor-button.elementor-button-link.elementor-size-sm | box=240,1789,126,46 | fontWeight:500; lineHeight:16px; color:rgb(255, 255, 255); textAlign:center; backgroundColor:rgb(0, 0, 0); padding:15px 30px; display:inline-block; borderRadius:5px | HREF=https://londontherapyroomstorent.com/#Contact
+            span.elementor-button-content-wrapper | box=270,1804,66,16 | display:flex; justifyContent:center; gap:5px
+              span.elementor-button-text | box=270,1804,66,16 |  | TEXT="ENQUIRE"
+    div.elementor-widget-wrap.elementor-element-populated.e-swiper-container | box=720,1379,550,483 | display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor--h-position-center.elementor--v-position-middle | [slides.default] | box=720,1379,550,483 | position:relative; zIndex:10
+        div.elementor-slides-wrapper.elementor-main-swiper.swiper | box=720,1379,550,483 | overflow:hidden; zIndex:1
+          div.swiper-wrapper.elementor-slides | box=720,1379,550,483 | display:flex; position:relative; zIndex:1; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-2fa0381.swiper-slide.swiper-slide-duplicate | box=720,1379,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, 0, 0)
+              div.swiper-slide-bg | box=720,1379,550,483 | backgroundImage:url("/images/2024/08/IMG-20240826-WA0037.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=720,1379,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=995,1620,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-bd50e0a.swiper-slide.swiper-slide-duplicate | box=720,1379,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -550, 0)
+              div.swiper-slide-bg | box=720,1379,550,483 | backgroundImage:url("/images/2024/08/IMG-20240826-WA0027.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=720,1379,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=995,1620,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-bb1d340.swiper-slide.swiper-slide-duplicate | box=720,1379,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -1100, 0)
+              div.swiper-slide-bg | box=720,1379,550,483 | backgroundImage:url("/images/2024/08/IMG-20240826-WA0025.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=720,1379,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=995,1620,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-706ab2a.swiper-slide.swiper-slide-duplicate | box=720,1379,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -1650, 0)
+              div.swiper-slide-bg | box=720,1379,550,483 | backgroundImage:url("/images/2024/08/IMG-20240826-WA0038.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=720,1379,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=995,1620,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-2fa0381.swiper-slide | box=720,1379,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -2200, 0)
+              div.swiper-slide-bg | box=720,1379,550,483 | backgroundImage:url("/images/2024/08/IMG-20240826-WA0037.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=720,1379,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=995,1620,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-bd50e0a.swiper-slide.swiper-slide-prev | box=720,1379,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -2750, 0)
+              div.swiper-slide-bg | box=720,1379,550,483 | backgroundImage:url("/images/2024/08/IMG-20240826-WA0027.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=720,1379,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=995,1620,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-bb1d340.swiper-slide.swiper-slide-visible | box=720,1379,550,483 | overflow:hidden; position:relative; transform:matrix(1, 0, 0, 1, -3300, 0)
+              div.swiper-slide-bg.elementor-ken-burns--active | box=720,1379,550,483 | backgroundImage:url("/images/2024/08/IMG-20240826-WA0025.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=720,1379,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=995,1620,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-706ab2a.swiper-slide.swiper-slide-next | box=720,1379,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -3850, 0)
+              div.swiper-slide-bg | box=720,1379,550,483 | backgroundImage:url("/images/2024/08/IMG-20240826-WA0038.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=720,1379,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=995,1620,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-2fa0381.swiper-slide.swiper-slide-duplicate | box=720,1379,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -4400, 0)
+              div.swiper-slide-bg | box=720,1379,550,483 | backgroundImage:url("/images/2024/08/IMG-20240826-WA0037.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=720,1379,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=995,1620,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-bd50e0a.swiper-slide.swiper-slide-duplicate | box=720,1379,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -4950, 0)
+              div.swiper-slide-bg | box=720,1379,550,483 | backgroundImage:url("/images/2024/08/IMG-20240826-WA0027.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=720,1379,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=995,1620,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-bb1d340.swiper-slide.swiper-slide-duplicate | box=720,1379,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -5500, 0)
+              div.swiper-slide-bg | box=720,1379,550,483 | backgroundImage:url("/images/2024/08/IMG-20240826-WA0025.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=720,1379,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=995,1620,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-706ab2a.swiper-slide.swiper-slide-duplicate | box=720,1379,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -6050, 0)
+              div.swiper-slide-bg | box=720,1379,550,483 | backgroundImage:url("/images/2024/08/IMG-20240826-WA0038.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=720,1379,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=995,1620,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+          span.swiper-notification | box=720,1379,0,0 | position:absolute; right:550px; bottom:483px; zIndex:-1000; opacity:0

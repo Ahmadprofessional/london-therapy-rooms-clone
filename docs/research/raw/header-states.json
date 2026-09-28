@@ -1,0 +1,56 @@
+{
+ "0": [
+  {
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-94949ab elementor-section-full_width elementor-section-height-default elementor-section-height-default",
+   "position": "relative",
+   "top": "0px",
+   "bg": "rgba(0, 0, 0, 0)",
+   "h": 41,
+   "rectTop": 0
+  },
+  {
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-c954b3d elementor-section-full_width elementor-section-height-default elementor-section-height-default",
+   "position": "relative",
+   "top": "0px",
+   "bg": "rgba(0, 0, 0, 0)",
+   "h": 101,
+   "rectTop": 41
+  }
+ ],
+ "150": [
+  {
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-94949ab elementor-section-full_width elementor-section-height-default elementor-section-height-default",
+   "position": "relative",
+   "top": "0px",
+   "bg": "rgba(0, 0, 0, 0)",
+   "h": 41,
+   "rectTop": -150
+  },
+  {
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-c954b3d elementor-section-full_width elementor-section-height-default elementor-section-height-default",
+   "position": "relative",
+   "top": "0px",
+   "bg": "rgba(0, 0, 0, 0)",
+   "h": 101,
+   "rectTop": -109
+  }
+ ],
+ "600": [
+  {
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-94949ab elementor-section-full_width elementor-section-height-default elementor-section-height-default",
+   "position": "relative",
+   "top": "0px",
+   "bg": "rgba(0, 0, 0, 0)",
+   "h": 41,
+   "rectTop": -600
+  },
+  {
+   "cls": "elementor-section elementor-top-section elementor-element elementor-element-c954b3d elementor-section-full_width elementor-section-height-default elementor-section-height-default",
+   "position": "relative",
+   "top": "0px",
+   "bg": "rgba(0, 0, 0, 0)",
+   "h": 101,
+   "rectTop": -559
+  }
+ ]
+}

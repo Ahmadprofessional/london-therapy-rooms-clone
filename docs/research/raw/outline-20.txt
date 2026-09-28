@@ -1,0 +1,13 @@
+# section 20 id= visible=true
+section.elementor-section.elementor-top-section.elementor-element | box=0,7109,1440,159 | fontSize:16px; fontWeight:200; fontFamily:Poppins, sans-serif; lineHeight:26.4px; color:rgb(40, 40, 40); backgroundColor:rgb(40, 40, 40); padding:40px; position:relative | SETTINGS={"background_background":"classic","animation":"fadeIn"}
+  div.elementor-container.elementor-column-gap-no | box=150,7149,1140,79 | margin:0px 110px; maxWidth:1140px; display:flex; position:relative
+    div.elementor-widget-wrap.elementor-element-populated | box=150,7149,458,79 | display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=150,7149,458,22 | margin:0px 0px 20px; position:relative
+        h5.elementor-heading-title.elementor-size-default | box=150,7149,458,22 | fontSize:18px; fontWeight:500; fontStyle:italic; lineHeight:21.6px; color:rgb(226, 140, 31) | TEXT="Positive Feedback"
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=150,7190,458,28 | position:relative
+        div.elementor-widget-container | box=150,7176,458,42 | margin:-14px 0px 0px
+          h3.elementor-heading-title.elementor-size-default | box=150,7176,458,42 | fontSize:32px; fontWeight:500; fontStyle:italic; lineHeight:41.6px; color:rgb(255, 255, 255) | TEXT="from other practitioners"
+    div.elementor-widget-wrap.elementor-element-populated | box=608,7149,682,79 | display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor-widget__width-initial.elementor-widget | [text-editor.default] | box=608,7149,663,79 | fontWeight:300; fontFamily:"Open Sans", sans-serif; color:rgb(255, 255, 255); maxWidth:97.214%; position:relative
+        div.elementor-widget-container | box=614,7149,657,79 | margin:0px 0px 0px 6px
+          p | box=614,7149,657,79 |  | TEXT="Everyone who has been in the clinic says that is a beautiful and calming place and their clients love the calming and serene energy on it. The ambience in the clinic is very friendly , its not just a space, its a unique experience to grow your business"

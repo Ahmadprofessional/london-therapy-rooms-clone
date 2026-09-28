@@ -1,0 +1,1430 @@
+{
+ "i": 17,
+ "id": "",
+ "visible": true,
+ "tree": {
+  "tag": "section",
+  "cls": "elementor-section elementor-top-section elementor-element elementor-section-boxed",
+  "settings": "{\"animation\":\"fadeIn\"}",
+  "s": {
+   "fontSize": "16px",
+   "fontWeight": "200",
+   "fontFamily": "Poppins, sans-serif",
+   "lineHeight": "26.4px",
+   "color": "rgb(40, 40, 40)",
+   "backgroundPosition": "0% 0%",
+   "margin": "-57.5938px 0px 115.188px",
+   "width": "1440px",
+   "height": "509.953px",
+   "display": "block",
+   "flexDirection": "row",
+   "flexWrap": "nowrap",
+   "position": "relative",
+   "opacity": "1",
+   "objectFit": "fill",
+   "_box": [
+    0,
+    5455,
+    1440,
+    510
+   ]
+  },
+  "c": [
+   {
+    "tag": "div",
+    "cls": "elementor-container elementor-column-gap-default",
+    "s": {
+     "fontSize": "16px",
+     "fontWeight": "200",
+     "fontFamily": "Poppins, sans-serif",
+     "lineHeight": "26.4px",
+     "color": "rgb(40, 40, 40)",
+     "backgroundPosition": "0% 0%",
+     "margin": "0px 150px",
+     "width": "1140px",
+     "height": "509.953px",
+     "maxWidth": "1140px",
+     "display": "flex",
+     "flexDirection": "row",
+     "flexWrap": "nowrap",
+     "position": "relative",
+     "opacity": "1",
+     "objectFit": "fill",
+     "_box": [
+      150,
+      5455,
+      1140,
+      510
+     ]
+    },
+    "c": [
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-33 elementor-top-column elementor-element",
+      "settings": "{\"animation\":\"fadeIn\"}",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(40, 40, 40)",
+       "backgroundPosition": "0% 0%",
+       "width": "379.984px",
+       "height": "509.953px",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        150,
+        5455,
+        380,
+        510
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(40, 40, 40)",
+         "backgroundPosition": "0% 0%",
+         "padding": "10px",
+         "width": "379.984px",
+         "height": "509.953px",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "objectFit": "fill",
+         "_box": [
+          150,
+          5455,
+          380,
+          510
+         ]
+        },
+        "c": [
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-image",
+          "widget": "image.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "132px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            160,
+            5465,
+            360,
+            132
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "359.984px",
+             "height": "132px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              160,
+              5465,
+              360,
+              132
+             ]
+            },
+            "c": [
+             {
+              "tag": "img",
+              "cls": "elementor-animation-grow attachment-large size-large wp-image-204",
+              "img": {
+               "src": "https://londontherapyroomstorent.com/wp-content/uploads/2024/08/Anna.jpg",
+               "alt": "",
+               "nw": 200,
+               "nh": 300
+              },
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "200px",
+               "height": "132px",
+               "maxWidth": "100%",
+               "display": "inline-block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "overflow": "clip",
+               "opacity": "1",
+               "transition": "transform 0.9s",
+               "objectFit": "contain",
+               "_box": [
+                240,
+                5465,
+                200,
+                132
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "17.5938px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            160,
+            5617,
+            360,
+            18
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "359.984px",
+             "height": "17.5938px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              160,
+              5617,
+              360,
+              18
+             ]
+            },
+            "c": [
+             {
+              "tag": "h3",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "Anna Balcome",
+              "s": {
+               "fontSize": "22px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "fontStyle": "italic",
+               "lineHeight": "17.6px",
+               "letterSpacing": "-0.4px",
+               "color": "rgb(0, 0, 0)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "17.5938px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                160,
+                5617,
+                360,
+                18
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "28.5938px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            160,
+            5655,
+            360,
+            29
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "margin": "-5px 0px 0px",
+             "width": "359.984px",
+             "height": "33.5938px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              160,
+              5650,
+              360,
+              34
+             ]
+            },
+            "c": [
+             {
+              "tag": "h4",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "B.S.c ( Hons) MRCPod MFPM RCP Podiatric Surgeon & Podiatrist/Chiropodist (Foot & Ankle )",
+              "s": {
+               "fontSize": "14px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "fontStyle": "italic",
+               "lineHeight": "16.8px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "33.5938px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                160,
+                5650,
+                360,
+                34
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-text-editor",
+          "widget": "text-editor.default",
+          "s": {
+           "fontSize": "15px",
+           "fontWeight": "400",
+           "fontFamily": "\"Open Sans\", sans-serif",
+           "lineHeight": "24.75px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "width": "359.984px",
+           "height": "198px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            160,
+            5704,
+            360,
+            198
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "15px",
+             "fontWeight": "400",
+             "fontFamily": "\"Open Sans\", sans-serif",
+             "lineHeight": "24.75px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "359.984px",
+             "height": "198px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              160,
+              5704,
+              360,
+              198
+             ]
+            },
+            "c": [
+             {
+              "tag": "p",
+              "cls": "",
+              "text": "Clinic Following her qualification in 1992 at the University of Westminster, Anna Specialised in various podiatric fields that gives her a broad scope of practice that includes treatment of sport injuries, diabetes, paediatrics, the ability to advise and treat surgically if necessary.",
+              "s": {
+               "fontSize": "15px",
+               "fontWeight": "400",
+               "fontFamily": "\"Open Sans\", sans-serif",
+               "lineHeight": "24.75px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "148.5px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                160,
+                5704,
+                360,
+                149
+               ]
+              }
+             },
+             {
+              "tag": "p",
+              "cls": "",
+              "text": "In 2008 Anna was invited to become an Honorary Consultant for St Lukes Hospital for the Clergy.",
+              "s": {
+               "fontSize": "15px",
+               "fontWeight": "400",
+               "fontFamily": "\"Open Sans\", sans-serif",
+               "lineHeight": "24.75px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "49.5px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                160,
+                5852,
+                360,
+                50
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-33 elementor-top-column elementor-element",
+      "settings": "{\"animation\":\"fadeIn\"}",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(40, 40, 40)",
+       "backgroundPosition": "0% 0%",
+       "width": "379.984px",
+       "height": "509.953px",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        530,
+        5455,
+        380,
+        510
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(40, 40, 40)",
+         "backgroundPosition": "0% 0%",
+         "padding": "10px",
+         "width": "379.984px",
+         "height": "509.953px",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "objectFit": "fill",
+         "_box": [
+          530,
+          5455,
+          380,
+          510
+         ]
+        },
+        "c": [
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-image",
+          "widget": "image.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "132px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            540,
+            5465,
+            360,
+            132
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "359.984px",
+             "height": "132px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              540,
+              5465,
+              360,
+              132
+             ]
+            },
+            "c": [
+             {
+              "tag": "img",
+              "cls": "elementor-animation-grow attachment-full size-full wp-image-1303",
+              "img": {
+               "src": "https://londontherapyroomstorent.com/wp-content/uploads/2025/02/fopz.png",
+               "alt": "",
+               "nw": 594,
+               "nh": 591
+              },
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "132px",
+               "maxWidth": "100%",
+               "display": "inline-block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "overflow": "clip",
+               "opacity": "1",
+               "transition": "transform 0.9s",
+               "objectFit": "contain",
+               "_box": [
+                540,
+                5465,
+                360,
+                132
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "17.5938px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            540,
+            5617,
+            360,
+            18
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "359.984px",
+             "height": "17.5938px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              540,
+              5617,
+              360,
+              18
+             ]
+            },
+            "c": [
+             {
+              "tag": "h3",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "Foz",
+              "s": {
+               "fontSize": "22px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "fontStyle": "italic",
+               "lineHeight": "17.6px",
+               "letterSpacing": "-0.4px",
+               "color": "rgb(0, 0, 0)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "17.5938px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                540,
+                5617,
+                360,
+                18
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "72px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            540,
+            5655,
+            360,
+            72
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "359.984px",
+             "height": "72px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              540,
+              5655,
+              360,
+              72
+             ]
+            },
+            "c": [
+             {
+              "tag": "h4",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "Specialise in Tear Trough Nurse Prescriber Natural Full Face Transformations",
+              "s": {
+               "fontSize": "15px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "fontStyle": "italic",
+               "lineHeight": "18px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "72px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                540,
+                5655,
+                360,
+                72
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-text-editor",
+          "widget": "text-editor.default",
+          "s": {
+           "fontSize": "15px",
+           "fontWeight": "500",
+           "fontFamily": "\"Open Sans\", sans-serif",
+           "lineHeight": "24.75px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "width": "359.984px",
+           "height": "208.359px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            540,
+            5747,
+            360,
+            208
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "15px",
+             "fontWeight": "500",
+             "fontFamily": "\"Open Sans\", sans-serif",
+             "lineHeight": "24.75px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "margin": "-14.3906px 0px 0px",
+             "width": "359.984px",
+             "height": "222.75px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              540,
+              5733,
+              360,
+              223
+             ]
+            },
+            "c": [
+             {
+              "tag": "p",
+              "cls": "",
+              "text": "Has a brilliant reputation of kindness and compassion with hands set to high standard skills performing her best work daily bringing a smile to many faces. She is heavily talented with diverse skills in aesthetics. Foz is trained in complications to assure everyone comfort and safety. Her background leading from mental health the practice is focused on a balanced mind and body giving that extra support every time.",
+              "s": {
+               "fontSize": "15px",
+               "fontWeight": "500",
+               "fontFamily": "\"Open Sans\", sans-serif",
+               "lineHeight": "24.75px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "222.75px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                540,
+                5733,
+                360,
+                223
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-33 elementor-top-column elementor-element",
+      "settings": "{\"animation\":\"fadeIn\"}",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(40, 40, 40)",
+       "backgroundPosition": "0% 0%",
+       "width": "379.984px",
+       "height": "509.953px",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        910,
+        5455,
+        380,
+        510
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(40, 40, 40)",
+         "backgroundPosition": "0% 0%",
+         "padding": "10px",
+         "width": "379.984px",
+         "height": "509.953px",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "objectFit": "fill",
+         "_box": [
+          910,
+          5455,
+          380,
+          510
+         ]
+        },
+        "c": [
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-image",
+          "widget": "image.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "132px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            920,
+            5465,
+            360,
+            132
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "359.984px",
+             "height": "132px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              920,
+              5465,
+              360,
+              132
+             ]
+            },
+            "c": [
+             {
+              "tag": "img",
+              "cls": "elementor-animation-grow attachment-large size-large wp-image-1305",
+              "img": {
+               "src": "https://londontherapyroomstorent.com/wp-content/uploads/2025/02/night.jpg",
+               "alt": "",
+               "nw": 296,
+               "nh": 314
+              },
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "296px",
+               "height": "132px",
+               "maxWidth": "100%",
+               "display": "inline-block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "overflow": "clip",
+               "opacity": "1",
+               "transition": "transform 0.9s",
+               "objectFit": "contain",
+               "_box": [
+                952,
+                5465,
+                296,
+                132
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "17.5938px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            920,
+            5617,
+            360,
+            18
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "width": "359.984px",
+             "height": "17.5938px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              920,
+              5617,
+              360,
+              18
+             ]
+            },
+            "c": [
+             {
+              "tag": "h3",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "Domenic Knight",
+              "s": {
+               "fontSize": "22px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "fontStyle": "italic",
+               "lineHeight": "17.6px",
+               "letterSpacing": "-0.4px",
+               "color": "rgb(0, 0, 0)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "17.5938px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                920,
+                5617,
+                360,
+                18
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "359.984px",
+           "height": "28.5938px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            920,
+            5655,
+            360,
+            29
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "margin": "-5px 0px 0px",
+             "width": "359.984px",
+             "height": "33.5938px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              920,
+              5650,
+              360,
+              34
+             ]
+            },
+            "c": [
+             {
+              "tag": "h4",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "Licensed Master Practitioner of NLP and Hypnotherapy",
+              "s": {
+               "fontSize": "14px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "fontStyle": "italic",
+               "lineHeight": "16.8px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundPosition": "0% 0%",
+               "width": "359.984px",
+               "height": "33.5938px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                920,
+                5650,
+                360,
+                34
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-text-editor",
+          "widget": "text-editor.default",
+          "s": {
+           "fontSize": "15px",
+           "fontWeight": "400",
+           "fontFamily": "\"Open Sans\", sans-serif",
+           "lineHeight": "24.75px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "center",
+           "backgroundPosition": "0% 0%",
+           "width": "359.984px",
+           "height": "250px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            920,
+            5704,
+            360,
+            250
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "15px",
+             "fontWeight": "400",
+             "fontFamily": "\"Open Sans\", sans-serif",
+             "lineHeight": "24.75px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "center",
+             "backgroundPosition": "0% 0%",
+             "margin": "-7.1875px 0px 0px",
+             "width": "359.984px",
+             "height": "231.594px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              920,
+              5696,
+              360,
+              232
+             ]
+            },
+            "c": [
+             {
+              "tag": "p",
+              "cls": "",
+              "s": {
+               "fontSize": "15px",
+               "fontWeight": "400",
+               "fontFamily": "\"Open Sans\", sans-serif",
+               "lineHeight": "24.75px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundColor": "rgb(255, 255, 255)",
+               "backgroundPosition": "0% 0%",
+               "margin": "0px 0px 25.6px",
+               "width": "359.984px",
+               "height": "103px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                920,
+                5696,
+                360,
+                103
+               ]
+              },
+              "c": [
+               {
+                "tag": "span",
+                "cls": "",
+                "text": "Licensed Trainer of NLP and Hypnotherapy, Recognised by The General Hypnotherapy Register (GHR), Validated by The General Hypnotherapy Standards Council (GHSC).",
+                "s": {
+                 "fontSize": "15px",
+                 "fontWeight": "400",
+                 "fontFamily": "Roboto",
+                 "lineHeight": "24.75px",
+                 "color": "rgb(0, 0, 0)",
+                 "textAlign": "center",
+                 "backgroundPosition": "0% 0%",
+                 "display": "inline",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  932,
+                  5700,
+                  336,
+                  95
+                 ]
+                }
+               }
+              ]
+             },
+             {
+              "tag": "p",
+              "cls": "",
+              "s": {
+               "fontSize": "15px",
+               "fontWeight": "400",
+               "fontFamily": "\"Open Sans\", sans-serif",
+               "lineHeight": "24.75px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "center",
+               "backgroundColor": "rgb(255, 255, 255)",
+               "backgroundPosition": "0% 0%",
+               "margin": "0px 0px 25.6px",
+               "width": "359.984px",
+               "height": "103px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                920,
+                5825,
+                360,
+                103
+               ]
+              },
+              "c": [
+               {
+                "tag": "span",
+                "cls": "",
+                "text": "Dominic is one of the UK’s most recognised and highly accredited Clinical Hypnotherapists and NLP Master Practitioners, providing relief to those suffering from life-altering conditions.",
+                "s": {
+                 "fontSize": "15px",
+                 "fontWeight": "400",
+                 "fontFamily": "Roboto",
+                 "lineHeight": "24.75px",
+                 "color": "rgb(0, 0, 0)",
+                 "textAlign": "center",
+                 "backgroundPosition": "0% 0%",
+                 "display": "inline",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  930,
+                  5829,
+                  340,
+                  95
+                 ]
+                }
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

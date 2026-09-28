@@ -1,0 +1,436 @@
+{
+ "i": 20,
+ "id": "",
+ "visible": true,
+ "tree": {
+  "tag": "section",
+  "cls": "elementor-section elementor-top-section elementor-element elementor-section-boxed",
+  "settings": "{\"background_background\":\"classic\",\"animation\":\"fadeIn\"}",
+  "s": {
+   "fontSize": "16px",
+   "fontWeight": "200",
+   "fontFamily": "Poppins, sans-serif",
+   "lineHeight": "26.4px",
+   "color": "rgb(40, 40, 40)",
+   "backgroundColor": "rgb(40, 40, 40)",
+   "backgroundPosition": "0% 0%",
+   "padding": "40px",
+   "width": "1440px",
+   "height": "159.172px",
+   "display": "block",
+   "flexDirection": "row",
+   "flexWrap": "nowrap",
+   "position": "relative",
+   "opacity": "1",
+   "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s",
+   "objectFit": "fill",
+   "_box": [
+    0,
+    7109,
+    1440,
+    159
+   ]
+  },
+  "c": [
+   {
+    "tag": "div",
+    "cls": "elementor-container elementor-column-gap-no",
+    "s": {
+     "fontSize": "16px",
+     "fontWeight": "200",
+     "fontFamily": "Poppins, sans-serif",
+     "lineHeight": "26.4px",
+     "color": "rgb(40, 40, 40)",
+     "backgroundPosition": "0% 0%",
+     "margin": "0px 110px",
+     "width": "1140px",
+     "height": "79.1719px",
+     "maxWidth": "1140px",
+     "display": "flex",
+     "flexDirection": "row",
+     "flexWrap": "nowrap",
+     "position": "relative",
+     "opacity": "1",
+     "objectFit": "fill",
+     "_box": [
+      150,
+      7149,
+      1140,
+      79
+     ]
+    },
+    "c": [
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-50 elementor-top-column elementor-element",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(40, 40, 40)",
+       "backgroundPosition": "0% 0%",
+       "width": "457.984px",
+       "height": "79.1719px",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        150,
+        7149,
+        458,
+        79
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(40, 40, 40)",
+         "backgroundPosition": "0% 0%",
+         "width": "457.984px",
+         "height": "79.1719px",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "objectFit": "fill",
+         "_box": [
+          150,
+          7149,
+          458,
+          79
+         ]
+        },
+        "c": [
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "457.984px",
+           "height": "21.5938px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            150,
+            7149,
+            458,
+            22
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "backgroundPosition": "0% 0%",
+             "width": "457.984px",
+             "height": "21.5938px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              150,
+              7149,
+              458,
+              22
+             ]
+            },
+            "c": [
+             {
+              "tag": "h5",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "Positive Feedback",
+              "s": {
+               "fontSize": "18px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "fontStyle": "italic",
+               "lineHeight": "21.6px",
+               "color": "rgb(226, 140, 31)",
+               "backgroundPosition": "0% 0%",
+               "width": "457.984px",
+               "height": "21.5938px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                150,
+                7149,
+                458,
+                22
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "backgroundPosition": "0% 0%",
+           "width": "457.984px",
+           "height": "27.5938px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            150,
+            7190,
+            458,
+            28
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "backgroundPosition": "0% 0%",
+             "margin": "-14px 0px 0px",
+             "width": "457.984px",
+             "height": "41.5938px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              150,
+              7176,
+              458,
+              42
+             ]
+            },
+            "c": [
+             {
+              "tag": "h3",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "from other practitioners",
+              "s": {
+               "fontSize": "32px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "fontStyle": "italic",
+               "lineHeight": "41.6px",
+               "color": "rgb(255, 255, 255)",
+               "backgroundPosition": "0% 0%",
+               "width": "457.984px",
+               "height": "41.5938px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                150,
+                7176,
+                458,
+                42
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-50 elementor-top-column elementor-element",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(40, 40, 40)",
+       "backgroundPosition": "0% 0%",
+       "width": "682px",
+       "height": "79.1719px",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        608,
+        7149,
+        682,
+        79
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(40, 40, 40)",
+         "backgroundPosition": "0% 0%",
+         "width": "682px",
+         "height": "79.1719px",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "objectFit": "fill",
+         "_box": [
+          608,
+          7149,
+          682,
+          79
+         ]
+        },
+        "c": [
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget__width-initial elementor-widget elementor-widget-text-editor",
+          "widget": "text-editor.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "300",
+           "fontFamily": "\"Open Sans\", sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(255, 255, 255)",
+           "backgroundPosition": "0% 0%",
+           "width": "662.984px",
+           "height": "79.1719px",
+           "maxWidth": "97.214%",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            608,
+            7149,
+            663,
+            79
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "300",
+             "fontFamily": "\"Open Sans\", sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(255, 255, 255)",
+             "backgroundPosition": "0% 0%",
+             "margin": "0px 0px 0px 6px",
+             "width": "656.984px",
+             "height": "79.1719px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              614,
+              7149,
+              657,
+              79
+             ]
+            },
+            "c": [
+             {
+              "tag": "p",
+              "cls": "",
+              "text": "Everyone who has been in the clinic says that is a beautiful and calming place and their clients love the calming and serene energy on it. The ambience in the clinic is very friendly , its not just a space, its a unique experience to grow your business",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "300",
+               "fontFamily": "\"Open Sans\", sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(255, 255, 255)",
+               "backgroundPosition": "0% 0%",
+               "width": "656.984px",
+               "height": "79.1719px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                614,
+                7149,
+                657,
+                79
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

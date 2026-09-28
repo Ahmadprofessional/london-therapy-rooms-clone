@@ -1,0 +1,21 @@
+# section 14 id=vision visible=true
+section.elementor-section.elementor-top-section.elementor-element | box=0,4239,1440,529 | fontSize:16px; fontWeight:200; fontFamily:Poppins, sans-serif; lineHeight:26.4px; color:rgb(40, 40, 40); margin:80px 0px; position:relative | SETTINGS={"animation":"fadeIn"}
+  div.elementor-container.elementor-column-gap-default | box=170,4239,1100,529 | margin:0px 170px; maxWidth:1100px; display:flex; position:relative
+    div.elementor-widget-wrap.elementor-element-populated | box=170,4239,414,529 | padding:10px; display:flex; flexWrap:wrap; alignItems:center; position:relative
+      div.elementor-element.elementor-widget.elementor-widget-html | [html.default] | box=180,4353,394,302 | position:relative
+        a | box=180,4489,394,25 | fontSize:18px; lineHeight:29.7px; color:rgb(226, 140, 31); display:inline | HREF=https://www.uktherapyrooms.co.uk/united-kingdom/london/therapy-room/wimpole-street-harley-street-newly-decorated-treatment-consulting-rooms-to-rent-in-harley-street-area-w1g-0eb-next-to-wigmore-pharmacy?from=badge
+          img | box=180,4353,394,302 | maxWidth:100%; display:inline; overflow:clip | IMG=https://ik.imagekit.io/uktherapyrooms/images/images/member-badge.jpeg (1678x1286) alt=""
+    div.elementor-widget-wrap.elementor-element-populated | box=584,4239,686,529 | padding:5px 0px 0px 20px; display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=604,4244,666,42 | margin:0px 0px 20px; position:relative
+        h2.elementor-heading-title.elementor-size-default | box=604,4244,666,42 | fontSize:32px; fontWeight:500; fontStyle:italic; lineHeight:41.6px | TEXT="Our mission and vision at"
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=604,4306,666,21 | margin:0px 0px 20px; position:relative
+        div.elementor-widget-container | box=604,4285,666,42 | margin:-21px 0px 0px
+          h2.elementor-heading-title.elementor-size-default | box=604,4285,666,42 | fontSize:32px; fontWeight:500; fontStyle:italic; lineHeight:41.6px; color:rgb(164, 139, 101) | TEXT="Health & Skin Clinic"
+      div.elementor-element.elementor-widget.elementor-widget-text-editor | [text-editor.default] | box=604,4346,666,356 | fontWeight:400; fontFamily:"Open Sans", sans-serif; margin:0px 0px 20px; position:relative
+        div.elementor-widget-container | box=604,4333,666,369 | margin:-13.3125px 0px 0px
+          div | box=604,4333,666,158 |  | TEXT="We strive to provide to all our clients with a relaxing environment and safe space to practice to our practitioners and their clients. We empower our practitioners and help them meet their aspirations and support each other. Our location Based in central London, only 2 minutes walk from Bond Street Station and 5 minutes walk from Oxford Circus underground which makes a very easy access to the public transport. Mayfair is only few minutes walk."
+          div | box=604,4518,666,185 |  | TEXT="Our London therapy rooms to rent, each exuding a serene and uncluttered ambience, are designed to promote a sense of safety and relaxation, essential for the therapeutic relationship to flourish with the other practitioners and their clients. The rooms are with full natural light, and the new and comfortable furniture enhances the overall experience of luxury. Unlike their previous experiences, therapists here won’t encounter the stress of quick handovers or neglected spaces. Everything is meticulously maintained, clean allowing therapists to focus on their clients."
+      div.elementor-element.elementor-align-left.elementor-button-info | [button.default] | box=604,4722,666,46 | textAlign:left; position:relative
+        a.elementor-button.elementor-button-link.elementor-size-sm | box=604,4722,126,46 | fontWeight:500; lineHeight:16px; color:rgb(255, 255, 255); textAlign:center; backgroundColor:rgb(164, 139, 101); padding:15px 30px; display:inline-block; borderRadius:5px | HREF=https://londontherapyroomstorent.com/#Contact
+          span.elementor-button-content-wrapper | box=634,4737,66,16 | display:flex; justifyContent:center; gap:5px
+            span.elementor-button-text | box=634,4737,66,16 |  | TEXT="ENQUIRE"

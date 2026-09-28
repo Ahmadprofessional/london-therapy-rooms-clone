@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* ---- Design tokens extracted from londontherapyroomstorent.com (getComputedStyle) ---- */
+:root {
+  --ink: #282828;          /* rgb(40,40,40)  body text, dark buttons, dark bands, footer */
+  --gold: #a48b65;         /* rgb(164,139,101) brand gold: buttons, room panels, accents */
+  --orange: #e28c1f;       /* rgb(226,140,31) links, social icons, room-card titles */
+  --mist: #e3e3e2;         /* rgb(227,227,226) hero eyebrow heading */
+  --near-black: #141414;   /* rgb(20,20,20) room 3 card, button hover */
+  --paper: #eeeeee;        /* rgb(238,238,238) light room cards */
+  --silver: #bbbbbb;       /* rgb(187,187,187) form borders */
+  --scrolltop: #046bd2;    /* rgb(4,107,210) theme scroll-to-top button */
+
+  /* shadcn token mapping */
+  --background: #ffffff;
+  --foreground: var(--ink);
+  --primary: var(--gold);
+  --primary-foreground: #ffffff;
+  --secondary: var(--ink);
+  --secondary-foreground: #ffffff;
+  --muted: var(--paper);
+  --muted-foreground: #555555;
+  --accent: var(--orange);
+  --accent-foreground: #ffffff;
+  --border: var(--silver);
+  --input: var(--silver);
+  --ring: var(--gold);
+  --radius: 5px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-ink: var(--ink);
+  --color-gold: var(--gold);
+  --color-orange: var(--orange);
+  --color-mist: var(--mist);
+  --color-near-black: var(--near-black);
+  --color-paper: var(--paper);
+  --color-silver: var(--silver);
+  --color-scrolltop: var(--scrolltop);
+
+  --font-poppins: var(--font-poppins);
+  --font-open-sans: var(--font-open-sans);
+  --font-sans: var(--font-poppins), sans-serif;
+}
+
+/* ---- Base (matches body computed style: Poppins 200 16px/26.4px #282828) ---- */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: #ffffff;
+  color: var(--ink);
+  font-family: var(--font-poppins), sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 26.4px;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6, p { margin: 0; }
+a { color: var(--orange); text-decoration: none; }
+img { max-width: 100%; height: auto; }
+
+/* ---- Elementor entrance animation: fadeIn, 1.25s (animation-duration from .animated) ---- */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.reveal { opacity: 0; }
+.reveal.is-visible { animation: fadeIn 1.25s both; }
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; }
+  .reveal.is-visible { animation: none; }
+}

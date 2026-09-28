@@ -1,0 +1,181 @@
+{
+ "hero": {
+  "settings": "{\"background_background\":\"slideshow\",\"animation\":\"fadeIn\",\"background_slideshow_gallery\":[{\"id\":667,\"url\":\"https:\\/\\/londontherapyroomstorent.com\\/wp-content\\/uploads\\/2024\\/08\\/IMG-20240826-WA0037.jpg\"},{\"id\":670,\"url\":\"https:\\/\\/londontherapyroomstorent.com\\/wp-content\\/uploads\\/2024\\/08\\/IMG-20240826-WA0040.jpg\"},{\"id\":661,\"url\":\"https:\\/\\/londontherapyroomstorent.com\\/wp-content\\/uploads\\/2024\\/08\\/IMG-20240826-WA0024.jpg\"}],\"background_slideshow_loop\":\"yes\",\"background_slideshow_slide_duration\":5000,\"background_slideshow_slide_transition\":\"fade\",\"background_slideshow_transition_duration\":500}",
+  "minHeight": "0px",
+  "height": 686,
+  "marginTop": "-170px",
+  "padding": "100px",
+  "bgs": [
+   [
+    "elementor-background-slideshow__slide__image",
+    "url(\"U/2024/08/IMG-20240826-WA0037.jpg\")"
+   ],
+   [
+    "elementor-background-slideshow__slide__image",
+    "url(\"U/2024/08/IMG-20240826-WA0040.jpg\")"
+   ],
+   [
+    "elementor-background-slideshow__slide__image",
+    "url(\"U/2024/08/IMG-20240826-WA0024.jpg\")"
+   ],
+   [
+    "elementor-background-slideshow__slide__image",
+    "url(\"U/2024/08/IMG-20240826-WA0037.jpg\")"
+   ],
+   [
+    "elementor-background-slideshow__slide__image",
+    "url(\"U/2024/08/IMG-20240826-WA0040.jpg\")"
+   ],
+   [
+    "elementor-background-slideshow__slide__image",
+    "url(\"U/2024/08/IMG-20240826-WA0024.jpg\")"
+   ],
+   [
+    "elementor-background-slideshow__slide__image",
+    "url(\"U/2024/08/IMG-20240826-WA0037.jpg\")"
+   ],
+   [
+    "elementor-background-slideshow__slide__image",
+    "url(\"U/2024/08/IMG-20240826-WA0040.jpg\")"
+   ],
+   [
+    "elementor-background-slideshow__slide__image",
+    "url(\"U/2024/08/IMG-20240826-WA0024.jpg\")"
+   ]
+  ],
+  "overlay": {
+   "bg": "rgb(5, 5, 5)",
+   "opacity": "0.45",
+   "bgImage": "none"
+  }
+ },
+ "accordionOpen": {
+  "active": "uc_ac_box elementor-repeater-item-3b96039 uc-item-active",
+  "contentH": 641,
+  "sectionH": 1120,
+  "style": "display: block;"
+ },
+ "cardHover": {
+  "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s",
+  "bg": "rgb(164, 139, 101)",
+  "bgImg": "none",
+  "padding": "41px 70px 36px"
+ },
+ "navBefore": {
+  "color": "rgb(255, 255, 255)",
+  "bg": "rgba(0, 0, 0, 0)",
+  "pad": "15px",
+  "fs": "18px",
+  "fw": "300",
+  "ff": "Poppins, sans-serif",
+  "transition": "0.2s linear",
+  "after": "rgb(164, 139, 101)|3px|10px|0",
+  "before": "rgb(164, 139, 101)|3px|100%|0|auto"
+ },
+ "navAfter": {
+  "color": "rgb(255, 255, 255)",
+  "bg": "rgba(0, 0, 0, 0)",
+  "before": "rgb(164, 139, 101)|3px|100%|1",
+  "after": "rgb(164, 139, 101)|3px|109.266px|1"
+ },
+ "navActive": {
+  "color": "rgb(164, 139, 101)",
+  "bg": "rgba(0, 0, 0, 0)",
+  "before": "rgb(164, 139, 101)|3px|100%|0|auto|0px",
+  "after": "rgb(164, 139, 101)|3px|83.375px|1|0px"
+ },
+ "popups": [
+  {
+   "cls": "dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox elementor-popup-modal",
+   "overlayBg": "rgba(0, 0, 0, 0.8)",
+   "width": "640px",
+   "height": "420px",
+   "bg": "rgba(0, 0, 0, 0)",
+   "pad": "0px",
+   "radius": "0px",
+   "imgs": [],
+   "bgs": [
+    "url(\"U/2024/08/IMG-20240826-WA0037.jpg\")",
+    "url(\"U/2024/08/IMG-20240826-WA0027.jpg\")",
+    "url(\"U/2024/08/IMG-20240826-WA0033.jpg\")",
+    "url(\"U/2024/08/IMG-20240826-WA0025.jpg\")",
+    "url(\"U/2024/08/IMG-20240826-WA0037.jpg\")",
+    "url(\"U/2024/08/IMG-20240826-WA0027.jpg\")",
+    "url(\"U/2024/08/IMG-20240826-WA0033.jpg\")",
+    "url(\"U/2024/08/IMG-20240826-WA0025.jpg\")",
+    "url(\"U/2024/08/IMG-20240826-WA0037.jpg\")",
+    "url(\"U/2024/08/IMG-20240826-WA0027.jpg\")",
+    "url(\"U/2024/08/IMG-20240826-WA0033.jpg\")",
+    "url(\"U/2024/08/IMG-20240826-WA0025.jpg\")"
+   ],
+   "anchors": [
+    "https://londontherapyroomstorent.com/#"
+   ],
+   "widgets": [
+    "slides.default {\"autoplay_speed\":3000,\"navigation\":\"both\",\"autoplay\":\"yes\",\"pause_on_hover\":\"yes\",\"pause_on_interaction\":\"yes\",\"infinite\":\"yes\",\"transition\":\"slide\",\"transition_speed\":500}"
+   ],
+   "text": "",
+   "close": "<a role=\"button\" tabindex=\"0\" aria-label=\"Close\" href=\"#\" class=\"dialog-close-button dialog-lightbox-close-button\"><svg class=\"e-font-icon-svg e-eicon-close eicon-close\"><use xlink:href=\"#eicon-close\"></use></svg></a>"
+  },
+  {
+   "imgs": [],
+   "anchors": [
+    "https://londontherapyroomstorent.com/#"
+   ],
+   "widgets": [
+    "slides.default {\"autoplay_speed\":3000,\"navigation\":\"both\",\"autoplay\":\"yes\",\"pause_on_hover\":\"yes\",\"pause_on_interaction\":\"yes\",\"infinite\":\"yes\",\"transition\":\"slide\",\"transition_speed\":500}"
+   ]
+  },
+  {
+   "imgs": [],
+   "anchors": [
+    "https://londontherapyroomstorent.com/#"
+   ],
+   "widgets": [
+    "slides.default {\"autoplay_speed\":3000,\"navigation\":\"both\",\"autoplay\":\"yes\",\"pause_on_hover\":\"yes\",\"pause_on_interaction\":\"yes\",\"infinite\":\"yes\",\"transition\":\"slide\",\"transition_speed\":500}"
+   ]
+  },
+  {
+   "imgs": [],
+   "anchors": [
+    "https://londontherapyroomstorent.com/#"
+   ],
+   "widgets": [
+    "slides.default {\"autoplay_speed\":3000,\"navigation\":\"both\",\"autoplay\":\"yes\",\"pause_on_hover\":\"yes\",\"pause_on_interaction\":\"yes\",\"infinite\":\"yes\",\"transition\":\"slide\",\"transition_speed\":500}"
+   ]
+  }
+ ],
+ "mobileToggle": {
+  "html": "<div role=\"button\" class=\"hfe-nav-menu__toggle elementor-clickable\" tabindex=\"0\" aria-label=\"Menu Toggle\" aria-haspopup=\"true\" aria-expanded=\"false\">\n\t\t\t\t\t<span class=\"screen-reader-text\">Menu</span>\n\t\t\t\t\t<div class=\"hfe-nav-menu-icon\">\n\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-align-justify\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M432 416H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 1",
+  "color": "rgb(73, 76, 79)",
+  "bg": "rgba(0, 0, 0, 0)",
+  "visible": true
+ },
+ "mobileMenu": {
+  "navs": [
+   {
+    "cls": "hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow hfe-dropdown menu-is-active",
+    "disp": "flex",
+    "bg": "rgb(255, 255, 255)",
+    "w": 165,
+    "h": 311,
+    "pos": "absolute"
+   },
+   {
+    "cls": "hfe-nav-menu__layout-vertical hfe-nav-menu__submenu-arrow",
+    "disp": "block",
+    "bg": "rgba(0, 0, 0, 0)",
+    "w": 310,
+    "h": 168,
+    "pos": "static"
+   }
+  ],
+  "link": {
+   "color": "rgb(164, 139, 101)",
+   "bg": "rgb(255, 255, 255)",
+   "pad": "15px",
+   "fs": "18px",
+   "border": "0px none rgb(164, 139, 101)"
+  }
+ }
+}

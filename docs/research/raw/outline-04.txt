@@ -1,0 +1,11 @@
+# section 4 id=Rooms visible=true
+section.elementor-section.elementor-top-section.elementor-element | box=0,1151,1440,158 | fontSize:16px; fontWeight:200; fontFamily:Poppins, sans-serif; lineHeight:26.4px; color:rgb(40, 40, 40); margin:0px 0px 50px; position:relative | SETTINGS={"animation":"fadeIn"}
+  div.elementor-container.elementor-column-gap-default | box=150,1151,1140,158 | margin:0px 150px; maxWidth:1140px; display:flex; position:relative
+    div.elementor-widget-wrap.elementor-element-populated | box=150,1151,1140,158 | padding:10px; display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=160,1161,1120,43 | textAlign:center; margin:0px 0px 20px; position:relative
+        h2.elementor-heading-title.elementor-size-default | box=160,1161,1120,43 | fontSize:33px; fontWeight:500; fontStyle:italic; lineHeight:42.9px; color:rgb(0, 0, 0) | TEXT="CONSULTING ROOMS"
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=160,1224,1120,75 | textAlign:center; position:relative
+        div.elementor-widget-container | box=160,1213,1120,86 | margin:-11.1875px 0px 0px
+          h2.elementor-heading-title.elementor-size-default | box=160,1213,1120,86 | fontSize:22px; fontWeight:500; fontStyle:italic; lineHeight:28.6px; color:rgb(0, 0, 0) | TEXT="AVAILABLE FOR PRACTITIONERS
+Treatment & London Therapy rooms to rent available
+from as low as £25 per hour or Full-time options are also available"

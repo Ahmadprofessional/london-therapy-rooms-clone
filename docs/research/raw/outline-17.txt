@@ -1,0 +1,38 @@
+# section 17 id= visible=true
+section.elementor-section.elementor-top-section.elementor-element | box=0,5455,1440,510 | fontSize:16px; fontWeight:200; fontFamily:Poppins, sans-serif; lineHeight:26.4px; color:rgb(40, 40, 40); margin:-57.5938px 0px 115.188px; position:relative | SETTINGS={"animation":"fadeIn"}
+  div.elementor-container.elementor-column-gap-default | box=150,5455,1140,510 | margin:0px 150px; maxWidth:1140px; display:flex; position:relative
+    div.elementor-widget-wrap.elementor-element-populated | box=150,5455,380,510 | padding:10px; display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor-widget.elementor-widget-image | [image.default] | box=160,5465,360,132 | textAlign:center; margin:0px 0px 20px; position:relative
+        img.elementor-animation-grow.attachment-large.size-large | box=240,5465,200,132 | maxWidth:100%; display:inline-block; overflow:clip | IMG=/images/2024/08/Anna.jpg (200x300) alt=""
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=160,5617,360,18 | textAlign:center; margin:0px 0px 20px; position:relative
+        h3.elementor-heading-title.elementor-size-default | box=160,5617,360,18 | fontSize:22px; fontWeight:500; fontStyle:italic; lineHeight:17.6px; letterSpacing:-0.4px; color:rgb(0, 0, 0) | TEXT="Anna Balcome"
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=160,5655,360,29 | textAlign:center; margin:0px 0px 20px; position:relative
+        div.elementor-widget-container | box=160,5650,360,34 | margin:-5px 0px 0px
+          h4.elementor-heading-title.elementor-size-default | box=160,5650,360,34 | fontSize:14px; fontWeight:500; fontStyle:italic; lineHeight:16.8px | TEXT="B.S.c ( Hons) MRCPod MFPM RCP Podiatric Surgeon & Podiatrist/Chiropodist (Foot & Ankle )"
+      div.elementor-element.elementor-widget.elementor-widget-text-editor | [text-editor.default] | box=160,5704,360,198 | fontSize:15px; fontWeight:400; fontFamily:"Open Sans", sans-serif; lineHeight:24.75px; textAlign:center; position:relative
+        p | box=160,5704,360,149 |  | TEXT="Clinic Following her qualification in 1992 at the University of Westminster, Anna Specialised in various podiatric fields that gives her a broad scope of practice that includes treatment of sport injuries, diabetes, paediatrics, the ability to advise and treat surgically if necessary."
+        p | box=160,5852,360,50 |  | TEXT="In 2008 Anna was invited to become an Honorary Consultant for St Lukes Hospital for the Clergy."
+    div.elementor-widget-wrap.elementor-element-populated | box=530,5455,380,510 | padding:10px; display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor-widget.elementor-widget-image | [image.default] | box=540,5465,360,132 | textAlign:center; margin:0px 0px 20px; position:relative
+        img.elementor-animation-grow.attachment-full.size-full | box=540,5465,360,132 | maxWidth:100%; display:inline-block; overflow:clip | IMG=/images/2025/02/fopz.png (594x591) alt=""
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=540,5617,360,18 | textAlign:center; margin:0px 0px 20px; position:relative
+        h3.elementor-heading-title.elementor-size-default | box=540,5617,360,18 | fontSize:22px; fontWeight:500; fontStyle:italic; lineHeight:17.6px; letterSpacing:-0.4px; color:rgb(0, 0, 0) | TEXT="Foz"
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=540,5655,360,72 | textAlign:center; margin:0px 0px 20px; position:relative
+        h4.elementor-heading-title.elementor-size-default | box=540,5655,360,72 | fontSize:15px; fontWeight:500; fontStyle:italic; lineHeight:18px | TEXT="Specialise in Tear Trough Nurse Prescriber Natural Full Face Transformations"
+      div.elementor-element.elementor-widget.elementor-widget-text-editor | [text-editor.default] | box=540,5747,360,208 | fontSize:15px; fontWeight:500; fontFamily:"Open Sans", sans-serif; lineHeight:24.75px; textAlign:center; position:relative
+        div.elementor-widget-container | box=540,5733,360,223 | margin:-14.3906px 0px 0px
+          p | box=540,5733,360,223 |  | TEXT="Has a brilliant reputation of kindness and compassion with hands set to high standard skills performing her best work daily bringing a smile to many faces. She is heavily talented with diverse skills in aesthetics. Foz is trained in complications to assure everyone comfort and safety. Her background leading from mental health the practice is focused on a balanced mind and body giving that extra support every time."
+    div.elementor-widget-wrap.elementor-element-populated | box=910,5455,380,510 | padding:10px; display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor-widget.elementor-widget-image | [image.default] | box=920,5465,360,132 | textAlign:center; margin:0px 0px 20px; position:relative
+        img.elementor-animation-grow.attachment-large.size-large | box=952,5465,296,132 | maxWidth:100%; display:inline-block; overflow:clip | IMG=/images/2025/02/night.jpg (296x314) alt=""
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=920,5617,360,18 | textAlign:center; margin:0px 0px 20px; position:relative
+        h3.elementor-heading-title.elementor-size-default | box=920,5617,360,18 | fontSize:22px; fontWeight:500; fontStyle:italic; lineHeight:17.6px; letterSpacing:-0.4px; color:rgb(0, 0, 0) | TEXT="Domenic Knight"
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=920,5655,360,29 | textAlign:center; margin:0px 0px 20px; position:relative
+        div.elementor-widget-container | box=920,5650,360,34 | margin:-5px 0px 0px
+          h4.elementor-heading-title.elementor-size-default | box=920,5650,360,34 | fontSize:14px; fontWeight:500; fontStyle:italic; lineHeight:16.8px | TEXT="Licensed Master Practitioner of NLP and Hypnotherapy"
+      div.elementor-element.elementor-widget.elementor-widget-text-editor | [text-editor.default] | box=920,5704,360,250 | fontSize:15px; fontWeight:400; fontFamily:"Open Sans", sans-serif; lineHeight:24.75px; textAlign:center; position:relative
+        div.elementor-widget-container | box=920,5696,360,232 | margin:-7.1875px 0px 0px
+          p | box=920,5696,360,103 | backgroundColor:rgb(255, 255, 255); margin:0px 0px 25.6px
+            span | box=932,5700,336,95 | fontFamily:Roboto; color:rgb(0, 0, 0); display:inline | TEXT="Licensed Trainer of NLP and Hypnotherapy, Recognised by The General Hypnotherapy Register (GHR), Validated by The General Hypnotherapy Standards Council (GHSC)."
+          p | box=920,5825,360,103 | backgroundColor:rgb(255, 255, 255); margin:0px 0px 25.6px
+            span | box=930,5829,340,95 | fontFamily:Roboto; color:rgb(0, 0, 0); display:inline | TEXT="Dominic is one of the UK’s most recognised and highly accredited Clinical Hypnotherapists and NLP Master Practitioners, providing relief to those suffering from life-altering conditions."

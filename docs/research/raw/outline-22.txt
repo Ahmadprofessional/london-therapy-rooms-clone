@@ -1,0 +1,8 @@
+# section 22 id= visible=true
+section.elementor-section.elementor-top-section.elementor-element | box=0,7728,1440,114 | fontSize:16px; fontWeight:200; fontFamily:Poppins, sans-serif; lineHeight:26.4px; color:rgb(40, 40, 40); margin:70px 0px 0px; position:relative | SETTINGS={"animation":"fadeIn"}
+  div.elementor-container.elementor-column-gap-default | box=150,7728,1140,114 | margin:0px 150px; maxWidth:1140px; display:flex; position:relative
+    div.elementor-widget-wrap.elementor-element-populated | box=150,7728,1140,114 | padding:10px; display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=160,7738,1120,46 | textAlign:center; margin:0px 0px 20px; position:relative
+        h2.elementor-heading-title.elementor-size-default | box=160,7738,1120,46 | fontSize:35px; fontWeight:500; fontStyle:italic; lineHeight:45.5px; color:rgb(0, 0, 0) | TEXT="Enquire about our London Therapy Rooms"
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=160,7803,1120,29 | textAlign:center; position:relative
+        h3.elementor-heading-title.elementor-size-default | box=160,7803,1120,29 | fontSize:22px; fontWeight:600; lineHeight:28.6px | TEXT="Contact Us"

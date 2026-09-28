@@ -1,0 +1,9 @@
+# section 15 id=PRACTITIONERS visible=true
+section.elementor-section.elementor-top-section.elementor-element | box=0,4848,1440,124 | fontSize:16px; fontWeight:200; fontFamily:Poppins, sans-serif; lineHeight:26.4px; color:rgb(40, 40, 40); margin:0px 0px 30px; position:relative | SETTINGS={"animation":"fadeIn"}
+  div.elementor-container.elementor-column-gap-default | box=170,4848,1100,124 | margin:0px 170px; maxWidth:1100px; display:flex; position:relative
+    div.elementor-widget-wrap.elementor-element-populated | box=170,4848,1100,124 | padding:10px; display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=180,4858,1080,37 | textAlign:center; margin:0px 0px 20px; position:relative
+        h2.elementor-heading-title.elementor-size-default | box=180,4858,1080,37 | fontSize:28.83px; fontWeight:600; fontStyle:italic; lineHeight:37.479px; color:rgb(0, 0, 0) | TEXT="OUR PRACTITIONERS"
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=180,4916,1080,46 | textAlign:center; position:relative
+        div.elementor-widget-container | box=180,4905,1080,57 | margin:-10.7969px 0px 0px
+          h2.elementor-heading-title.elementor-size-default | box=180,4905,1080,57 | fontSize:22px; fontWeight:500; fontStyle:italic; lineHeight:28.6px; color:rgb(0, 0, 0) | TEXT="Our professionals are friendly, skilled and always here to help you & your loved ones"

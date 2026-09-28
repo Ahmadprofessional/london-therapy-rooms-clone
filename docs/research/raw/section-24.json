@@ -1,0 +1,649 @@
+{
+ "i": 24,
+ "id": "",
+ "visible": true,
+ "tree": {
+  "tag": "section",
+  "cls": "elementor-section elementor-top-section elementor-element elementor-section-full_width",
+  "s": {
+   "fontSize": "16px",
+   "fontWeight": "200",
+   "fontFamily": "Poppins, sans-serif",
+   "lineHeight": "26.4px",
+   "color": "rgb(40, 40, 40)",
+   "backgroundPosition": "0% 0%",
+   "margin": "28.7969px 0px 0px",
+   "width": "1440px",
+   "height": "210px",
+   "display": "block",
+   "flexDirection": "row",
+   "flexWrap": "nowrap",
+   "position": "relative",
+   "opacity": "1",
+   "objectFit": "fill",
+   "_box": [
+    0,
+    8567,
+    1440,
+    210
+   ]
+  },
+  "c": [
+   {
+    "tag": "div",
+    "cls": "elementor-container elementor-column-gap-no",
+    "s": {
+     "fontSize": "16px",
+     "fontWeight": "200",
+     "fontFamily": "Poppins, sans-serif",
+     "lineHeight": "26.4px",
+     "color": "rgb(40, 40, 40)",
+     "backgroundPosition": "0% 0%",
+     "width": "1440px",
+     "height": "210px",
+     "display": "flex",
+     "flexDirection": "row",
+     "flexWrap": "nowrap",
+     "position": "relative",
+     "opacity": "1",
+     "objectFit": "fill",
+     "_box": [
+      0,
+      8567,
+      1440,
+      210
+     ]
+    },
+    "c": [
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-100 elementor-top-column elementor-element",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(40, 40, 40)",
+       "backgroundPosition": "0% 0%",
+       "width": "1440px",
+       "height": "210px",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        0,
+        8567,
+        1440,
+        210
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(40, 40, 40)",
+         "backgroundPosition": "0% 0%",
+         "width": "1440px",
+         "height": "210px",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "objectFit": "fill",
+         "_box": [
+          0,
+          8567,
+          1440,
+          210
+         ]
+        },
+        "c": [
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-gallery",
+          "widget": "gallery.default",
+          "settings": "{\"columns\":5,\"aspect_ratio\":\"4:3\",\"lazyload\":\"yes\",\"gallery_layout\":\"grid\",\"columns_tablet\":2,\"columns_mobile\":1,\"gap\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"gap_tablet\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"gap_mobile\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"link_to\":\"file\",\"overlay_background\":\"yes\",\"content_hover_animation\":\"fade-in\"}",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "backgroundPosition": "0% 0%",
+           "width": "1440px",
+           "height": "210px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            0,
+            8567,
+            1440,
+            210
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "backgroundPosition": "0% 0%",
+             "width": "1440px",
+             "height": "210px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              0,
+              8567,
+              1440,
+              210
+             ]
+            },
+            "c": [
+             {
+              "tag": "div",
+              "cls": "elementor-gallery__container e-gallery-container e-gallery-grid e-gallery--ltr",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "backgroundPosition": "0% 0%",
+               "width": "1440px",
+               "height": "210px",
+               "minHeight": "1px",
+               "display": "grid",
+               "flexDirection": "row",
+               "flexWrap": "wrap",
+               "gap": "10px",
+               "gridTemplateColumns": "280px 280px 280px 280px 280px",
+               "position": "relative",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                0,
+                8567,
+                1440,
+                210
+               ]
+              },
+              "c": [
+               {
+                "tag": "a",
+                "cls": "e-gallery-item elementor-gallery-item elementor-animated-content",
+                "href": "https://londontherapyroomstorent.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-28-at-20.24.10_61bbc31c.jpg",
+                "s": {
+                 "fontSize": "18px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "29.7px",
+                 "color": "rgb(226, 140, 31)",
+                 "backgroundPosition": "0% 0%",
+                 "width": "280px",
+                 "height": "210px",
+                 "display": "block",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "overflow": "hidden",
+                 "position": "relative",
+                 "opacity": "1",
+                 "transition": "0.35s linear",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  8567,
+                  280,
+                  210
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "div",
+                  "cls": "e-gallery-image elementor-gallery-item__image e-gallery-image-loaded",
+                  "s": {
+                   "fontSize": "18px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "29.7px",
+                   "color": "rgb(226, 140, 31)",
+                   "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-28-at-20.24.10_61bbc31c.jpg\")",
+                   "backgroundSize": "cover",
+                   "backgroundPosition": "50% 50%",
+                   "padding": "0px 0px 210px",
+                   "width": "280px",
+                   "height": "210px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "filter 0.8s, transform 0.8s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    8567,
+                    280,
+                    210
+                   ]
+                  }
+                 },
+                 {
+                  "tag": "div",
+                  "cls": "elementor-gallery-item__overlay",
+                  "s": {
+                   "fontSize": "18px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "29.7px",
+                   "color": "rgb(226, 140, 31)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "280px",
+                   "height": "210px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "absolute",
+                   "opacity": "1",
+                   "transition": "mix-blend-mode 0.8s, transform 0.8s, opacity 0.8s, background-color 0.8s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    8567,
+                    280,
+                    210
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "a",
+                "cls": "e-gallery-item elementor-gallery-item elementor-animated-content",
+                "href": "https://londontherapyroomstorent.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-28-at-20.23.56_38487895.jpg",
+                "s": {
+                 "fontSize": "18px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "29.7px",
+                 "color": "rgb(226, 140, 31)",
+                 "backgroundPosition": "0% 0%",
+                 "width": "280px",
+                 "height": "210px",
+                 "display": "block",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "overflow": "hidden",
+                 "position": "relative",
+                 "opacity": "1",
+                 "transition": "0.35s linear",
+                 "objectFit": "fill",
+                 "_box": [
+                  290,
+                  8567,
+                  280,
+                  210
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "div",
+                  "cls": "e-gallery-image elementor-gallery-item__image e-gallery-image-loaded",
+                  "s": {
+                   "fontSize": "18px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "29.7px",
+                   "color": "rgb(226, 140, 31)",
+                   "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-28-at-20.23.56_38487895.jpg\")",
+                   "backgroundSize": "cover",
+                   "backgroundPosition": "50% 50%",
+                   "padding": "0px 0px 210px",
+                   "width": "280px",
+                   "height": "210px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transform": "matrix(0.956805, 0, 0, 0.956805, 0, 0)",
+                   "transition": "filter 0.8s, transform 0.8s",
+                   "objectFit": "fill",
+                   "filter": "opacity(0.91361)",
+                   "_box": [
+                    296,
+                    8567,
+                    268,
+                    201
+                   ]
+                  }
+                 },
+                 {
+                  "tag": "div",
+                  "cls": "elementor-gallery-item__overlay",
+                  "s": {
+                   "fontSize": "18px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "29.7px",
+                   "color": "rgb(226, 140, 31)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "280px",
+                   "height": "210px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "absolute",
+                   "opacity": "1",
+                   "transition": "mix-blend-mode 0.8s, transform 0.8s, opacity 0.8s, background-color 0.8s",
+                   "objectFit": "fill",
+                   "_box": [
+                    290,
+                    8567,
+                    280,
+                    210
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "a",
+                "cls": "e-gallery-item elementor-gallery-item elementor-animated-content",
+                "href": "https://londontherapyroomstorent.com/wp-content/uploads/2024/08/IMG-20240826-WA0055.jpg",
+                "s": {
+                 "fontSize": "18px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "29.7px",
+                 "color": "rgb(226, 140, 31)",
+                 "backgroundPosition": "0% 0%",
+                 "width": "280px",
+                 "height": "210px",
+                 "display": "block",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "overflow": "hidden",
+                 "position": "relative",
+                 "opacity": "1",
+                 "transition": "0.35s linear",
+                 "objectFit": "fill",
+                 "_box": [
+                  580,
+                  8567,
+                  280,
+                  210
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "div",
+                  "cls": "e-gallery-image elementor-gallery-item__image e-gallery-image-loaded",
+                  "s": {
+                   "fontSize": "18px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "29.7px",
+                   "color": "rgb(226, 140, 31)",
+                   "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2024/08/IMG-20240826-WA0055.jpg\")",
+                   "backgroundSize": "cover",
+                   "backgroundPosition": "50% 50%",
+                   "padding": "0px 0px 210px",
+                   "width": "280px",
+                   "height": "210px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "filter 0.8s, transform 0.8s",
+                   "objectFit": "fill",
+                   "_box": [
+                    580,
+                    8567,
+                    280,
+                    210
+                   ]
+                  }
+                 },
+                 {
+                  "tag": "div",
+                  "cls": "elementor-gallery-item__overlay",
+                  "s": {
+                   "fontSize": "18px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "29.7px",
+                   "color": "rgb(226, 140, 31)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "280px",
+                   "height": "210px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "absolute",
+                   "opacity": "1",
+                   "transition": "mix-blend-mode 0.8s, transform 0.8s, opacity 0.8s, background-color 0.8s",
+                   "objectFit": "fill",
+                   "_box": [
+                    580,
+                    8567,
+                    280,
+                    210
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "a",
+                "cls": "e-gallery-item elementor-gallery-item elementor-animated-content",
+                "href": "https://londontherapyroomstorent.com/wp-content/uploads/2024/08/IMG-20240826-WA0054.jpg",
+                "s": {
+                 "fontSize": "18px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "29.7px",
+                 "color": "rgb(226, 140, 31)",
+                 "backgroundPosition": "0% 0%",
+                 "width": "280px",
+                 "height": "210px",
+                 "display": "block",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "overflow": "hidden",
+                 "position": "relative",
+                 "opacity": "1",
+                 "transition": "0.35s linear",
+                 "objectFit": "fill",
+                 "_box": [
+                  870,
+                  8567,
+                  280,
+                  210
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "div",
+                  "cls": "e-gallery-image elementor-gallery-item__image e-gallery-image-loaded",
+                  "s": {
+                   "fontSize": "18px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "29.7px",
+                   "color": "rgb(226, 140, 31)",
+                   "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2024/08/IMG-20240826-WA0054.jpg\")",
+                   "backgroundSize": "cover",
+                   "backgroundPosition": "50% 50%",
+                   "padding": "0px 0px 210px",
+                   "width": "280px",
+                   "height": "210px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transform": "matrix(0.805927, 0, 0, 0.805927, 0, 0)",
+                   "transition": "filter 0.8s, transform 0.8s",
+                   "objectFit": "fill",
+                   "filter": "opacity(0.611854)",
+                   "_box": [
+                    897,
+                    8567,
+                    226,
+                    169
+                   ]
+                  }
+                 },
+                 {
+                  "tag": "div",
+                  "cls": "elementor-gallery-item__overlay",
+                  "s": {
+                   "fontSize": "18px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "29.7px",
+                   "color": "rgb(226, 140, 31)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "280px",
+                   "height": "210px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "absolute",
+                   "opacity": "1",
+                   "transition": "mix-blend-mode 0.8s, transform 0.8s, opacity 0.8s, background-color 0.8s",
+                   "objectFit": "fill",
+                   "_box": [
+                    870,
+                    8567,
+                    280,
+                    210
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "a",
+                "cls": "e-gallery-item elementor-gallery-item elementor-animated-content",
+                "href": "https://londontherapyroomstorent.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-28-at-20.24.10_33062628.jpg",
+                "s": {
+                 "fontSize": "18px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "29.7px",
+                 "color": "rgb(226, 140, 31)",
+                 "backgroundPosition": "0% 0%",
+                 "width": "280px",
+                 "height": "210px",
+                 "display": "block",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "overflow": "hidden",
+                 "position": "relative",
+                 "opacity": "1",
+                 "transition": "0.35s linear",
+                 "objectFit": "fill",
+                 "_box": [
+                  1160,
+                  8567,
+                  280,
+                  210
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "div",
+                  "cls": "e-gallery-image elementor-gallery-item__image e-gallery-image-loaded",
+                  "s": {
+                   "fontSize": "18px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "29.7px",
+                   "color": "rgb(226, 140, 31)",
+                   "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-28-at-20.24.10_33062628.jpg\")",
+                   "backgroundSize": "cover",
+                   "backgroundPosition": "50% 50%",
+                   "padding": "0px 0px 210px",
+                   "width": "280px",
+                   "height": "210px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transform": "matrix(0.950671, 0, 0, 0.950671, 0, 0)",
+                   "transition": "filter 0.8s, transform 0.8s",
+                   "objectFit": "fill",
+                   "filter": "opacity(0.901342)",
+                   "_box": [
+                    1167,
+                    8567,
+                    266,
+                    200
+                   ]
+                  }
+                 },
+                 {
+                  "tag": "div",
+                  "cls": "elementor-gallery-item__overlay",
+                  "s": {
+                   "fontSize": "18px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "29.7px",
+                   "color": "rgb(226, 140, 31)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "280px",
+                   "height": "210px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "absolute",
+                   "opacity": "1",
+                   "transition": "mix-blend-mode 0.8s, transform 0.8s, opacity 0.8s, background-color 0.8s",
+                   "objectFit": "fill",
+                   "_box": [
+                    1160,
+                    8567,
+                    280,
+                    210
+                   ]
+                  }
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,2275 @@
+{
+ "i": 10,
+ "id": "",
+ "visible": false,
+ "tree": {
+  "tag": "section",
+  "cls": "elementor-section elementor-top-section elementor-element elementor-section-boxed",
+  "s": {
+   "fontSize": "16px",
+   "fontWeight": "200",
+   "fontFamily": "Poppins, sans-serif",
+   "lineHeight": "26.4px",
+   "color": "rgb(255, 255, 255)",
+   "backgroundPosition": "0% 0%",
+   "display": "block",
+   "flexDirection": "row",
+   "flexWrap": "nowrap",
+   "position": "relative",
+   "opacity": "1",
+   "objectFit": "fill",
+   "_box": [
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "c": [
+   {
+    "tag": "div",
+    "cls": "elementor-container elementor-column-gap-default",
+    "s": {
+     "fontSize": "16px",
+     "fontWeight": "200",
+     "fontFamily": "Poppins, sans-serif",
+     "lineHeight": "26.4px",
+     "color": "rgb(255, 255, 255)",
+     "backgroundPosition": "0% 0%",
+     "margin": "0px auto",
+     "maxWidth": "1140px",
+     "display": "flex",
+     "flexDirection": "row",
+     "flexWrap": "nowrap",
+     "position": "relative",
+     "opacity": "1",
+     "objectFit": "fill",
+     "_box": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "c": [
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-50 elementor-top-column elementor-element",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(255, 255, 255)",
+       "backgroundPosition": "0% 0%",
+       "width": "45.702%",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        0,
+        0,
+        0,
+        0
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(255, 255, 255)",
+         "backgroundPosition": "0% 0%",
+         "padding": "10px",
+         "width": "100%",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "objectFit": "fill",
+         "_box": [
+          0,
+          0,
+          0,
+          0
+         ]
+        },
+        "c": [
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget__width-initial elementor-icon-list--layout-traditional elementor-list-item-link-full_width",
+          "widget": "icon-list.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(255, 255, 255)",
+           "backgroundPosition": "0% 0%",
+           "width": "44%",
+           "maxWidth": "44%",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            0,
+            0,
+            0,
+            0
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(255, 255, 255)",
+             "backgroundPosition": "0% 0%",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              0,
+              0,
+              0,
+              0
+             ]
+            },
+            "c": [
+             {
+              "tag": "ul",
+              "cls": "elementor-icon-list-items",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(255, 255, 255)",
+               "backgroundPosition": "0% 0%",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                0,
+                0,
+                0,
+                0
+               ]
+              },
+              "c": [
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Mirrored Wall",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Electric Couch",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Sink",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "1x Desk",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "1x Desk Chair",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Adjustable low rise stool",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "1x Examination Lamp",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Fan & Heater",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "1x Lamp",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-50 elementor-top-column elementor-element",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(255, 255, 255)",
+       "backgroundPosition": "0% 0%",
+       "width": "54.298%",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        0,
+        0,
+        0,
+        0
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(255, 255, 255)",
+         "backgroundPosition": "0% 0%",
+         "padding": "10px",
+         "width": "100%",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "objectFit": "fill",
+         "_box": [
+          0,
+          0,
+          0,
+          0
+         ]
+        },
+        "c": [
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget__width-initial elementor-icon-list--layout-traditional elementor-list-item-link-full_width",
+          "widget": "icon-list.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(255, 255, 255)",
+           "backgroundPosition": "0% 0%",
+           "width": "71.702%",
+           "maxWidth": "71.702%",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            0,
+            0,
+            0,
+            0
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(255, 255, 255)",
+             "backgroundPosition": "0% 0%",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              0,
+              0,
+              0,
+              0
+             ]
+            },
+            "c": [
+             {
+              "tag": "ul",
+              "cls": "elementor-icon-list-items",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(255, 255, 255)",
+               "backgroundPosition": "0% 0%",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                0,
+                0,
+                0,
+                0
+               ]
+              },
+              "c": [
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Couch Roll",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "1x Pillow",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "1x Blanket",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "1x Medical Utility Cart",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Hand Sanitiser & Antiseptic Disinfectant Spray",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Paper Towels",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Sharps Disposal Container",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Waste Disposal Bin",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(255, 255, 255)",
+                 "backgroundPosition": "0% 0%",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-fas-check",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-check\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "General Waste Bin",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

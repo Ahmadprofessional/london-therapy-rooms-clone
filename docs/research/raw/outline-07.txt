@@ -1,0 +1,144 @@
+# section 7 id= visible=true
+section.elementor-section.elementor-top-section.elementor-element | box=0,1932,1440,483 | fontSize:16px; fontWeight:200; fontFamily:Poppins, sans-serif; lineHeight:26.4px; color:rgb(40, 40, 40); margin:70px 0px; position:relative | SETTINGS={"animation":"fadeIn"}
+  div.elementor-container.elementor-column-gap-no | box=170,1932,1100,483 | maxWidth:1100px; display:flex; position:relative
+    div.elementor-widget-wrap.elementor-element-populated.e-swiper-container | box=170,1932,550,483 | display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor--h-position-center.elementor--v-position-middle | [slides.default] | box=170,1932,550,483 | position:relative; zIndex:10
+        div.elementor-slides-wrapper.elementor-main-swiper.swiper | box=170,1932,550,483 | overflow:hidden; zIndex:1
+          div.swiper-wrapper.elementor-slides | box=170,1932,550,483 | display:flex; position:relative; zIndex:1; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-bb1d340.swiper-slide.swiper-slide-duplicate | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, 0, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundImage:url("/images/2026/09/M1.png"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-9e30089.swiper-slide.swiper-slide-duplicate | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -550, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundImage:url("/images/2026/09/M2.png"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-706ab2a.swiper-slide.swiper-slide-duplicate | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -1100, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundImage:url("/images/2026/09/M3.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-5855482.swiper-slide.swiper-slide-duplicate | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -1650, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundImage:url("/images/2026/09/M4.png"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-684d746.swiper-slide.swiper-slide-duplicate | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -2200, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundImage:url("/images/2026/09/M5.png"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-af45469.swiper-slide.swiper-slide-duplicate | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -2750, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundColor:rgb(187, 187, 187); backgroundImage:url("/images/2026/09/M3.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-bb1d340.swiper-slide | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -3300, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundImage:url("/images/2026/09/M1.png"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-9e30089.swiper-slide.swiper-slide-prev | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -3850, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundImage:url("/images/2026/09/M2.png"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-706ab2a.swiper-slide.swiper-slide-visible | box=170,1932,550,483 | overflow:hidden; position:relative; transform:matrix(1, 0, 0, 1, -4400, 0)
+              div.swiper-slide-bg.elementor-ken-burns--active | box=170,1932,550,483 | backgroundImage:url("/images/2026/09/M3.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-5855482.swiper-slide.swiper-slide-next | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -4950, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundImage:url("/images/2026/09/M4.png"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-684d746.swiper-slide | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -5500, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundImage:url("/images/2026/09/M5.png"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-af45469.swiper-slide | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -6050, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundColor:rgb(187, 187, 187); backgroundImage:url("/images/2026/09/M3.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-bb1d340.swiper-slide.swiper-slide-duplicate | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -6600, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundImage:url("/images/2026/09/M1.png"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-9e30089.swiper-slide.swiper-slide-duplicate | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -7150, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundImage:url("/images/2026/09/M2.png"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-706ab2a.swiper-slide.swiper-slide-duplicate | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -7700, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundImage:url("/images/2026/09/M3.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-5855482.swiper-slide.swiper-slide-duplicate | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -8250, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundImage:url("/images/2026/09/M4.png"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-684d746.swiper-slide.swiper-slide-duplicate | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -8800, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundImage:url("/images/2026/09/M5.png"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+            div.elementor-repeater-item-af45469.swiper-slide.swiper-slide-duplicate | box=170,1932,550,483 | overflow:hidden; position:relative; opacity:0; transform:matrix(1, 0, 0, 1, -9350, 0)
+              div.swiper-slide-bg | box=170,1932,550,483 | backgroundColor:rgb(187, 187, 187); backgroundImage:url("/images/2026/09/M3.jpg"); backgroundSize:cover; backgroundPosition:50% 50%; minHeight:100%
+              div.swiper-slide-inner | box=170,1932,550,483 | color:rgb(255, 255, 255); textAlign:center; backgroundPosition:50% 50%; padding:50px; display:flex; justifyContent:center; alignItems:center; position:absolute
+                div.swiper-slide-contents.animated.fadeInUp | box=445,2173,0,0 | maxWidth:66%; opacity:0.621369; transform:matrix(1, 0, 0, 1, 0, 0)
+          span.swiper-notification | box=170,1932,0,0 | position:absolute; right:550px; bottom:483px; zIndex:-1000; opacity:0
+    div.elementor-widget-wrap.elementor-element-populated | box=720,1932,550,483 | backgroundColor:rgb(164, 139, 101); padding:2px 70px 5px; display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=790,1934,410,38 | margin:0px 0px 20px; position:relative
+        div.elementor-widget-container | box=790,1946,410,26 | margin:12.2969px 0px 0px
+          h3.elementor-heading-title.elementor-size-default | box=790,1946,410,26 | fontSize:20px; fontWeight:500; lineHeight:26px; color:rgb(0, 0, 0) | TEXT="Room 2 Dimensions"
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=790,1992,410,0 | margin:0px 0px 20px; position:relative
+        div.elementor-widget-container | box=790,1967,410,22 | margin:-24.5938px 0px 0px
+          h3.elementor-heading-title.elementor-size-default | box=790,1967,410,22 | fontSize:17px; fontWeight:500; lineHeight:22.1px; color:rgb(255, 255, 255) | TEXT="3.4m x 2.97m"
+      div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=790,2012,410,10 | margin:0px 0px 20px; position:relative
+        div.elementor-widget-container | box=790,1996,410,26 | margin:-16.3906px 0px 0px
+          h3.elementor-heading-title.elementor-size-default | box=790,1996,410,26 | fontSize:20px; fontWeight:500; lineHeight:26px; color:rgb(0, 0, 0) | TEXT="Suitable For"
+      div.elementor-element.elementor-widget__width-initial.elementor-icon-list--layout-traditional | [icon-list.default] | box=790,2042,367,112 | maxWidth:89.539%; position:relative
+        div.elementor-widget-container | box=790,2022,367,132 | margin:-20px 0px 0px
+          li.elementor-icon-list-item | box=790,2022,367,26 | display:flex; alignItems:center; position:relative
+            svg.e-font-icon-svg.e-far-dot-circle | box=790,2028,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+            span.elementor-icon-list-text | box=808,2022,97,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Osteopathy"
+          li.elementor-icon-list-item | box=790,2048,367,26 | display:flex; alignItems:center; position:relative
+            svg.e-font-icon-svg.e-far-dot-circle | box=790,2054,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+            span.elementor-icon-list-text | box=808,2048,115,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Physiotherapy"
+          li.elementor-icon-list-item | box=790,2074,367,26 | display:flex; alignItems:center; position:relative
+            svg.e-font-icon-svg.e-far-dot-circle | box=790,2081,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+            span.elementor-icon-list-text | box=808,2074,171,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Aesthetic Treatments"
+          li.elementor-icon-list-item | box=790,2101,367,26 | display:flex; alignItems:center; position:relative
+            svg.e-font-icon-svg.e-far-dot-circle | box=790,2107,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+            span.elementor-icon-list-text | box=808,2101,144,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Massage Therapy"
+          li.elementor-icon-list-item | box=790,2127,367,26 | display:flex; alignItems:center; position:relative
+            svg.e-font-icon-svg.e-far-dot-circle | box=790,2133,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+            span.elementor-icon-list-text | box=808,2127,96,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Counselling"
+      div.elementor-element.elementor-widget__width-initial.elementor-icon-list--layout-traditional | [icon-list.default] | box=790,2154,378,132 | maxWidth:92.273%; position:relative
+        li.elementor-icon-list-item | box=790,2154,378,26 | display:flex; alignItems:center; position:relative
+          svg.e-font-icon-svg.e-far-dot-circle | box=790,2160,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+          span.elementor-icon-list-text | box=808,2154,116,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Hypnotherapy"
+        li.elementor-icon-list-item | box=790,2180,378,26 | display:flex; alignItems:center; position:relative
+          svg.e-font-icon-svg.e-far-dot-circle | box=790,2186,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+          span.elementor-icon-list-text | box=808,2180,121,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Psychotherapy"
+        li.elementor-icon-list-item | box=790,2206,378,26 | display:flex; alignItems:center; position:relative
+          svg.e-font-icon-svg.e-far-dot-circle | box=790,2213,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+          span.elementor-icon-list-text | box=808,2206,110,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Life coaching"
+        li.elementor-icon-list-item | box=790,2233,378,26 | display:flex; alignItems:center; position:relative
+          svg.e-font-icon-svg.e-far-dot-circle | box=790,2239,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+          span.elementor-icon-list-text | box=808,2233,151,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Nutritional Therapy"
+        li.elementor-icon-list-item | box=790,2259,378,26 | display:flex; alignItems:center; position:relative
+          svg.e-font-icon-svg.e-far-dot-circle | box=790,2265,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+          span.elementor-icon-list-text | box=808,2259,165,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Medical Consultants"
+      div.elementor-element.elementor-widget__width-initial.elementor-icon-list--layout-traditional | [icon-list.default] | box=790,2286,378,26 | maxWidth:92.273%; position:relative
+        li.elementor-icon-list-item | box=790,2286,378,26 | display:flex; alignItems:flex-start; position:relative
+          span.elementor-icon-list-icon | box=790,2291,18,14 | display:flex; position:relative; top:5px; bottom:-5px
+            svg.e-font-icon-svg.e-far-dot-circle | box=790,2291,14,14 | margin:0px 3.5px 0px 0px; overflow:hidden | SVG=<svg aria-hidden="true" class="e-font-icon-svg e-far-dot-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z"></path></svg>
+          span.elementor-icon-list-text | box=808,2286,259,26 | color:rgb(255, 255, 255); padding:0px 0px 0px 5px | TEXT="Functional Medicine Consultants"
+      div.elementor-element.elementor-widget__width-initial.elementor-widget | [ucaddon_uc_icon_accordion.default] | box=790,2312,410,42 | maxWidth:111.908%; position:relative
+        div.uc_ac_box.elementor-repeater-item-3b96039 | box=790,2312,410,42 | overflow:hidden
+          div.uc-heading.uc_trigger | box=790,2312,410,42 | display:flex; alignItems:center
+            div.ue_title | box=790,2321,353,25 | fontSize:15px; fontWeight:600; lineHeight:24.75px; color:rgb(0, 0, 0) | TEXT="Room Breakdown (click to expand)"
+            div.ue_expand_inside | box=1158,2312,42,42 | lineHeight:16px; color:rgb(191, 191, 191); display:flex; justifyContent:center; alignItems:center
+              i.fas.fa-plus | box=1172,2324,14,16 | fontWeight:900; fontFamily:"Font Awesome 6 Free"; display:inline-block | ICON=fas fa-plus
+              i.fas.fa-minus | box=0,0,0,0 | fontWeight:900; fontFamily:"Font Awesome 6 Free"; display:inline-block | ICON=fas fa-minus
+          div.uc_content | box=0,0,0,0 | color:rgb(255, 255, 255); backgroundColor:rgb(0, 0, 0); padding:20px
+            div.elementor-container.elementor-column-gap-default | box=0,0,0,0 | margin:0px auto; maxWidth:1140px; display:flex; position:relative
+              div.elementor-widget-wrap.elementor-element-populated | box=0,0,0,0 | padding:10px; display:flex; flexWrap:wrap; position:relative
+              div.elementor-widget-wrap.elementor-element-populated | box=0,0,0,0 | padding:10px; display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor-button-info.elementor-align-left | [button.default] | box=790,2354,410,53 | textAlign:left; position:relative
+        div.elementor-widget-container | box=790,2361,410,46 | margin:7px 0px 0px
+          a.elementor-button.elementor-button-link.elementor-size-sm | box=790,2361,126,46 | fontWeight:500; lineHeight:16px; color:rgb(255, 255, 255); textAlign:center; backgroundColor:rgb(0, 0, 0); padding:15px 30px; display:inline-block; borderRadius:5px | HREF=https://londontherapyroomstorent.com/#Contact
+            span.elementor-button-content-wrapper | box=820,2376,66,16 | display:flex; justifyContent:center; gap:5px
+              span.elementor-button-text | box=820,2376,66,16 |  | TEXT="ENQUIRE"

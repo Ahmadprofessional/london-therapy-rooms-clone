@@ -1,0 +1,13 @@
+# section 26 id= visible=true
+section.elementor-section.elementor-top-section.elementor-element | box=0,9084,1440,71 | fontSize:16px; fontWeight:200; fontFamily:Poppins, sans-serif; lineHeight:26.4px; color:rgb(40, 40, 40); backgroundColor:rgb(40, 40, 40); position:relative | SETTINGS={"background_background":"classic"}
+  div.elementor-container.elementor-column-gap-default | box=150,9084,1140,71 | margin:0px 150px; maxWidth:1140px; display:flex; position:relative
+    div.elementor-widget-wrap.elementor-element-populated | box=150,9084,1140,71 | padding:10px; display:flex; flexWrap:wrap; position:relative
+      div.elementor-element.elementor-widget-divider--view-line.elementor-widget | [divider.default] | box=160,9094,1120,31 | margin:0px 0px 20px; position:relative
+        div.elementor-divider | box=160,9094,1120,31 | padding:15px 0px; display:flex
+          span.elementor-divider-separator | box=160,9109,1120,1 | display:flex; borderTop:1px solid rgb(255, 255, 255)
+      section.elementor-section.elementor-inner-section.elementor-element | box=160,9120,1120,25 | margin:-25px 0px 0px; position:relative
+        div.elementor-container.elementor-column-gap-default | box=160,9120,1120,18 | maxWidth:1140px; display:flex; position:relative
+          div.elementor-widget-wrap.elementor-element-populated | box=160,9120,560,18 | display:flex; flexWrap:wrap; position:relative
+            div.elementor-element.elementor-widget.elementor-widget-heading | [heading.default] | box=160,9120,560,18 | position:relative
+              h2.elementor-heading-title.elementor-size-default | box=160,9120,560,18 | fontSize:14px; fontWeight:300; lineHeight:18.2px; color:rgb(255, 255, 255) | TEXT="© Copyright digi focus. Alright Reserved"
+          div.elementor-widget-wrap | box=720,9120,560,18 | display:flex; flexWrap:wrap; position:relative

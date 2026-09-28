@@ -1,0 +1,1145 @@
+{
+ "i": 1,
+ "id": "",
+ "visible": true,
+ "tree": {
+  "tag": "section",
+  "cls": "elementor-section elementor-top-section elementor-element elementor-section-full_width",
+  "settings": "{\"background_background\":\"classic\"}",
+  "s": {
+   "fontSize": "16px",
+   "fontWeight": "200",
+   "fontFamily": "Poppins, sans-serif",
+   "lineHeight": "26.4px",
+   "color": "rgb(40, 40, 40)",
+   "backgroundPosition": "0% 0%",
+   "padding": "0px 100px 4px",
+   "width": "1440px",
+   "height": "101.047px",
+   "display": "block",
+   "flexDirection": "row",
+   "flexWrap": "nowrap",
+   "position": "relative",
+   "zIndex": "10",
+   "opacity": "1",
+   "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s",
+   "objectFit": "fill",
+   "_box": [
+    0,
+    41,
+    1440,
+    101
+   ]
+  },
+  "c": [
+   {
+    "tag": "div",
+    "cls": "elementor-background-overlay",
+    "s": {
+     "fontSize": "16px",
+     "fontWeight": "200",
+     "fontFamily": "Poppins, sans-serif",
+     "lineHeight": "26.4px",
+     "color": "rgb(40, 40, 40)",
+     "backgroundColor": "rgb(0, 0, 0)",
+     "backgroundPosition": "0% 0%",
+     "width": "1440px",
+     "height": "101.047px",
+     "display": "block",
+     "flexDirection": "row",
+     "flexWrap": "nowrap",
+     "position": "absolute",
+     "opacity": "0.5",
+     "transition": "background 0.3s, border-radius 0.3s, opacity 0.3s",
+     "objectFit": "fill",
+     "_box": [
+      0,
+      41,
+      1440,
+      101
+     ]
+    }
+   },
+   {
+    "tag": "div",
+    "cls": "elementor-container elementor-column-gap-no",
+    "s": {
+     "fontSize": "16px",
+     "fontWeight": "200",
+     "fontFamily": "Poppins, sans-serif",
+     "lineHeight": "26.4px",
+     "color": "rgb(40, 40, 40)",
+     "backgroundPosition": "0% 0%",
+     "width": "1240px",
+     "height": "97.0469px",
+     "display": "flex",
+     "flexDirection": "row",
+     "flexWrap": "nowrap",
+     "position": "relative",
+     "opacity": "1",
+     "objectFit": "fill",
+     "_box": [
+      100,
+      41,
+      1240,
+      97
+     ]
+    },
+    "c": [
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-100 elementor-top-column elementor-element",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(40, 40, 40)",
+       "backgroundPosition": "0% 0%",
+       "width": "1240px",
+       "height": "97.0469px",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        100,
+        41,
+        1240,
+        97
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(40, 40, 40)",
+         "backgroundPosition": "0% 0%",
+         "margin": "-4px 0px 0px",
+         "width": "1240px",
+         "height": "101.047px",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "alignItems": "center",
+         "position": "relative",
+         "opacity": "1",
+         "objectFit": "fill",
+         "_box": [
+          100,
+          37,
+          1240,
+          101
+         ]
+        },
+        "c": [
+         {
+          "tag": "section",
+          "cls": "elementor-section elementor-inner-section elementor-element elementor-section-full_width",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "backgroundPosition": "0% 0%",
+           "margin": "2px 0px 0px",
+           "width": "1240px",
+           "height": "99.0469px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            100,
+            39,
+            1240,
+            99
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-container elementor-column-gap-no",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "backgroundPosition": "0% 0%",
+             "width": "1240px",
+             "height": "99.0469px",
+             "display": "flex",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "position": "relative",
+             "opacity": "1",
+             "objectFit": "fill",
+             "_box": [
+              100,
+              39,
+              1240,
+              99
+             ]
+            },
+            "c": [
+             {
+              "tag": "div",
+              "cls": "elementor-column elementor-col-50 elementor-inner-column elementor-element",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "backgroundPosition": "0% 0%",
+               "width": "297.594px",
+               "height": "99.0469px",
+               "minHeight": "1px",
+               "display": "flex",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "position": "relative",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                100,
+                39,
+                298,
+                99
+               ]
+              },
+              "c": [
+               {
+                "tag": "div",
+                "cls": "elementor-widget-wrap elementor-element-populated",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(40, 40, 40)",
+                 "backgroundPosition": "0% 0%",
+                 "margin": "2.96875px 0px 0px",
+                 "width": "297.594px",
+                 "height": "96.0781px",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "wrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  100,
+                  42,
+                  298,
+                  96
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "div",
+                  "cls": "elementor-element elementor-widget__width-initial elementor-widget elementor-widget-site-logo",
+                  "widget": "site-logo.default",
+                  "settings": "{\"align\":\"left\",\"width\":{\"unit\":\"%\",\"size\":66,\"sizes\":[]},\"space\":{\"unit\":\"%\",\"size\":67,\"sizes\":[]},\"width_mobile\":{\"unit\":\"%\",\"size\":68,\"sizes\":[]},\"space_mobile\":{\"unit\":\"%\",\"size\":75,\"sizes\":[]},\"width_tablet\":{\"unit\":\"%\",\"size\":\"\",\"sizes\":[]},\"space_tablet\":{\"unit\":\"%\",\"size\":\"\",\"sizes\":[]},\"image_border_radius\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"image_border_radius_tablet\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"image_border_radius_mobile\":{\"unit\":\"px\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"caption",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(40, 40, 40)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "244.016px",
+                   "height": "96.0781px",
+                   "maxWidth": "82%",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    100,
+                    42,
+                    244,
+                    96
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "div",
+                    "cls": "elementor-widget-container",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "244.016px",
+                     "height": "96.0781px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "opacity": "1",
+                     "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+                     "objectFit": "fill",
+                     "_box": [
+                      100,
+                      42,
+                      244,
+                      96
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "hfe-site-logo",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundPosition": "0% 0%",
+                       "width": "244.016px",
+                       "height": "96.0781px",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        100,
+                        42,
+                        244,
+                        96
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "a",
+                        "cls": "elementor-clickable",
+                        "href": "https://londontherapyroomstorent.com/",
+                        "s": {
+                         "fontSize": "18px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "29.7px",
+                         "color": "rgb(226, 140, 31)",
+                         "backgroundPosition": "0% 0%",
+                         "display": "inline",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "1",
+                         "transition": "0.2s linear",
+                         "objectFit": "fill",
+                         "_box": [
+                          100,
+                          42,
+                          244,
+                          96
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "div",
+                          "cls": "hfe-site-logo-set",
+                          "s": {
+                           "fontSize": "18px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "lineHeight": "29.7px",
+                           "color": "rgb(226, 140, 31)",
+                           "backgroundPosition": "0% 0%",
+                           "width": "244.016px",
+                           "height": "96.0781px",
+                           "display": "block",
+                           "flexDirection": "row",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            100,
+                            42,
+                            244,
+                            96
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "div",
+                            "cls": "hfe-site-logo-container",
+                            "s": {
+                             "fontSize": "18px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "29.7px",
+                             "color": "rgb(226, 140, 31)",
+                             "textAlign": "left",
+                             "backgroundPosition": "0% 0%",
+                             "width": "244.016px",
+                             "height": "96.0781px",
+                             "display": "block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              100,
+                              42,
+                              244,
+                              96
+                             ]
+                            },
+                            "c": [
+                             {
+                              "tag": "img",
+                              "cls": "hfe-site-logo-img elementor-animation-",
+                              "img": {
+                               "src": "https://londontherapyroomstorent.com/wp-content/uploads/2024/09/logo-Copypng-11-11-11-11-300x179.png",
+                               "alt": "logo - Copypng-11-11-11-11",
+                               "nw": 300,
+                               "nh": 179
+                              },
+                              "s": {
+                               "fontSize": "18px",
+                               "fontWeight": "200",
+                               "fontFamily": "Poppins, sans-serif",
+                               "lineHeight": "29.7px",
+                               "color": "rgb(226, 140, 31)",
+                               "textAlign": "left",
+                               "backgroundPosition": "0% 0%",
+                               "width": "161.047px",
+                               "height": "96.0781px",
+                               "maxWidth": "67%",
+                               "display": "inline",
+                               "flexDirection": "row",
+                               "flexWrap": "nowrap",
+                               "overflow": "clip",
+                               "opacity": "1",
+                               "objectFit": "fill",
+                               "_box": [
+                                100,
+                                42,
+                                161,
+                                96
+                               ]
+                              }
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             },
+             {
+              "tag": "div",
+              "cls": "elementor-column elementor-col-50 elementor-inner-column elementor-element",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "backgroundPosition": "0% 0%",
+               "width": "942.391px",
+               "height": "99.0469px",
+               "minHeight": "1px",
+               "display": "flex",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "position": "relative",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                398,
+                39,
+                942,
+                99
+               ]
+              },
+              "c": [
+               {
+                "tag": "div",
+                "cls": "elementor-widget-wrap elementor-element-populated",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(40, 40, 40)",
+                 "backgroundPosition": "0% 0%",
+                 "width": "942.391px",
+                 "height": "99.0469px",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "wrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  398,
+                  39,
+                  942,
+                  99
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "div",
+                  "cls": "elementor-element elementor-widget__width-initial hfe-nav-menu__align-left hfe-submenu-icon-arrow",
+                  "widget": "navigation-menu.default",
+                  "settings": "{\"menu_space_between\":{\"unit\":\"px\",\"size\":15,\"sizes\":[]},\"padding_horizontal_menu_item\":{\"unit\":\"px\",\"size\":15,\"sizes\":[]},\"padding_horizontal_menu_item_tablet\":{\"unit\":\"px\",\"size\":\"\",\"sizes\":[]},\"padding_horizontal_menu_item_mobile\":{\"unit\":\"px\",\"size\":\"\",\"sizes\":[]},\"padding_vertical_menu_item\":{\"unit\":\"px\",\"size\":15,\"sizes\":[]},\"padding_vertical_menu_item_tablet\":{\"unit\":\"px\",\"size\":\"\",\"sizes\":[]},\"padding_vertical_menu_item_mobile\":{\"unit\":\"px\",\"size\":\"\",\"sizes\":[]},\"menu_space_between_tablet\":{\"unit\":\"px\",\"size\":\"\",\"sizes\":[]},\"menu_space_between_mobile\":{\"unit\":\"px\",\"size\":\"\",\"sizes\":[]}",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(40, 40, 40)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "938.938px",
+                   "height": "48px",
+                   "maxWidth": "99.635%",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    398,
+                    65,
+                    939,
+                    48
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "div",
+                    "cls": "elementor-widget-container",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "938.938px",
+                     "height": "48px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "opacity": "1",
+                     "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+                     "objectFit": "fill",
+                     "_box": [
+                      398,
+                      65,
+                      939,
+                      48
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "hfe-nav-menu hfe-layout-horizontal hfe-nav-menu-layout horizontal",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundPosition": "0% 0%",
+                       "width": "938.938px",
+                       "height": "48px",
+                       "display": "flex",
+                       "flexDirection": "column",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "flex-start",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        398,
+                        65,
+                        939,
+                        48
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "hfe-nav-menu__toggle elementor-clickable",
+                        "s": {
+                         "fontSize": "22px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "22px",
+                         "color": "rgb(73, 76, 79)",
+                         "backgroundPosition": "0% 0%",
+                         "margin": "0px 0px 0px auto",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "borderRadius": "3px",
+                         "borderTop": "0px solid rgb(73, 76, 79)",
+                         "borderBottom": "0px solid rgb(73, 76, 79)",
+                         "borderLeft": "0px solid rgb(73, 76, 79)",
+                         "borderRight": "0px solid rgb(73, 76, 79)",
+                         "position": "relative",
+                         "opacity": "0",
+                         "objectFit": "fill",
+                         "_box": [
+                          0,
+                          0,
+                          0,
+                          0
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "span",
+                          "cls": "screen-reader-text",
+                          "text": "Menu",
+                          "s": {
+                           "fontSize": "22px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "lineHeight": "22px",
+                           "color": "rgb(73, 76, 79)",
+                           "backgroundPosition": "0% 0%",
+                           "margin": "-1px",
+                           "width": "1px",
+                           "height": "1px",
+                           "display": "block",
+                           "flexDirection": "row",
+                           "flexWrap": "nowrap",
+                           "overflow": "hidden",
+                           "position": "absolute",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            0,
+                            0,
+                            0,
+                            0
+                           ]
+                          }
+                         },
+                         {
+                          "tag": "div",
+                          "cls": "hfe-nav-menu-icon",
+                          "s": {
+                           "fontSize": "22px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "lineHeight": "22px",
+                           "color": "rgb(226, 140, 31)",
+                           "textAlign": "center",
+                           "backgroundPosition": "0% 0%",
+                           "padding": "7.7px",
+                           "display": "inline-block",
+                           "flexDirection": "row",
+                           "flexWrap": "nowrap",
+                           "borderTop": "0px solid rgb(226, 140, 31)",
+                           "borderBottom": "0px solid rgb(226, 140, 31)",
+                           "borderLeft": "0px solid rgb(226, 140, 31)",
+                           "borderRight": "0px solid rgb(226, 140, 31)",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            0,
+                            0,
+                            0,
+                            0
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "svg",
+                            "cls": "e-font-icon-svg e-fas-align-justify",
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-align-justify\" viewBox=\"0 0 448 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M432 416H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-128H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16z\"></path></svg>",
+                            "s": {
+                             "fontSize": "25px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "25px",
+                             "color": "rgb(226, 140, 31)",
+                             "textAlign": "center",
+                             "backgroundPosition": "0% 0%",
+                             "width": "25px",
+                             "height": "25px",
+                             "display": "inline",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "overflow": "hidden",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              0,
+                              0,
+                              0,
+                              0
+                             ]
+                            }
+                           }
+                          ]
+                         }
+                        ]
+                       },
+                       {
+                        "tag": "nav",
+                        "cls": "hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow",
+                        "s": {
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "color": "rgb(40, 40, 40)",
+                         "backgroundPosition": "0% 0%",
+                         "width": "938.938px",
+                         "height": "48px",
+                         "display": "flex",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          398,
+                          65,
+                          939,
+                          48
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "ul",
+                          "cls": "hfe-nav-menu",
+                          "s": {
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "color": "rgb(40, 40, 40)",
+                           "backgroundPosition": "0% 0%",
+                           "margin": "0px 141.656px 0px 0px",
+                           "width": "797.281px",
+                           "height": "48px",
+                           "display": "flex",
+                           "flexDirection": "row",
+                           "flexWrap": "wrap",
+                           "justifyContent": "flex-start",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            398,
+                            65,
+                            797,
+                            48
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "li",
+                            "cls": "menu-item menu-item-type-post_type menu-item-object-page menu-item-home",
+                            "s": {
+                             "fontSize": "16px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "26.4px",
+                             "color": "rgb(40, 40, 40)",
+                             "backgroundPosition": "0% 0%",
+                             "margin": "0px 15px 0px 0px",
+                             "width": "83.375px",
+                             "height": "48px",
+                             "display": "list-item",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "position": "relative",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              398,
+                              65,
+                              83,
+                              48
+                             ]
+                            },
+                            "c": [
+                             {
+                              "tag": "a",
+                              "cls": "hfe-menu-item",
+                              "text": "Home",
+                              "href": "https://londontherapyroomstorent.com/",
+                              "s": {
+                               "fontSize": "18px",
+                               "fontWeight": "300",
+                               "fontFamily": "Poppins, sans-serif",
+                               "lineHeight": "18px",
+                               "color": "rgb(164, 139, 101)",
+                               "backgroundPosition": "0% 0%",
+                               "padding": "15px",
+                               "width": "83.375px",
+                               "height": "48px",
+                               "display": "flex",
+                               "flexDirection": "row",
+                               "flexWrap": "nowrap",
+                               "justifyContent": "space-between",
+                               "alignItems": "center",
+                               "opacity": "1",
+                               "transition": "0.2s linear",
+                               "objectFit": "fill",
+                               "_box": [
+                                398,
+                                65,
+                                83,
+                                48
+                               ]
+                              }
+                             }
+                            ]
+                           },
+                           {
+                            "tag": "li",
+                            "cls": "menu-item menu-item-type-post_type menu-item-object-page parent",
+                            "s": {
+                             "fontSize": "16px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "26.4px",
+                             "color": "rgb(40, 40, 40)",
+                             "backgroundPosition": "0% 0%",
+                             "margin": "0px 15px 0px 0px",
+                             "width": "109.266px",
+                             "height": "48px",
+                             "display": "list-item",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "position": "relative",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              496,
+                              65,
+                              109,
+                              48
+                             ]
+                            },
+                            "c": [
+                             {
+                              "tag": "a",
+                              "cls": "hfe-menu-item",
+                              "text": "About Us",
+                              "href": "https://londontherapyroomstorent.com/about/",
+                              "s": {
+                               "fontSize": "18px",
+                               "fontWeight": "300",
+                               "fontFamily": "Poppins, sans-serif",
+                               "lineHeight": "18px",
+                               "color": "rgb(255, 255, 255)",
+                               "backgroundPosition": "0% 0%",
+                               "padding": "15px",
+                               "width": "109.266px",
+                               "height": "48px",
+                               "display": "flex",
+                               "flexDirection": "row",
+                               "flexWrap": "nowrap",
+                               "justifyContent": "space-between",
+                               "alignItems": "center",
+                               "opacity": "1",
+                               "transition": "0.2s linear",
+                               "objectFit": "fill",
+                               "_box": [
+                                496,
+                                65,
+                                109,
+                                48
+                               ]
+                              }
+                             }
+                            ]
+                           },
+                           {
+                            "tag": "li",
+                            "cls": "menu-item menu-item-type-custom menu-item-object-custom current_page_item",
+                            "s": {
+                             "fontSize": "16px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "26.4px",
+                             "color": "rgb(40, 40, 40)",
+                             "backgroundPosition": "0% 0%",
+                             "margin": "0px 15px 0px 0px",
+                             "width": "91.2656px",
+                             "height": "48px",
+                             "display": "list-item",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "position": "relative",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              620,
+                              65,
+                              91,
+                              48
+                             ]
+                            },
+                            "c": [
+                             {
+                              "tag": "a",
+                              "cls": "hfe-menu-item",
+                              "text": "Rooms",
+                              "href": "https://londontherapyroomstorent.com/#Rooms",
+                              "s": {
+                               "fontSize": "18px",
+                               "fontWeight": "300",
+                               "fontFamily": "Poppins, sans-serif",
+                               "lineHeight": "18px",
+                               "color": "rgb(255, 255, 255)",
+                               "backgroundPosition": "0% 0%",
+                               "padding": "15px",
+                               "width": "91.2656px",
+                               "height": "48px",
+                               "display": "flex",
+                               "flexDirection": "row",
+                               "flexWrap": "nowrap",
+                               "justifyContent": "space-between",
+                               "alignItems": "center",
+                               "opacity": "1",
+                               "transition": "0.2s linear",
+                               "objectFit": "fill",
+                               "_box": [
+                                620,
+                                65,
+                                91,
+                                48
+                               ]
+                              }
+                             }
+                            ]
+                           },
+                           {
+                            "tag": "li",
+                            "cls": "menu-item menu-item-type-custom menu-item-object-custom current_page_item",
+                            "s": {
+                             "fontSize": "16px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "26.4px",
+                             "color": "rgb(40, 40, 40)",
+                             "backgroundPosition": "0% 0%",
+                             "margin": "0px 15px 0px 0px",
+                             "width": "177.781px",
+                             "height": "48px",
+                             "display": "list-item",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "position": "relative",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              727,
+                              65,
+                              178,
+                              48
+                             ]
+                            },
+                            "c": [
+                             {
+                              "tag": "a",
+                              "cls": "hfe-menu-item",
+                              "text": "Our Practitioners",
+                              "href": "https://londontherapyroomstorent.com/#PRACTITIONERS",
+                              "s": {
+                               "fontSize": "18px",
+                               "fontWeight": "300",
+                               "fontFamily": "Poppins, sans-serif",
+                               "lineHeight": "18px",
+                               "color": "rgb(255, 255, 255)",
+                               "backgroundPosition": "0% 0%",
+                               "padding": "15px",
+                               "width": "177.781px",
+                               "height": "48px",
+                               "display": "flex",
+                               "flexDirection": "row",
+                               "flexWrap": "nowrap",
+                               "justifyContent": "space-between",
+                               "alignItems": "center",
+                               "opacity": "1",
+                               "transition": "0.2s linear",
+                               "objectFit": "fill",
+                               "_box": [
+                                727,
+                                65,
+                                178,
+                                48
+                               ]
+                              }
+                             }
+                            ]
+                           },
+                           {
+                            "tag": "li",
+                            "cls": "menu-item menu-item-type-custom menu-item-object-custom current_page_item",
+                            "s": {
+                             "fontSize": "16px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "26.4px",
+                             "color": "rgb(40, 40, 40)",
+                             "backgroundPosition": "0% 0%",
+                             "margin": "0px 15px 0px 0px",
+                             "width": "131.75px",
+                             "height": "48px",
+                             "display": "list-item",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "position": "relative",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              919,
+                              65,
+                              132,
+                              48
+                             ]
+                            },
+                            "c": [
+                             {
+                              "tag": "a",
+                              "cls": "hfe-menu-item",
+                              "text": "Our Mission",
+                              "href": "https://londontherapyroomstorent.com/#vision",
+                              "s": {
+                               "fontSize": "18px",
+                               "fontWeight": "300",
+                               "fontFamily": "Poppins, sans-serif",
+                               "lineHeight": "18px",
+                               "color": "rgb(255, 255, 255)",
+                               "backgroundPosition": "0% 0%",
+                               "padding": "15px",
+                               "width": "131.75px",
+                               "height": "48px",
+                               "display": "flex",
+                               "flexDirection": "row",
+                               "flexWrap": "nowrap",
+                               "justifyContent": "space-between",
+                               "alignItems": "center",
+                               "opacity": "1",
+                               "transition": "0.2s linear",
+                               "objectFit": "fill",
+                               "_box": [
+                                919,
+                                65,
+                                132,
+                                48
+                               ]
+                              }
+                             }
+                            ]
+                           },
+                           {
+                            "tag": "li",
+                            "cls": "menu-item menu-item-type-custom menu-item-object-custom current_page_item",
+                            "s": {
+                             "fontSize": "16px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "26.4px",
+                             "color": "rgb(40, 40, 40)",
+                             "backgroundPosition": "0% 0%",
+                             "width": "128.844px",
+                             "height": "48px",
+                             "display": "list-item",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "position": "relative",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              1066,
+                              65,
+                              129,
+                              48
+                             ]
+                            },
+                            "c": [
+                             {
+                              "tag": "a",
+                              "cls": "hfe-menu-item",
+                              "text": "Contact Us",
+                              "href": "https://londontherapyroomstorent.com/#Contact",
+                              "s": {
+                               "fontSize": "18px",
+                               "fontWeight": "300",
+                               "fontFamily": "Poppins, sans-serif",
+                               "lineHeight": "18px",
+                               "color": "rgb(255, 255, 255)",
+                               "backgroundPosition": "0% 0%",
+                               "padding": "15px",
+                               "width": "128.844px",
+                               "height": "48px",
+                               "display": "flex",
+                               "flexDirection": "row",
+                               "flexWrap": "nowrap",
+                               "justifyContent": "space-between",
+                               "alignItems": "center",
+                               "opacity": "1",
+                               "transition": "0.2s linear",
+                               "objectFit": "fill",
+                               "_box": [
+                                1066,
+                                65,
+                                129,
+                                48
+                               ]
+                              }
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

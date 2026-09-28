@@ -1,0 +1,4694 @@
+{
+ "i": 9,
+ "id": "",
+ "visible": true,
+ "tree": {
+  "tag": "section",
+  "cls": "elementor-section elementor-top-section elementor-element elementor-section-boxed",
+  "settings": "{\"animation\":\"fadeIn\"}",
+  "s": {
+   "fontSize": "16px",
+   "fontWeight": "200",
+   "fontFamily": "Poppins, sans-serif",
+   "lineHeight": "26.4px",
+   "color": "rgb(40, 40, 40)",
+   "backgroundPosition": "0% 0%",
+   "margin": "70px 0px",
+   "width": "1440px",
+   "height": "499px",
+   "display": "block",
+   "flexDirection": "row",
+   "flexWrap": "nowrap",
+   "position": "relative",
+   "opacity": "1",
+   "objectFit": "fill",
+   "_box": [
+    0,
+    2485,
+    1440,
+    499
+   ]
+  },
+  "c": [
+   {
+    "tag": "div",
+    "cls": "elementor-container elementor-column-gap-no",
+    "s": {
+     "fontSize": "16px",
+     "fontWeight": "200",
+     "fontFamily": "Poppins, sans-serif",
+     "lineHeight": "26.4px",
+     "color": "rgb(40, 40, 40)",
+     "backgroundPosition": "0% 0%",
+     "width": "1100px",
+     "height": "499px",
+     "maxWidth": "1100px",
+     "display": "flex",
+     "flexDirection": "row",
+     "flexWrap": "nowrap",
+     "position": "relative",
+     "opacity": "1",
+     "objectFit": "fill",
+     "_box": [
+      170,
+      2485,
+      1100,
+      499
+     ]
+    },
+    "c": [
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-50 elementor-top-column elementor-element",
+      "settings": "{\"background_background\":\"classic\"}",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(40, 40, 40)",
+       "backgroundPosition": "0% 0%",
+       "width": "550px",
+       "height": "499px",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        170,
+        2485,
+        550,
+        499
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(40, 40, 40)",
+         "backgroundColor": "rgb(164, 139, 101)",
+         "backgroundPosition": "0% 0%",
+         "padding": "41px 70px 36px",
+         "width": "550px",
+         "height": "499px",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s",
+         "objectFit": "fill",
+         "_box": [
+          170,
+          2485,
+          550,
+          499
+         ]
+        },
+        "c": [
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "410px",
+           "height": "26px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            240,
+            2526,
+            410,
+            26
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "backgroundPosition": "0% 0%",
+             "width": "410px",
+             "height": "26px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              240,
+              2526,
+              410,
+              26
+             ]
+            },
+            "c": [
+             {
+              "tag": "h3",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "Room 3 Dimensions",
+              "s": {
+               "fontSize": "20px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26px",
+               "color": "rgb(0, 0, 0)",
+               "backgroundPosition": "0% 0%",
+               "width": "410px",
+               "height": "26px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                240,
+                2526,
+                410,
+                26
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "410px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            240,
+            2572,
+            410,
+            0
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "backgroundPosition": "0% 0%",
+             "margin": "-24.5938px 0px 0px",
+             "width": "410px",
+             "height": "22.0938px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              240,
+              2547,
+              410,
+              22
+             ]
+            },
+            "c": [
+             {
+              "tag": "h3",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "2.81m x 2.27m",
+              "s": {
+               "fontSize": "17px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "22.1px",
+               "color": "rgb(255, 255, 255)",
+               "backgroundPosition": "0% 0%",
+               "width": "410px",
+               "height": "22.0938px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                240,
+                2547,
+                410,
+                22
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget elementor-widget-heading",
+          "widget": "heading.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "backgroundPosition": "0% 0%",
+           "margin": "0px 0px 20px",
+           "width": "410px",
+           "height": "17.8125px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            240,
+            2592,
+            410,
+            18
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "backgroundPosition": "0% 0%",
+             "margin": "-8.1875px 0px 0px",
+             "width": "410px",
+             "height": "26px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              240,
+              2584,
+              410,
+              26
+             ]
+            },
+            "c": [
+             {
+              "tag": "h3",
+              "cls": "elementor-heading-title elementor-size-default",
+              "text": "Suitable For",
+              "s": {
+               "fontSize": "20px",
+               "fontWeight": "500",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26px",
+               "color": "rgb(0, 0, 0)",
+               "backgroundPosition": "0% 0%",
+               "width": "410px",
+               "height": "26px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                240,
+                2584,
+                410,
+                26
+               ]
+              }
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget__width-initial elementor-icon-list--layout-traditional elementor-list-item-link-full_width",
+          "widget": "icon-list.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "backgroundPosition": "0% 0%",
+           "width": "367.109px",
+           "height": "94.5625px",
+           "maxWidth": "89.539%",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            240,
+            2630,
+            367,
+            95
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "backgroundPosition": "0% 0%",
+             "margin": "-11px 0px 0px",
+             "width": "367.109px",
+             "height": "105.562px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              240,
+              2619,
+              367,
+              106
+             ]
+            },
+            "c": [
+             {
+              "tag": "ul",
+              "cls": "elementor-icon-list-items",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "backgroundPosition": "0% 0%",
+               "width": "367.109px",
+               "height": "105.562px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                240,
+                2619,
+                367,
+                106
+               ]
+              },
+              "c": [
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(40, 40, 40)",
+                 "backgroundPosition": "0% 0%",
+                 "width": "367.109px",
+                 "height": "26.3906px",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  240,
+                  2619,
+                  367,
+                  26
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(40, 40, 40)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "17.5px",
+                   "height": "14px",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    240,
+                    2625,
+                    18,
+                    14
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-far-dot-circle",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-far-dot-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      240,
+                      2625,
+                      14,
+                      14
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Osteopathy",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "width": "96.9062px",
+                   "height": "26.3906px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    258,
+                    2619,
+                    97,
+                    26
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(40, 40, 40)",
+                 "backgroundPosition": "0% 0%",
+                 "width": "367.109px",
+                 "height": "26.3906px",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  240,
+                  2645,
+                  367,
+                  26
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(40, 40, 40)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "17.5px",
+                   "height": "14px",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    240,
+                    2651,
+                    18,
+                    14
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-far-dot-circle",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-far-dot-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      240,
+                      2651,
+                      14,
+                      14
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Physiotherapy",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "width": "114.766px",
+                   "height": "26.3906px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    258,
+                    2645,
+                    115,
+                    26
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(40, 40, 40)",
+                 "backgroundPosition": "0% 0%",
+                 "width": "367.109px",
+                 "height": "26.3906px",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  240,
+                  2671,
+                  367,
+                  26
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(40, 40, 40)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "17.5px",
+                   "height": "14px",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    240,
+                    2678,
+                    18,
+                    14
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-far-dot-circle",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-far-dot-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      240,
+                      2678,
+                      14,
+                      14
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Beauty Therapy",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "width": "126.859px",
+                   "height": "26.3906px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    258,
+                    2671,
+                    127,
+                    26
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(40, 40, 40)",
+                 "backgroundPosition": "0% 0%",
+                 "width": "367.109px",
+                 "height": "26.3906px",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  240,
+                  2698,
+                  367,
+                  26
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(40, 40, 40)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "17.5px",
+                   "height": "14px",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    240,
+                    2704,
+                    18,
+                    14
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-far-dot-circle",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-far-dot-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      240,
+                      2704,
+                      14,
+                      14
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Aesthetic Treatments",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "width": "171.391px",
+                   "height": "26.3906px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    258,
+                    2698,
+                    171,
+                    26
+                   ]
+                  }
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget__width-initial elementor-icon-list--layout-traditional elementor-list-item-link-full_width",
+          "widget": "icon-list.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "backgroundPosition": "0% 0%",
+           "width": "378.312px",
+           "height": "105.562px",
+           "maxWidth": "92.273%",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            240,
+            2724,
+            378,
+            106
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "backgroundPosition": "0% 0%",
+             "width": "378.312px",
+             "height": "105.562px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              240,
+              2724,
+              378,
+              106
+             ]
+            },
+            "c": [
+             {
+              "tag": "ul",
+              "cls": "elementor-icon-list-items",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "backgroundPosition": "0% 0%",
+               "width": "378.312px",
+               "height": "105.562px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                240,
+                2724,
+                378,
+                106
+               ]
+              },
+              "c": [
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(40, 40, 40)",
+                 "backgroundPosition": "0% 0%",
+                 "width": "378.312px",
+                 "height": "26.3906px",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  240,
+                  2724,
+                  378,
+                  26
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(40, 40, 40)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "17.5px",
+                   "height": "14px",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    240,
+                    2730,
+                    18,
+                    14
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-far-dot-circle",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-far-dot-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      240,
+                      2730,
+                      14,
+                      14
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Massage Therapy",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "width": "144.25px",
+                   "height": "26.3906px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    258,
+                    2724,
+                    144,
+                    26
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(40, 40, 40)",
+                 "backgroundPosition": "0% 0%",
+                 "width": "378.312px",
+                 "height": "26.3906px",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  240,
+                  2751,
+                  378,
+                  26
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(40, 40, 40)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "17.5px",
+                   "height": "14px",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    240,
+                    2757,
+                    18,
+                    14
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-far-dot-circle",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-far-dot-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      240,
+                      2757,
+                      14,
+                      14
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Nutritional Therapy",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "width": "151.406px",
+                   "height": "26.3906px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    258,
+                    2751,
+                    151,
+                    26
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(40, 40, 40)",
+                 "backgroundPosition": "0% 0%",
+                 "width": "378.312px",
+                 "height": "26.3906px",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  240,
+                  2777,
+                  378,
+                  26
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(40, 40, 40)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "17.5px",
+                   "height": "14px",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    240,
+                    2783,
+                    18,
+                    14
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-far-dot-circle",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-far-dot-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      240,
+                      2783,
+                      14,
+                      14
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Medical Consultants",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "width": "164.516px",
+                   "height": "26.3906px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    258,
+                    2777,
+                    165,
+                    26
+                   ]
+                  }
+                 }
+                ]
+               },
+               {
+                "tag": "li",
+                "cls": "elementor-icon-list-item",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(40, 40, 40)",
+                 "backgroundPosition": "0% 0%",
+                 "width": "378.312px",
+                 "height": "26.3906px",
+                 "display": "flex",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "alignItems": "center",
+                 "position": "relative",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  240,
+                  2803,
+                  378,
+                  26
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-icon",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(40, 40, 40)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "17.5px",
+                   "height": "14px",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    240,
+                    2810,
+                    18,
+                    14
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "svg",
+                    "cls": "e-font-icon-svg e-far-dot-circle",
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-far-dot-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 56c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m0-48C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 168c-44.183 0-80 35.817-80 80s35.817 80 80 80 80-35.817 80-80-35.817-80-80-80z\"></path></svg>",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "margin": "0px 3.5px 0px 0px",
+                     "width": "14px",
+                     "height": "14px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "overflow": "hidden",
+                     "opacity": "1",
+                     "transition": "fill 0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      240,
+                      2810,
+                      14,
+                      14
+                     ]
+                    }
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "elementor-icon-list-text",
+                  "text": "Functional Medicine",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(255, 255, 255)",
+                   "backgroundPosition": "0% 0%",
+                   "padding": "0px 0px 0px 5px",
+                   "width": "160.922px",
+                   "height": "26.3906px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "opacity": "1",
+                   "transition": "color 0.3s",
+                   "objectFit": "fill",
+                   "_box": [
+                    258,
+                    2803,
+                    161,
+                    26
+                   ]
+                  }
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-widget__width-initial elementor-widget elementor-widget-ucaddon_uc_icon_accordion",
+          "widget": "ucaddon_uc_icon_accordion.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "backgroundPosition": "0% 0%",
+           "width": "410px",
+           "height": "50.1875px",
+           "maxWidth": "111.908%",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            240,
+            2830,
+            410,
+            50
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "backgroundPosition": "0% 0%",
+             "margin": "8.1875px 0px 0px",
+             "width": "410px",
+             "height": "42px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              240,
+              2838,
+              410,
+              42
+             ]
+            },
+            "c": [
+             {
+              "tag": "link",
+              "cls": "",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "backgroundPosition": "0% 0%",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                0,
+                0,
+                0,
+                0
+               ]
+              }
+             },
+             {
+              "tag": "link",
+              "cls": "",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "backgroundPosition": "0% 0%",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                0,
+                0,
+                0,
+                0
+               ]
+              }
+             },
+             {
+              "tag": "div",
+              "cls": "uc_material_accordion ",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "backgroundPosition": "0% 0%",
+               "width": "410px",
+               "height": "42px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                240,
+                2838,
+                410,
+                42
+               ]
+              },
+              "c": [
+               {
+                "tag": "div",
+                "cls": "uc_container",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(40, 40, 40)",
+                 "backgroundPosition": "0% 0%",
+                 "width": "410px",
+                 "height": "42px",
+                 "display": "block",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  240,
+                  2838,
+                  410,
+                  42
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "div",
+                  "cls": "uc_ac_box elementor-repeater-item-3b96039",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(40, 40, 40)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "410px",
+                   "height": "42px",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "overflow": "hidden",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    240,
+                    2838,
+                    410,
+                    42
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "div",
+                    "cls": "uc-heading uc_trigger",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "410px",
+                     "height": "42px",
+                     "display": "flex",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "alignItems": "center",
+                     "opacity": "1",
+                     "transition": "0.3s",
+                     "objectFit": "fill",
+                     "_box": [
+                      240,
+                      2838,
+                      410,
+                      42
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "ue_title",
+                      "text": "Room Breakdown (click to expand)",
+                      "s": {
+                       "fontSize": "15px",
+                       "fontWeight": "600",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "24.75px",
+                       "color": "rgb(0, 0, 0)",
+                       "backgroundPosition": "0% 0%",
+                       "width": "353px",
+                       "height": "24.75px",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        240,
+                        2847,
+                        353,
+                        25
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "ue_expand_spacing",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundPosition": "0% 0%",
+                       "width": "15px",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        593,
+                        2859,
+                        15,
+                        0
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "ue_expand",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundPosition": "0% 0%",
+                       "width": "42px",
+                       "height": "42px",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        608,
+                        2838,
+                        42,
+                        42
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "ue_expand_inside",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "16px",
+                         "color": "rgb(191, 191, 191)",
+                         "backgroundPosition": "0% 0%",
+                         "width": "42px",
+                         "height": "42px",
+                         "display": "flex",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "justifyContent": "center",
+                         "alignItems": "center",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          608,
+                          2838,
+                          42,
+                          42
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "span",
+                          "cls": "uc_dactive bbb ue_accordion_icon",
+                          "s": {
+                           "fontSize": "16px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "lineHeight": "16px",
+                           "color": "rgb(191, 191, 191)",
+                           "backgroundPosition": "0% 0%",
+                           "width": "14px",
+                           "height": "17px",
+                           "display": "block",
+                           "flexDirection": "row",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            622,
+                            2850,
+                            14,
+                            17
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "i",
+                            "cls": "fas fa-plus",
+                            "icon": "fas fa-plus",
+                            "s": {
+                             "fontSize": "16px",
+                             "fontWeight": "900",
+                             "fontFamily": "\"Font Awesome 6 Free\"",
+                             "lineHeight": "16px",
+                             "color": "rgb(191, 191, 191)",
+                             "backgroundPosition": "0% 0%",
+                             "width": "14px",
+                             "height": "16px",
+                             "display": "inline-block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              622,
+                              2850,
+                              14,
+                              16
+                             ]
+                            }
+                           }
+                          ]
+                         },
+                         {
+                          "tag": "span",
+                          "cls": "uc_active bbb ue_accordion_icon",
+                          "s": {
+                           "fontSize": "16px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "lineHeight": "16px",
+                           "color": "rgb(191, 191, 191)",
+                           "backgroundPosition": "0% 0%",
+                           "flexDirection": "row",
+                           "flexWrap": "nowrap",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            0,
+                            0,
+                            0,
+                            0
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "i",
+                            "cls": "fas fa-minus",
+                            "icon": "fas fa-minus",
+                            "s": {
+                             "fontSize": "16px",
+                             "fontWeight": "900",
+                             "fontFamily": "\"Font Awesome 6 Free\"",
+                             "lineHeight": "16px",
+                             "color": "rgb(191, 191, 191)",
+                             "backgroundPosition": "0% 0%",
+                             "display": "inline-block",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              0,
+                              0,
+                              0,
+                              0
+                             ]
+                            }
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "uc_content",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(255, 255, 255)",
+                     "backgroundColor": "rgb(0, 0, 0)",
+                     "backgroundPosition": "0% 0%",
+                     "padding": "20px",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "opacity": "1",
+                     "objectFit": "fill",
+                     "_box": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "elementor elementor-466",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "backgroundPosition": "0% 0%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        0,
+                        0,
+                        0,
+                        0
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "section",
+                        "cls": "elementor-section elementor-top-section elementor-element elementor-section-boxed",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "backgroundPosition": "0% 0%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "position": "relative",
+                         "opacity": "1",
+                         "objectFit": "fill",
+                         "_box": [
+                          0,
+                          0,
+                          0,
+                          0
+                         ]
+                        },
+                        "c": [
+                         {
+                          "tag": "div",
+                          "cls": "elementor-container elementor-column-gap-default",
+                          "s": {
+                           "fontSize": "16px",
+                           "fontWeight": "200",
+                           "fontFamily": "Poppins, sans-serif",
+                           "lineHeight": "26.4px",
+                           "color": "rgb(255, 255, 255)",
+                           "backgroundPosition": "0% 0%",
+                           "margin": "0px auto",
+                           "maxWidth": "1140px",
+                           "display": "flex",
+                           "flexDirection": "row",
+                           "flexWrap": "nowrap",
+                           "position": "relative",
+                           "opacity": "1",
+                           "objectFit": "fill",
+                           "_box": [
+                            0,
+                            0,
+                            0,
+                            0
+                           ]
+                          },
+                          "c": [
+                           {
+                            "tag": "div",
+                            "cls": "elementor-column elementor-col-50 elementor-top-column elementor-element",
+                            "s": {
+                             "fontSize": "16px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "26.4px",
+                             "color": "rgb(255, 255, 255)",
+                             "backgroundPosition": "0% 0%",
+                             "width": "45.702%",
+                             "minHeight": "1px",
+                             "display": "flex",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "position": "relative",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              0,
+                              0,
+                              0,
+                              0
+                             ]
+                            },
+                            "c": [
+                             {
+                              "tag": "div",
+                              "cls": "elementor-widget-wrap elementor-element-populated",
+                              "s": {
+                               "fontSize": "16px",
+                               "fontWeight": "200",
+                               "fontFamily": "Poppins, sans-serif",
+                               "lineHeight": "26.4px",
+                               "color": "rgb(255, 255, 255)",
+                               "backgroundPosition": "0% 0%",
+                               "padding": "10px",
+                               "width": "100%",
+                               "display": "flex",
+                               "flexDirection": "row",
+                               "flexWrap": "wrap",
+                               "position": "relative",
+                               "opacity": "1",
+                               "objectFit": "fill",
+                               "_box": [
+                                0,
+                                0,
+                                0,
+                                0
+                               ]
+                              },
+                              "c": []
+                             }
+                            ]
+                           },
+                           {
+                            "tag": "div",
+                            "cls": "elementor-column elementor-col-50 elementor-top-column elementor-element",
+                            "s": {
+                             "fontSize": "16px",
+                             "fontWeight": "200",
+                             "fontFamily": "Poppins, sans-serif",
+                             "lineHeight": "26.4px",
+                             "color": "rgb(255, 255, 255)",
+                             "backgroundPosition": "0% 0%",
+                             "width": "54.298%",
+                             "minHeight": "1px",
+                             "display": "flex",
+                             "flexDirection": "row",
+                             "flexWrap": "nowrap",
+                             "position": "relative",
+                             "opacity": "1",
+                             "objectFit": "fill",
+                             "_box": [
+                              0,
+                              0,
+                              0,
+                              0
+                             ]
+                            },
+                            "c": [
+                             {
+                              "tag": "div",
+                              "cls": "elementor-widget-wrap elementor-element-populated",
+                              "s": {
+                               "fontSize": "16px",
+                               "fontWeight": "200",
+                               "fontFamily": "Poppins, sans-serif",
+                               "lineHeight": "26.4px",
+                               "color": "rgb(255, 255, 255)",
+                               "backgroundPosition": "0% 0%",
+                               "padding": "10px",
+                               "width": "100%",
+                               "display": "flex",
+                               "flexDirection": "row",
+                               "flexWrap": "wrap",
+                               "position": "relative",
+                               "opacity": "1",
+                               "objectFit": "fill",
+                               "_box": [
+                                0,
+                                0,
+                                0,
+                                0
+                               ]
+                              },
+                              "c": []
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor-button-info elementor-align-left elementor-widget",
+          "widget": "button.default",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "textAlign": "left",
+           "backgroundPosition": "0% 0%",
+           "width": "410px",
+           "height": "66px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            240,
+            2880,
+            410,
+            66
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "textAlign": "left",
+             "backgroundPosition": "0% 0%",
+             "margin": "20px 0px 0px",
+             "width": "410px",
+             "height": "46px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              240,
+              2900,
+              410,
+              46
+             ]
+            },
+            "c": [
+             {
+              "tag": "div",
+              "cls": "elementor-button-wrapper",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "textAlign": "left",
+               "backgroundPosition": "0% 0%",
+               "width": "410px",
+               "height": "46px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                240,
+                2900,
+                410,
+                46
+               ]
+              },
+              "c": [
+               {
+                "tag": "a",
+                "cls": "elementor-button elementor-button-link elementor-size-sm",
+                "href": "https://londontherapyroomstorent.com/#Contact",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "500",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "16px",
+                 "color": "rgb(255, 255, 255)",
+                 "textAlign": "center",
+                 "backgroundColor": "rgb(0, 0, 0)",
+                 "backgroundPosition": "0% 0%",
+                 "padding": "15px 30px",
+                 "width": "126.281px",
+                 "height": "46px",
+                 "display": "inline-block",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "borderRadius": "5px",
+                 "borderTop": "0px solid rgb(4, 107, 210)",
+                 "borderBottom": "0px solid rgb(4, 107, 210)",
+                 "borderLeft": "0px solid rgb(4, 107, 210)",
+                 "borderRight": "0px solid rgb(4, 107, 210)",
+                 "opacity": "1",
+                 "transition": "0.3s",
+                 "objectFit": "fill",
+                 "_box": [
+                  240,
+                  2900,
+                  126,
+                  46
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "span",
+                  "cls": "elementor-button-content-wrapper",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "500",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "16px",
+                   "color": "rgb(255, 255, 255)",
+                   "textAlign": "center",
+                   "backgroundPosition": "0% 0%",
+                   "width": "66.2812px",
+                   "height": "16px",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "justifyContent": "center",
+                   "gap": "5px",
+                   "opacity": "1",
+                   "objectFit": "fill",
+                   "_box": [
+                    270,
+                    2915,
+                    66,
+                    16
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "span",
+                    "cls": "elementor-button-text",
+                    "text": "ENQUIRE",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "500",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "16px",
+                     "color": "rgb(255, 255, 255)",
+                     "textAlign": "center",
+                     "backgroundPosition": "0% 0%",
+                     "width": "66.2812px",
+                     "height": "16px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "opacity": "1",
+                     "objectFit": "fill",
+                     "_box": [
+                      270,
+                      2915,
+                      66,
+                      16
+                     ]
+                    }
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "tag": "div",
+      "cls": "elementor-column elementor-col-50 elementor-top-column elementor-element",
+      "settings": "{\"background_background\":\"classic\"}",
+      "s": {
+       "fontSize": "16px",
+       "fontWeight": "200",
+       "fontFamily": "Poppins, sans-serif",
+       "lineHeight": "26.4px",
+       "color": "rgb(40, 40, 40)",
+       "backgroundPosition": "0% 0%",
+       "width": "550px",
+       "height": "499px",
+       "minHeight": "1px",
+       "display": "flex",
+       "flexDirection": "row",
+       "flexWrap": "nowrap",
+       "position": "relative",
+       "opacity": "1",
+       "objectFit": "fill",
+       "_box": [
+        720,
+        2485,
+        550,
+        499
+       ]
+      },
+      "c": [
+       {
+        "tag": "div",
+        "cls": "elementor-widget-wrap elementor-element-populated e-swiper-container",
+        "s": {
+         "fontSize": "16px",
+         "fontWeight": "200",
+         "fontFamily": "Poppins, sans-serif",
+         "lineHeight": "26.4px",
+         "color": "rgb(40, 40, 40)",
+         "backgroundPosition": "0% 0%",
+         "width": "550px",
+         "height": "499px",
+         "display": "flex",
+         "flexDirection": "row",
+         "flexWrap": "wrap",
+         "position": "relative",
+         "opacity": "1",
+         "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s",
+         "objectFit": "fill",
+         "_box": [
+          720,
+          2485,
+          550,
+          499
+         ]
+        },
+        "c": [
+         {
+          "tag": "div",
+          "cls": "elementor-element elementor--h-position-center elementor--v-position-middle elementor-widget",
+          "widget": "slides.default",
+          "settings": "{\"navigation\":\"none\",\"autoplay_speed\":3000,\"transition\":\"fade\",\"autoplay\":\"yes\",\"pause_on_hover\":\"yes\",\"pause_on_interaction\":\"yes\",\"infinite\":\"yes\",\"transition_speed\":500}",
+          "s": {
+           "fontSize": "16px",
+           "fontWeight": "200",
+           "fontFamily": "Poppins, sans-serif",
+           "lineHeight": "26.4px",
+           "color": "rgb(40, 40, 40)",
+           "backgroundPosition": "0% 0%",
+           "width": "550px",
+           "height": "499px",
+           "display": "block",
+           "flexDirection": "row",
+           "flexWrap": "nowrap",
+           "position": "relative",
+           "zIndex": "10",
+           "opacity": "1",
+           "objectFit": "fill",
+           "_box": [
+            720,
+            2485,
+            550,
+            499
+           ]
+          },
+          "c": [
+           {
+            "tag": "div",
+            "cls": "elementor-widget-container",
+            "s": {
+             "fontSize": "16px",
+             "fontWeight": "200",
+             "fontFamily": "Poppins, sans-serif",
+             "lineHeight": "26.4px",
+             "color": "rgb(40, 40, 40)",
+             "backgroundPosition": "0% 0%",
+             "width": "550px",
+             "height": "499px",
+             "display": "block",
+             "flexDirection": "row",
+             "flexWrap": "nowrap",
+             "opacity": "1",
+             "transition": "background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s",
+             "objectFit": "fill",
+             "_box": [
+              720,
+              2485,
+              550,
+              499
+             ]
+            },
+            "c": [
+             {
+              "tag": "div",
+              "cls": "elementor-swiper",
+              "s": {
+               "fontSize": "16px",
+               "fontWeight": "200",
+               "fontFamily": "Poppins, sans-serif",
+               "lineHeight": "26.4px",
+               "color": "rgb(40, 40, 40)",
+               "backgroundPosition": "0% 0%",
+               "width": "550px",
+               "height": "499px",
+               "display": "block",
+               "flexDirection": "row",
+               "flexWrap": "nowrap",
+               "position": "relative",
+               "opacity": "1",
+               "objectFit": "fill",
+               "_box": [
+                720,
+                2485,
+                550,
+                499
+               ]
+              },
+              "c": [
+               {
+                "tag": "div",
+                "cls": "elementor-slides-wrapper elementor-main-swiper swiper swiper-fade",
+                "s": {
+                 "fontSize": "16px",
+                 "fontWeight": "200",
+                 "fontFamily": "Poppins, sans-serif",
+                 "lineHeight": "26.4px",
+                 "color": "rgb(40, 40, 40)",
+                 "backgroundPosition": "0% 0%",
+                 "width": "550px",
+                 "height": "499px",
+                 "display": "block",
+                 "flexDirection": "row",
+                 "flexWrap": "nowrap",
+                 "overflow": "hidden",
+                 "zIndex": "1",
+                 "opacity": "1",
+                 "objectFit": "fill",
+                 "_box": [
+                  720,
+                  2485,
+                  550,
+                  499
+                 ]
+                },
+                "c": [
+                 {
+                  "tag": "div",
+                  "cls": "swiper-wrapper elementor-slides",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(40, 40, 40)",
+                   "backgroundPosition": "0% 0%",
+                   "width": "550px",
+                   "height": "499px",
+                   "display": "flex",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "relative",
+                   "zIndex": "1",
+                   "opacity": "1",
+                   "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                   "transition": "transform",
+                   "objectFit": "fill",
+                   "_box": [
+                    720,
+                    2485,
+                    550,
+                    499
+                   ]
+                  },
+                  "c": [
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-2fa0381 swiper-slide swiper-slide-duplicate",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S1.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-bd50e0a swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, -550, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S4.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-bb1d340 swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, -1100, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S3.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-d4f893e swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, -1650, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S2.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-347dae0 swiper-slide swiper-slide-duplicate",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, -2200, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S4.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-7139648 swiper-slide swiper-slide-duplicate",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, -2750, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundColor": "rgb(187, 187, 187)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S6.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-2fa0381 swiper-slide",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, -3300, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S1.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-bd50e0a swiper-slide swiper-slide-prev",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, -3850, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S4.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-bb1d340 swiper-slide swiper-slide-visible swiper-slide-active",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "1",
+                     "transform": "matrix(1, 0, 0, 1, -4400, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg elementor-ken-burns--active",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S3.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "transition": "20s",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-d4f893e swiper-slide swiper-slide-next",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, -4950, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S2.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-347dae0 swiper-slide",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, -5500, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S4.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-7139648 swiper-slide",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, -6050, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundColor": "rgb(187, 187, 187)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S6.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-2fa0381 swiper-slide swiper-slide-duplicate",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, -6600, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S1.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-bd50e0a swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, -7150, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S4.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-bb1d340 swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, -7700, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S3.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-d4f893e swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, -8250, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S2.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-347dae0 swiper-slide swiper-slide-duplicate",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, -8800, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S4.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "tag": "div",
+                    "cls": "elementor-repeater-item-7139648 swiper-slide swiper-slide-duplicate",
+                    "s": {
+                     "fontSize": "16px",
+                     "fontWeight": "200",
+                     "fontFamily": "Poppins, sans-serif",
+                     "lineHeight": "26.4px",
+                     "color": "rgb(40, 40, 40)",
+                     "backgroundPosition": "0% 0%",
+                     "width": "550px",
+                     "height": "499px",
+                     "display": "block",
+                     "flexDirection": "row",
+                     "flexWrap": "nowrap",
+                     "borderTop": "0px solid rgb(40, 40, 40)",
+                     "borderBottom": "0px solid rgb(40, 40, 40)",
+                     "borderLeft": "0px solid rgb(40, 40, 40)",
+                     "borderRight": "0px solid rgb(40, 40, 40)",
+                     "overflow": "hidden",
+                     "position": "relative",
+                     "opacity": "0",
+                     "transform": "matrix(1, 0, 0, 1, -9350, 0)",
+                     "transition": "opacity",
+                     "objectFit": "fill",
+                     "_box": [
+                      720,
+                      2485,
+                      550,
+                      499
+                     ]
+                    },
+                    "c": [
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-bg",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(40, 40, 40)",
+                       "backgroundColor": "rgb(187, 187, 187)",
+                       "backgroundImage": "url(\"https://londontherapyroomstorent.com/wp-content/uploads/2026/09/S6.png\")",
+                       "backgroundSize": "cover",
+                       "backgroundPosition": "50% 50%",
+                       "width": "550px",
+                       "height": "499px",
+                       "minHeight": "100%",
+                       "display": "block",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      }
+                     },
+                     {
+                      "tag": "div",
+                      "cls": "swiper-slide-inner",
+                      "s": {
+                       "fontSize": "16px",
+                       "fontWeight": "200",
+                       "fontFamily": "Poppins, sans-serif",
+                       "lineHeight": "26.4px",
+                       "color": "rgb(255, 255, 255)",
+                       "textAlign": "center",
+                       "backgroundPosition": "50% 50%",
+                       "padding": "50px",
+                       "width": "550px",
+                       "height": "499px",
+                       "display": "flex",
+                       "flexDirection": "row",
+                       "flexWrap": "nowrap",
+                       "justifyContent": "center",
+                       "alignItems": "center",
+                       "position": "absolute",
+                       "opacity": "1",
+                       "objectFit": "fill",
+                       "_box": [
+                        720,
+                        2485,
+                        550,
+                        499
+                       ]
+                      },
+                      "c": [
+                       {
+                        "tag": "div",
+                        "cls": "swiper-slide-contents animated fadeInUp",
+                        "s": {
+                         "fontSize": "16px",
+                         "fontWeight": "200",
+                         "fontFamily": "Poppins, sans-serif",
+                         "lineHeight": "26.4px",
+                         "color": "rgb(255, 255, 255)",
+                         "textAlign": "center",
+                         "backgroundPosition": "0% 0%",
+                         "maxWidth": "66%",
+                         "display": "block",
+                         "flexDirection": "row",
+                         "flexWrap": "nowrap",
+                         "opacity": "0.621369",
+                         "transform": "matrix(1, 0, 0, 1, 0, 0)",
+                         "objectFit": "fill",
+                         "_box": [
+                          995,
+                          2734,
+                          0,
+                          0
+                         ]
+                        }
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 },
+                 {
+                  "tag": "span",
+                  "cls": "swiper-notification",
+                  "s": {
+                   "fontSize": "16px",
+                   "fontWeight": "200",
+                   "fontFamily": "Poppins, sans-serif",
+                   "lineHeight": "26.4px",
+                   "color": "rgb(40, 40, 40)",
+                   "backgroundPosition": "0% 0%",
+                   "display": "block",
+                   "flexDirection": "row",
+                   "flexWrap": "nowrap",
+                   "position": "absolute",
+                   "right": "550px",
+                   "bottom": "499px",
+                   "zIndex": "-1000",
+                   "opacity": "0",
+                   "objectFit": "fill",
+                   "_box": [
+                    720,
+                    2485,
+                    0,
+                    0
+                   ]
+                  }
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
