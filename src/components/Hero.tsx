@@ -73,14 +73,14 @@ export function Hero() {
         <div className="relative flex w-full flex-wrap pt-[89px]">
           {/* Eyebrow */}
           <div className="relative mb-5 w-full pt-[37.1875px] text-center">
-            <h2 className="whitespace-pre-wrap text-[20px] font-medium italic leading-[1.3] text-[#e3e3e2] md:text-[26px] lg:text-[32px] lg:leading-[41.6px]">
+            <h2 className="whitespace-pre-wrap text-[19px] font-medium italic leading-[24.7px] text-[#e3e3e2] md:text-[26px] lg:text-[32px] lg:leading-[41.6px]">
               {HERO.eyebrow}
             </h2>
           </div>
 
           {/* H1 */}
           <div className="relative mb-5 w-full text-center">
-            <h1 className="text-[30px] font-medium italic leading-[40px] text-white md:text-[40px] md:leading-[56px] lg:text-[50px] lg:leading-[70px]">
+            <h1 className="text-[27px] font-medium italic leading-[37.8px] text-white md:text-[40px] md:leading-[56px] lg:text-[50px] lg:leading-[70px]">
               {title ? (
                 <>
                   {title.a}

@@ -15,8 +15,8 @@ export function RoomsIntro() {
   return (
     <Reveal as="section" id="Rooms" className="relative mb-[50px] text-center text-black">
       <div className="mx-auto max-w-[1140px] p-2.5">
-        <h2 className="mb-5 text-[33px] font-medium italic leading-[42.9px]">{ROOMS_INTRO.heading}</h2>
-        <h2 className="mt-[-11.19px] text-[22px] font-medium italic leading-[28.6px]">
+        <h2 className="mb-5 text-[29px] font-medium italic leading-[37.7px] md:text-[33px] md:leading-[42.9px]">{ROOMS_INTRO.heading}</h2>
+        <h2 className="mt-[-11.19px] text-[14px] font-medium italic leading-[18.2px] md:text-[22px] md:leading-[28.6px]">
           {lines.map((line, i) => (
             <span key={i}>
               {i > 0 && <br />}

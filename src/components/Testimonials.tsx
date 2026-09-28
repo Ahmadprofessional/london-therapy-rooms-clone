@@ -116,7 +116,7 @@ export function Testimonials() {
             </div>
             <div className="relative w-full">
               <div className="mt-[-14px]">
-                <h3 className="text-[32px] font-medium italic leading-[41.6px] text-white">
+                <h3 className="text-[20px] font-medium italic leading-[26px] text-white md:text-[32px] md:leading-[41.6px]">
                   {FEEDBACK.heading}
                 </h3>
               </div>

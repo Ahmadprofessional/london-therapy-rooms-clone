@@ -49,7 +49,8 @@ export function RoomBreakdownAccordion({
                 {col.map((item) => (
                   <li key={item} className="flex items-center text-base font-extralight leading-[26.4px]">
                     <CheckIcon className="mr-2 h-[14px] w-[14px] shrink-0 text-white" />
-                    <span>{item}</span>
+                    {/* live site: item text boxes wrap at ~100px (col 1) / ~118px (col 2) */}
+                    <span className={c === 0 ? "max-w-[100px]" : "max-w-[118px]"}>{item}</span>
                   </li>
                 ))}
               </ul>

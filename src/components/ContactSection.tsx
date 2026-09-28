@@ -66,7 +66,7 @@ export function ContactSection() {
         <div className="mx-auto flex max-w-[1140px]">
           <div className="flex w-full flex-wrap p-[10px]">
             <div className="mb-[20px] w-full text-center">
-              <h2 className="text-[35px] font-medium italic leading-[45.5px] text-black max-[767px]:text-[28px] max-[767px]:leading-[36.4px]">
+              <h2 className="text-[35px] font-medium italic leading-[45.5px] text-black">
                 {CONTACT.eyebrow}
               </h2>
             </div>
