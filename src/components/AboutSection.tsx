@@ -1,109 +1,152 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Reveal } from "@/components/Reveal";
 import { ABOUT, MEMBER_BADGE } from "@/data/site";
 import { cn } from "@/lib/utils";
+import { ShieldCheckIcon, LocationDotIcon, ArrowRightIcon } from "@/components/icons";
+import { SectionReveal } from "@/components/SectionReveal";
 
-type BadgeSplitSectionProps = {
+interface BadgeSplitSectionProps {
   id: string;
+  badgeEyebrow?: string;
   heading: string;
   subheading: string;
   paragraphs: string[];
   cta: { label: string; href: string };
-  /** Boxed container max-width (About 1140px, Mission 1100px). */
-  containerClassName: string;
-  /** Badge column extras (Mission centres the badge vertically on desktop). */
-  badgeColClassName?: string;
-  /** Negative top margin pulling the gold subheading up (About -14px, Mission -21px). */
-  subheadingClassName: string;
-  /** Text widget: weight + negative top margin (About 300 / -6.9px, Mission 400 / -13.31px). */
-  textClassName: string;
-  /** Spacing between the paragraph blocks (Mission has a blank line between them). */
-  paragraphGapClassName?: string;
-};
+  containerClassName?: string;
+  bgClassName?: string;
+  reverse?: boolean;
+}
 
-/**
- * Shared layout for the About (#Aboutus) and Mission (#vision) sections:
- * UK Therapy Rooms member badge on the left (37.6%), heading/text/button on the right (62.4%).
- */
 export function BadgeSplitSection({
   id,
+  badgeEyebrow = "ABOUT OUR CLINIC",
   heading,
   subheading,
   paragraphs,
   cta,
   containerClassName,
-  badgeColClassName,
-  subheadingClassName,
-  textClassName,
-  paragraphGapClassName,
+  bgClassName = "bg-[#faf8f5]",
+  reverse = false,
 }: BadgeSplitSectionProps) {
   const external = /^https?:\/\//.test(cta.href) && !cta.href.startsWith("https://londontherapyroomstorent.com");
 
   return (
-    <Reveal
-      as="section"
-      id={id}
-      className="relative my-[80px] text-[16px] font-extralight leading-[26.4px] text-ink"
-    >
-      <div className={cn("relative mx-auto flex flex-col md:flex-row", containerClassName)}>
-        {/* Badge column */}
+    <Reveal as="section" id={id} className={cn("relative py-16 md:py-24 scroll-mt-24", bgClassName)}>
+      <div className={cn("mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8", containerClassName)}>
         <div
           className={cn(
-            "relative flex w-full flex-wrap px-[10px] pt-[18px] pb-[46px] md:w-[37.6%] md:p-[10px]",
-            badgeColClassName,
+            "grid grid-cols-1 items-center gap-12 lg:grid-cols-12 lg:gap-16",
+            reverse && "lg:grid-flow-dense"
           )}
         >
-          <div className="relative w-full">
-            <a
-              href={MEMBER_BADGE.href}
-              target="_blank"
-              rel="noopener"
-              className="block text-[18px] leading-[29.7px] text-orange"
-            >
-              <Image
-                src={MEMBER_BADGE.src}
-                width={MEMBER_BADGE.width}
-                height={MEMBER_BADGE.height}
-                alt="A proud member of UK Therapy Rooms"
-                sizes="(max-width: 767px) 311px, 409px"
-                className="mx-auto block h-auto w-[311px] max-w-full md:mx-0 md:w-full"
-              />
-            </a>
-          </div>
-        </div>
+          {/* Badge & Visual Column */}
+          <div
+            className={cn(
+              "flex flex-col items-center justify-center lg:col-span-5",
+              reverse && "lg:col-start-8"
+            )}
+          >
+            <div className="relative w-full max-w-[380px] rounded-3xl border border-[#a48b65]/25 bg-gradient-to-b from-[#faf8f5] to-[#f4eee6] p-8 shadow-[0_15px_40px_rgba(164,139,101,0.12)] transition-all duration-300 hover:border-[#a48b65]/50 hover:shadow-[0_20px_50px_rgba(164,139,101,0.2)]">
+              {/* Gold Accent Glow */}
+              <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-[#a48b65]/15 blur-2xl" />
 
-        {/* Text column */}
-        <div className="relative w-full px-[30px] pt-[5px] md:w-[62.4%] md:pr-0 md:pl-[20px]">
-          <div className="mb-[20px]">
-            <h2 className="text-[32px] font-medium italic leading-[41.6px] text-ink">{heading}</h2>
-          </div>
+              {/* Verified Ribbon */}
+              <div className="mb-6 flex items-center justify-center gap-2 rounded-full border border-[#a48b65]/30 bg-white/80 px-4 py-1.5 backdrop-blur-sm">
+                <ShieldCheckIcon className="h-4 w-4 text-[#a48b65]" />
+                <span className="text-xs font-semibold tracking-wider text-[#a48b65] uppercase">
+                  Verified UK Member
+                </span>
+              </div>
 
-          <div className="mb-[20px]">
-            <div className={subheadingClassName}>
-              <h2 className="text-[32px] font-medium italic leading-[41.6px] text-gold">{subheading}</h2>
-            </div>
-          </div>
-
-          <div className="mb-[20px] font-[family-name:var(--font-open-sans)]">
-            <div className={textClassName}>
-              {paragraphs.map((p, i) => (
-                <div key={i} className={i > 0 ? paragraphGapClassName : undefined}>
-                  {p}
+              {/* Badge Link & Image */}
+              <a
+                href={MEMBER_BADGE.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative block overflow-hidden rounded-2xl transition-transform duration-300 hover:scale-[1.02]"
+                title="View UK Therapy Rooms Member Listing"
+              >
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl border border-black/5 bg-white p-3 shadow-inner">
+                  <Image
+                    src={MEMBER_BADGE.src}
+                    width={MEMBER_BADGE.width}
+                    height={MEMBER_BADGE.height}
+                    alt="A proud member of UK Therapy Rooms"
+                    sizes="(max-width: 767px) 280px, 340px"
+                    className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-105"
+                  />
                 </div>
-              ))}
+              </a>
+
+              {/* Trust Tagline */}
+              <div className="mt-6 flex items-center justify-center gap-2 text-center text-xs font-medium text-[#282828]/70">
+                <LocationDotIcon className="h-3.5 w-3.5 text-[#a48b65]" />
+                <span>Harley Street District · Central London W1G</span>
+              </div>
             </div>
           </div>
 
-          <div className="text-left">
-            <a
-              href={cta.href}
-              {...(external ? { target: "_blank", rel: "noopener" } : {})}
-              className="inline-block rounded-[5px] bg-gold px-[30px] py-[15px] text-center text-[16px] font-medium leading-[16px] text-white transition-colors duration-300 hover:bg-ink"
-            >
-              <span className="flex justify-center gap-[5px]">
-                <span>{cta.label}</span>
+          {/* Copy & Content Column */}
+          <div
+            className={cn(
+              "flex flex-col lg:col-span-7",
+              reverse && "lg:col-start-1"
+            )}
+          >
+            {/* Eyebrow */}
+            <div className="mb-3 inline-flex items-center gap-2">
+              <span className="h-px w-6 bg-[#a48b65]" />
+              <span className="text-xs font-semibold tracking-[0.2em] text-[#a48b65] uppercase">
+                {badgeEyebrow}
               </span>
-            </a>
+            </div>
+
+            {/* Headings */}
+            <SectionReveal>
+              <h2 className="mb-2 text-3xl font-normal tracking-tight text-[#282828] sm:text-4xl md:text-5xl">
+                {heading}
+              </h2>
+            </SectionReveal>
+            <SectionReveal delay={0.1}>
+              <h3 className="mb-6 font-serif text-2xl font-normal italic text-[#a48b65] sm:text-3xl">
+                {subheading}
+              </h3>
+            </SectionReveal>
+
+            {/* Paragraphs */}
+            <SectionReveal delay={0.2}>
+              <div className="mb-8 space-y-4 text-base font-normal leading-relaxed text-[#555555] sm:text-lg">
+                {paragraphs.map((p, i) => (
+                  <p key={i}>{p}</p>
+                ))}
+              </div>
+            </SectionReveal>
+
+            {/* CTA Button */}
+            <SectionReveal delay={0.3}>
+              <div>
+                {external ? (
+                  <a
+                    href={cta.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group inline-flex items-center gap-2.5 rounded-sm bg-[#a48b65] px-8 py-3.5 text-xs font-semibold tracking-[0.14em] text-black uppercase transition-all duration-300 hover:bg-[#282828] hover:text-white"
+                  >
+                    <span>{cta.label}</span>
+                    <ArrowRightIcon className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />
+                  </a>
+                ) : (
+                  <Link
+                    href={cta.href}
+                    className="group inline-flex items-center gap-2.5 rounded-sm bg-[#a48b65] px-8 py-3.5 text-xs font-semibold tracking-[0.14em] text-black uppercase transition-all duration-300 hover:bg-[#282828] hover:text-white"
+                  >
+                    <span>{cta.label}</span>
+                    <ArrowRightIcon className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />
+                  </Link>
+                )}
+              </div>
+            </SectionReveal>
           </div>
         </div>
       </div>
@@ -115,13 +158,13 @@ export function AboutSection() {
   return (
     <BadgeSplitSection
       id="Aboutus"
+      badgeEyebrow="ABOUT OUR CLINIC"
       heading={ABOUT.heading}
       subheading={ABOUT.subheading}
       paragraphs={ABOUT.paragraphs}
       cta={ABOUT.cta}
-      containerClassName="max-w-[1140px]"
-      subheadingClassName="mt-[-14px]"
-      textClassName="mt-[-6.90625px] font-light"
     />
   );
 }
+
+export default AboutSection;

@@ -1,168 +1,204 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
-import { LOGO, NAV_LINKS, PHONE_MOBILE, PHONE_MOBILE_HREF, SOCIAL_LINKS } from "@/data/site";
-import { CloseIcon, FacebookIcon, InstagramIcon, MenuIcon, PhoneAltIcon } from "@/components/icons";
+import {
+  LOGO,
+  NAV_LINKS,
+  PHONE_MOBILE,
+  PHONE_MOBILE_HREF,
+  PHONE_LANDLINE,
+  PHONE_LANDLINE_HREF,
+  EMAIL,
+  ADDRESS,
+} from "@/data/site";
+import { CloseIcon, MenuIcon } from "@/components/icons";
+import { motion, AnimatePresence } from "framer-motion";
 
-const SOCIAL_ICON = { Facebook: FacebookIcon, Instagram: InstagramIcon } as const;
+export function SiteHeader() {
+  const [scrolled, setScrolled] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [activeHash, setActiveHash] = useState("#hero");
 
-/** Index of the "current page" link (Home). */
-const ACTIVE_INDEX = 0;
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 80);
 
-function TopBar() {
+      const sectionIds = ["hero", "Aboutus", "Rooms", "PRACTITIONERS", "vision", "Contact"];
+      const scrollPosition = window.scrollY + 200;
+
+      for (let i = sectionIds.length - 1; i >= 0; i--) {
+        const el = document.getElementById(sectionIds[i]);
+        if (el && el.offsetTop <= scrollPosition) {
+          setActiveHash(`#${sectionIds[i]}`);
+          break;
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className="relative z-10 h-[41px] px-[100px] text-[16px] leading-[26.4px] text-ink max-md:px-[30px]">
-      <div aria-hidden="true" className="absolute inset-0 bg-black opacity-[0.74]" />
-      <div className="relative mx-auto flex max-w-[1240px]">
-        {/* Phone */}
-        <div className="mt-[5px] flex h-[36px] w-1/2 items-center">
-          <a
-            href={PHONE_MOBILE_HREF}
-            className="group flex items-center text-[15px] font-light leading-[24.75px] text-orange max-md:text-[18px]"
-          >
-            <span className="flex w-[20px] shrink-0 items-center">
-              <PhoneAltIcon className="mr-[4px] h-[16px] w-[16px] transition-colors group-hover:text-ink" />
-            </span>
-            <span className="pl-[5px] text-white">{PHONE_MOBILE}</span>
-          </a>
+    <header className="fixed top-0 left-0 w-full z-50 transition-all duration-700 ease-out">
+      {/* Top subtle contact info to retain all copy */}
+      <div 
+        className={cn(
+          "hidden lg:flex w-full justify-end px-8 py-2 text-[11px] font-medium tracking-widest uppercase transition-all duration-700 ease-out",
+          scrolled ? "opacity-0 h-0 overflow-hidden py-0" : "opacity-100 text-white shadow-sm"
+        )}
+      >
+        <div className="flex gap-8">
+          <a href={PHONE_LANDLINE_HREF} className="hover:text-[#a48b65] transition-colors drop-shadow-md">Tel: {PHONE_LANDLINE}</a>
+          <a href={`mailto:${EMAIL}`} className="hover:text-[#a48b65] transition-colors drop-shadow-md">Email: {EMAIL}</a>
         </div>
-        {/* Social icons */}
-        <div className="mt-[5px] flex h-[36px] w-1/2 items-center justify-end">
-          <div className="mr-[-6.1875px] flex gap-x-[5px]">
-            {SOCIAL_LINKS.map((s) => {
-              const Icon = SOCIAL_ICON[s.label];
+      </div>
+
+      <nav
+        aria-label="Primary"
+        className={cn(
+          "w-full transition-all duration-700 ease-out",
+          scrolled
+            ? "bg-[#111111]/90 backdrop-blur-md border-b border-white/[0.05] py-4 shadow-lg"
+            : "bg-transparent border-transparent py-4"
+        )}
+      >
+        <div className="mx-auto flex max-w-[1360px] items-center justify-between px-6 lg:px-8">
+          {/* Brand Logo */}
+          <Link href="#hero" className="group flex items-center transition-opacity hover:opacity-80 drop-shadow-md">
+            <div className="relative h-[44px] w-[135px] sm:h-[50px] sm:w-[155px]">
+              <Image
+                src={LOGO.src}
+                alt={LOGO.alt || "London Therapy Rooms to Rent"}
+                fill
+                priority
+                sizes="(max-width: 640px) 135px, 155px"
+                className="object-contain object-left filter brightness-110"
+              />
+            </div>
+          </Link>
+
+          {/* Desktop Navigation Links */}
+          <div className="hidden lg:flex items-center gap-7 xl:gap-9">
+            {NAV_LINKS.map((link) => {
+              const isActive = activeHash === link.href;
+
               return (
-                <a
-                  key={s.label}
-                  href={s.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex h-[36px] w-[36px] items-center justify-center rounded-[10%] bg-transparent text-[18px] leading-[18px] text-orange transition-colors hover:text-white"
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  className={cn(
+                    "relative py-2 text-[12px] font-medium tracking-[0.1em] uppercase transition-all duration-300 drop-shadow-md",
+                    isActive
+                      ? "text-white"
+                      : "text-white/80 hover:text-white"
+                  )}
                 >
-                  <span className="sr-only">{s.label}</span>
-                  <Icon className="h-[18px] w-[18px]" />
-                </a>
+                  {link.label}
+                  {/* Understated indicator */}
+                  <span
+                    className={cn(
+                      "absolute bottom-0 left-0 h-[1.5px] bg-white transition-all duration-500 ease-out",
+                      isActive ? "w-full opacity-100" : "w-0 opacity-0 group-hover:w-full group-hover:opacity-100"
+                    )}
+                    aria-hidden="true"
+                  />
+                </Link>
               );
             })}
           </div>
-        </div>
-      </div>
-    </div>
-  );
-}
 
-function NavBar() {
-  const [open, setOpen] = useState(false);
-
-  return (
-    <div className="relative z-10 px-[100px] pb-[4px] text-[16px] leading-[26.4px] text-ink max-md:px-[30px]">
-      <div aria-hidden="true" className="absolute inset-0 bg-black opacity-50" />
-      <div className="relative mx-auto -mt-[4px] flex max-w-[1240px] items-center">
-        <div className="mt-[2px] flex w-full items-center max-md:flex-col max-md:items-start">
-          {/* Logo column: 24% of 1240 = 297.6px */}
-          <div className="mt-[2.96875px] flex w-[24%] shrink-0 items-center max-md:w-full">
-            <a href="/" className="inline-block">
-              <img
-                src={LOGO.src}
-                alt={LOGO.alt}
-                width={LOGO.width}
-                height={LOGO.height}
-                className="block h-auto w-[161px] max-md:w-[90px] max-md:py-[10px]"
-              />
-            </a>
-          </div>
-
-          {/* Nav column */}
-          <nav
-            aria-label="Main"
-            className="relative flex min-h-[99px] flex-1 items-center max-md:min-h-0 max-md:w-1/2 max-md:flex-none max-md:pb-[10px]"
-          >
-            {/* Desktop menu (>= 1025px) */}
-            <ul className="flex flex-wrap justify-start max-[1024px]:hidden">
-              {NAV_LINKS.map((link, i) => {
-                const active = i === ACTIVE_INDEX;
-                return (
-                  <li key={link.label} className="relative mr-[15px] last:mr-0">
-                    <a
-                      href={link.href}
-                      aria-current={active ? "page" : undefined}
-                      className={cn(
-                        "group relative flex h-[48px] items-center justify-between p-[15px] text-[18px] font-light leading-[18px]",
-                        active ? "text-gold" : "text-white",
-                      )}
-                    >
-                      {link.label}
-                      <span
-                        aria-hidden="true"
-                        className={cn(
-                          "absolute bottom-0 h-[3px] bg-gold transition-all duration-200 ease-linear",
-                          active
-                            ? "left-0 w-full opacity-100"
-                            : "left-full w-[10px] opacity-0 group-hover:left-0 group-hover:w-full group-hover:opacity-100 group-focus-visible:left-0 group-focus-visible:w-full group-focus-visible:opacity-100",
-                        )}
-                      />
-                    </a>
-                  </li>
-                );
-              })}
-            </ul>
-
-            {/* Mobile toggle (< 1025px) */}
-            <button
-              type="button"
-              aria-label="Menu"
-              aria-expanded={open}
-              onClick={() => setOpen((o) => !o)}
+          {/* Action Button */}
+          <div className="hidden lg:flex items-center gap-4 drop-shadow-md">
+            <Link
+              href="#Contact"
               className={cn(
-                "ml-auto hidden cursor-pointer rounded-[3px] text-[25px] leading-[25px] text-orange max-[1024px]:inline-block",
-                open ? "border-2 border-orange p-[5.7px]" : "border-0 p-[7.7px]",
+                "inline-flex items-center justify-center rounded-[2px] px-8 py-3 text-[11px] font-semibold tracking-[0.15em] uppercase transition-all duration-300",
+                scrolled 
+                  ? "bg-white text-black hover:bg-white/90 shadow-md" 
+                  : "bg-black/40 text-white backdrop-blur-md border border-white/30 hover:bg-white hover:text-black hover:border-transparent shadow-lg"
               )}
             >
-              {open ? (
-                <CloseIcon className="block h-[25px] w-[25px] p-[4px]" />
-              ) : (
-                <MenuIcon className="block h-[25px] w-[25px]" />
-              )}
-            </button>
+              Book Now
+            </Link>
+          </div>
 
-            {/* Mobile dropdown */}
-            {open && (
-              <ul className="absolute left-0 top-full z-[999] w-full bg-white shadow-sm min-[1025px]:hidden md:max-w-[165px]">
-                {NAV_LINKS.map((link, i) => {
-                  const active = i === ACTIVE_INDEX;
-                  return (
-                    <li key={link.label} className="border-b border-[#c4c4c4] last:border-b-0">
-                      <a
-                        href={link.href}
-                        onClick={() => setOpen(false)}
-                        aria-current={active ? "page" : undefined}
-                        className={cn(
-                          "block p-[15px] text-[18px] font-light leading-[18px]",
-                          active ? "border-b-[3px] border-gold text-gold" : "text-ink",
-                        )}
-                      >
-                        {link.label}
-                      </a>
-                    </li>
-                  );
-                })}
-              </ul>
-            )}
-          </nav>
+          {/* Mobile Menu Trigger */}
+          <button
+            type="button"
+            aria-label={mobileOpen ? "Close menu" : "Open menu"}
+            aria-expanded={mobileOpen}
+            onClick={() => setMobileOpen((o) => !o)}
+            className="flex h-10 w-10 items-center justify-center rounded-sm text-white transition-colors hover:text-[#a48b65] lg:hidden drop-shadow-md"
+          >
+            {mobileOpen ? <CloseIcon className="h-6 w-6" /> : <MenuIcon className="h-6 w-6" />}
+          </button>
         </div>
-      </div>
-    </div>
-  );
-}
+      </nav>
 
-export function SiteHeader() {
-  return (
-    <header className="relative z-10">
-      <TopBar />
-      <NavBar />
+      {/* Mobile Dropdown Menu */}
+      <AnimatePresence>
+        {mobileOpen && (
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.3, ease: "easeOut" }}
+            className="absolute top-full left-0 w-full border-b border-white/5 bg-[#111111]/98 px-6 py-8 backdrop-blur-2xl lg:hidden shadow-2xl"
+          >
+            <div className="flex flex-col space-y-2">
+              {NAV_LINKS.map((link) => {
+                const isActive = activeHash === link.href;
+
+                return (
+                  <Link
+                    key={link.label}
+                    href={link.href}
+                    onClick={() => setMobileOpen(false)}
+                    className={cn(
+                      "flex items-center justify-between py-3 text-[13px] font-medium tracking-[0.1em] uppercase border-b border-white/10 transition-colors",
+                      isActive ? "text-[#a48b65]" : "text-white/80 hover:text-white"
+                    )}
+                  >
+                    <span>{link.label}</span>
+                    {isActive && <span className="h-1.5 w-1.5 rounded-full bg-[#a48b65]" />}
+                  </Link>
+                );
+              })}
+
+              <div className="pt-6 flex flex-col gap-4">
+                <Link
+                  href="#Contact"
+                  onClick={() => setMobileOpen(false)}
+                  className="flex w-full items-center justify-center rounded-[2px] bg-[#a48b65] py-4 text-center text-[12px] font-semibold tracking-[0.15em] text-white uppercase transition-colors hover:bg-[#b89f78]"
+                >
+                  Book Now / Enquire
+                </Link>
+
+                <div className="flex flex-col gap-3 pt-4 text-[12px] font-medium text-white/70 tracking-wide text-center">
+                  <a href={PHONE_MOBILE_HREF} className="transition-colors hover:text-white">
+                    Direct: {PHONE_MOBILE}
+                  </a>
+                  <a href={PHONE_LANDLINE_HREF} className="transition-colors hover:text-white">
+                    Tel: {PHONE_LANDLINE}
+                  </a>
+                  <a href={`mailto:${EMAIL}`} className="transition-colors hover:text-white">
+                    {EMAIL}
+                  </a>
+                  <div className="text-white/50 font-light">{ADDRESS}</div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   );
 }
 
 export default SiteHeader;
+

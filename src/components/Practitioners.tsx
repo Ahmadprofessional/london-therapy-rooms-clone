@@ -1,177 +1,115 @@
-import type { CSSProperties } from "react";
+"use client";
+
+import Image from "next/image";
 import { PRACTITIONERS_INTRO, PRACTITIONER_ROWS } from "@/data/site";
 import type { Practitioner } from "@/types/content";
 import { Reveal } from "@/components/Reveal";
-import { cn } from "@/lib/utils";
+import { SparklesIcon, ShieldCheckIcon } from "@/components/icons";
+import { SectionReveal } from "@/components/SectionReveal";
+import { motion } from "framer-motion";
 
-/**
- * Per-card overrides taken from the live site's computed styles.
- * - imgH: rendered image height (width follows the intrinsic aspect ratio)
- * - roleSmall: h4 at 14px/16.8px with -5px top offset (else 15px/18px)
- * - bio: text-editor variant
- *     "regular" = Open Sans 400 15px/24.75px, no paragraph gap
- *     "light"   = Open Sans 300 16px/26.4px
- *     "medium"  = Open Sans 500 15px/24.75px
- *     "roboto"  = paragraphs on white, Roboto #000 spans, 25.6px gap
- * - bioMt: top margin of the text-editor container (px)
- * - bioW: text widget width override (Federica's widget overflows to 102.379%)
- */
-type BioVariant = "regular" | "light" | "medium" | "roboto";
-interface CardStyle {
-  imgH: number;
-  roleSmall?: boolean;
-  bio: BioVariant;
-  bioMt?: number;
-  bioW?: string; // extra classes
-}
-
-const CARD_STYLES: Record<string, CardStyle> = {
-  "Sofia Bouzian": { imgH: 132, bio: "regular" },
-  "Dr Olga Gagua": { imgH: 132, bio: "regular" },
-  "Katie Macauley": { imgH: 132, bio: "light", bioMt: 7.1875 },
-  "Anna Balcome": { imgH: 132, roleSmall: true, bio: "regular" },
-  Foz: { imgH: 132, bio: "medium", bioMt: -14.3906 },
-  "Domenic Knight": { imgH: 132, roleSmall: true, bio: "roboto", bioMt: -7.1875 },
-  "Dr Malgorzata Stanzek": { imgH: 132, bio: "light", bioMt: 25.1875 },
-  "Dr Federica Boecklin": { imgH: 132, roleSmall: true, bio: "light", bioW: "md:w-[102.379%] md:max-w-[102.379%]" },
-  "Kelly Sun": { imgH: 132, roleSmall: true, bio: "light", bioMt: 7.1875 },
-  "Dana Nizomova": { imgH: 135, bio: "light", bioMt: 11 },
-  "Hollie Bryant": { imgH: 138, roleSmall: true, bio: "light", bioMt: 33 },
-};
-
-const DEFAULT_STYLE: CardStyle = { imgH: 132, bio: "regular" };
-
-const BIO_CLASS: Record<BioVariant, string> = {
-  regular: "text-[15px] font-normal leading-[24.75px]",
-  light: "text-[16px] font-light leading-[26.4px]",
-  medium: "text-[15px] font-medium leading-[24.75px]",
-  roboto: "text-[15px] font-normal leading-[24.75px]",
-};
-
-/** Section vertical margins per row (Elementor top-level sections 16–19) */
-const ROW_MARGINS: CSSProperties[] = [
-  { marginBottom: "90px" },
-  { marginTop: "-57.5938px", marginBottom: "115.188px" },
-  { marginTop: "-57.5938px", marginBottom: "100.797px" },
-  { marginTop: "-57.5938px", marginBottom: "100.797px" },
-];
-
-function withBreaks(text: string) {
-  const lines = text.split("\n");
-  return lines.map((line, i) => (
-    <span key={i}>
-      {line}
-      {i < lines.length - 1 && <br />}
-    </span>
-  ));
-}
-
-function PractitionerCard({ p, cols }: { p: Practitioner; cols: 2 | 3 }) {
-  const s = CARD_STYLES[p.name] ?? DEFAULT_STYLE;
-  const imgW = Math.round((s.imgH * p.imageWidth) / p.imageHeight);
-
+function PractitionerCard({ p, index }: { p: Practitioner; index: number }) {
   return (
-    <div
-      className={cn(
-        "flex w-full flex-col p-[10px] text-center",
-        cols === 3 ? "md:w-1/3" : "md:w-1/2",
-      )}
+    <motion.div 
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-10% 0px" }}
+      transition={{ duration: 0.6, ease: "easeOut", delay: (index % 3) * 0.15 }}
+      className="group relative flex flex-col justify-between overflow-hidden rounded-3xl border border-[#a48b65]/20 bg-white p-6 sm:p-8 shadow-[0_10px_30px_rgba(0,0,0,0.04)] transition-all duration-300 hover:border-[#a48b65]/50 hover:shadow-[0_15px_40px_rgba(164,139,101,0.14)] hover:-translate-y-1"
     >
-      {/* Image */}
-      <div className="mb-[20px] text-center">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={p.image}
-          alt=""
-          width={imgW}
-          height={s.imgH}
-          loading="lazy"
-          className="inline-block max-w-full align-middle transition-transform duration-300 hover:scale-110"
-          style={{ height: `${s.imgH}px`, width: "auto" }}
-        />
+      {/* Top Section: Avatar & Specialty */}
+      <div>
+        <div className="mb-6 flex flex-col sm:flex-row items-center sm:items-start gap-5">
+          {/* Avatar with Gold Ring Frame */}
+          <div className="relative h-24 w-24 sm:h-28 sm:w-28 shrink-0 overflow-hidden rounded-full border-2 border-[#a48b65]/40 bg-[#faf8f5] p-1 shadow-md transition-all duration-300 group-hover:border-[#a48b65] group-hover:scale-105">
+            <div className="relative h-full w-full overflow-hidden rounded-full">
+              <Image
+                src={p.image}
+                alt={p.name}
+                fill
+                sizes="112px"
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
+
+          {/* Name & Title */}
+          <div className="text-center sm:text-left flex-1 min-w-0">
+            <div className="mb-1 flex items-center justify-center sm:justify-start gap-1.5 text-xs font-semibold text-[#a48b65] uppercase tracking-wider">
+              <ShieldCheckIcon className="h-3.5 w-3.5" />
+              <span>Verified Specialist</span>
+            </div>
+
+            <h3 className="text-xl sm:text-2xl font-normal text-[#282828] group-hover:text-[#a48b65] transition-colors">
+              {p.name}
+            </h3>
+
+            {p.role && (
+              <div className="mt-1.5 inline-block rounded-lg bg-[#faf8f5] border border-[#a48b65]/20 px-2.5 py-1 text-xs font-medium text-[#282828]/80 leading-snug">
+                {p.role.split("\n").join(" · ")}
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Bio Text */}
+        <div className="space-y-2.5 text-sm sm:text-[15px] font-light leading-relaxed text-[#555555] border-t border-black/5 pt-4">
+          {p.bio.map((para, i) => (
+            <p key={i}>{para}</p>
+          ))}
+        </div>
       </div>
 
-      {/* Name */}
-      <h3 className="mb-[20px] text-[22px] font-medium italic leading-[17.6px] tracking-[-0.4px] text-black">
-        {p.name}
-      </h3>
-
-      {/* Role */}
-      {p.role && (
-        <h4
-          className={cn(
-            "mb-[20px] font-medium italic text-ink",
-            s.roleSmall ? "mt-[-5px] text-[14px] leading-[16.8px]" : "text-[15px] leading-[18px]",
-          )}
+      {/* Card Footer: Location Note */}
+      <div className="mt-6 flex items-center justify-between border-t border-black/5 pt-4 text-xs text-[#888888]">
+        <span>Harley Street Clinic</span>
+        <a
+          href="#Contact"
+          className="font-medium text-[#a48b65] hover:underline"
         >
-          {withBreaks(p.role)}
-        </h4>
-      )}
-
-      {/* Bio */}
-      <div
-        className={cn(
-          "font-[family-name:var(--font-open-sans)] text-ink",
-          BIO_CLASS[s.bio],
-          s.bioW,
-        )}
-        style={{
-          marginTop: s.bioMt ? `${s.bioMt}px` : undefined,
-        }}
-      >
-        {s.bio === "roboto"
-          ? p.bio.map((para, i) => (
-              <p key={i} className="mb-[25.6px] bg-white">
-                <span className="font-[family-name:var(--font-roboto)] text-black">{para}</span>
-              </p>
-            ))
-          : p.bio.map((para, i) => <p key={i}>{para}</p>)}
+          Book Consultation &rarr;
+        </a>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
 export function Practitioners() {
+  const allPractitioners = PRACTITIONER_ROWS.flat();
+
   return (
-    <>
-      {/* Intro (raw section 15) */}
-      <Reveal
-        as="section"
-        id="PRACTITIONERS"
-        className="relative mb-[30px] text-ink"
-      >
-        <div className="relative mx-auto flex max-w-[1100px]">
-          <div className="flex w-full flex-wrap p-[10px] text-center">
-            <h2 className="mb-[20px] w-full text-[28.83px] font-semibold italic leading-[37.479px] text-black">
+    <section id="PRACTITIONERS" className="relative py-16 md:py-24 bg-[#faf8f5] scroll-mt-20">
+      <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8">
+        {/* Intro */}
+        <Reveal className="mb-12 md:mb-16 text-center">
+          <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-[#a48b65]/30 bg-white px-4 py-1.5 text-xs font-semibold tracking-widest text-[#a48b65] uppercase">
+            <SparklesIcon className="h-3.5 w-3.5" />
+            <span>ESTABLISHED MEDICAL &amp; THERAPY EXPERTS</span>
+          </div>
+
+          <SectionReveal>
+            <h2 className="mb-4 text-3xl font-normal tracking-tight text-[#282828] sm:text-4xl md:text-5xl">
               {PRACTITIONERS_INTRO.heading}
             </h2>
-            <h2 className="mt-[-10.7969px] w-full text-[22px] font-medium italic leading-[28.6px] text-black">
-              {PRACTITIONERS_INTRO.subLines.map((line, i) => (
-                <span key={i}>
-                  {line}
-                  {i < PRACTITIONERS_INTRO.subLines.length - 1 && <br />}
-                </span>
-              ))}
-            </h2>
-          </div>
-        </div>
-      </Reveal>
+          </SectionReveal>
 
-      {/* Rows (raw sections 16–19): 3, 3, 3, 2 */}
-      {PRACTITIONER_ROWS.map((row, r) => (
-        <Reveal
-          key={r}
-          as="section"
-          className="relative text-ink"
-          style={ROW_MARGINS[r] ?? ROW_MARGINS[ROW_MARGINS.length - 1]}
-        >
-          <div className="relative mx-auto flex max-w-[1140px] flex-wrap items-start px-[20px] md:flex-nowrap md:px-0">
-            {row.map((p) => (
-              <PractitionerCard key={p.name} p={p} cols={row.length === 2 ? 2 : 3} />
-            ))}
-          </div>
+          <SectionReveal delay={0.1}>
+            <p className="mx-auto max-w-2xl text-base font-light leading-relaxed text-[#555555] sm:text-lg">
+              Our clinic houses established, internationally acclaimed doctors, surgeons, therapists, and aesthetic
+              practitioners dedicated to the highest standard of patient care.
+            </p>
+          </SectionReveal>
         </Reveal>
-      ))}
-    </>
+
+        {/* Practitioners Responsive Grid */}
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+          {allPractitioners.map((p, index) => (
+            <PractitionerCard key={p.name} p={p} index={index} />
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }
+
+export default Practitioners;

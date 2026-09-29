@@ -17,10 +17,10 @@ export const MEMBER_BADGE = {
 };
 
 export const NAV_LINKS: NavLink[] = [
-  { label: "Home", href: "/" },
-  { label: "About Us", href: "https://londontherapyroomstorent.com/about/" },
-  { label: "Rooms", href: "#Rooms" },
-  { label: "Our Practitioners", href: "#PRACTITIONERS" },
+  { label: "Home", href: "#hero" },
+  { label: "About Us", href: "#Aboutus" },
+  { label: "Rooms & Rates", href: "#Rooms" },
+  { label: "Practitioners", href: "#PRACTITIONERS" },
   { label: "Our Mission", href: "#vision" },
   { label: "Contact Us", href: "#Contact" },
 ];
@@ -33,11 +33,8 @@ export const SOCIAL_LINKS: SocialLink[] = [
 export const HERO = {
   eyebrow: "London Therapy Rooms  to",
   titleLines: ["Rent in Marylebone, Harley Street", "District Central London , W1G 0EB"],
-  slides: [
-    "/images/2024/08/IMG-20240826-WA0037.jpg",
-    "/images/2024/08/IMG-20240826-WA0040.jpg",
-    "/images/2024/08/IMG-20240826-WA0024.jpg",
-  ],
+  videoSrc: "/videos/hero-section-video.mp4",
+  posterImage: "/images/2024/08/IMG-20240826-WA0037.jpg",
   primaryCta: { label: "BOOK NOW", href: "#Contact" },
   secondaryCta: { label: "ENQUIRE", href: "#Contact" },
 };

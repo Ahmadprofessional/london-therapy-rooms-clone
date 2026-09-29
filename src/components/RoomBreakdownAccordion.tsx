@@ -11,10 +11,9 @@ interface RoomBreakdownAccordionProps {
   style?: CSSProperties;
 }
 
-/** Unlimited Elements "Icon Accordion": click header to slide open a black 2-column checklist. */
 export function RoomBreakdownAccordion({
   items,
-  title = "Room Breakdown (click to expand)",
+  title = "Included Amenities & Medical Equipment",
   className,
   style,
 }: RoomBreakdownAccordionProps) {
@@ -22,42 +21,51 @@ export function RoomBreakdownAccordion({
   const panelId = useId();
 
   return (
-    <div className={cn("w-full overflow-hidden", className)} style={style}>
+    <div className={cn("w-full overflow-hidden rounded-2xl border border-[#a48b65]/25 bg-white/90 shadow-sm transition-all duration-300", open && "border-[#a48b65]/50 shadow-md", className)} style={style}>
       <button
         type="button"
         aria-expanded={open}
         aria-controls={panelId}
         onClick={() => setOpen((o) => !o)}
-        className="flex h-[42px] w-full cursor-pointer items-center border-0 bg-transparent p-0 text-left"
+        className="flex w-full cursor-pointer items-center justify-between p-4 sm:p-5 text-left transition-colors hover:bg-[#faf8f5]"
       >
-        <span className="flex-1 text-[15px] font-semibold leading-[24.75px] text-black">{title}</span>
-        <span className="ml-[15px] flex h-[42px] w-[42px] shrink-0 items-center justify-center leading-4 text-[#bfbfbf]">
-          {open ? <MinusIcon className="h-4 w-[14px]" /> : <PlusIcon className="h-4 w-[14px]" />}
+        <span className="text-sm sm:text-base font-medium text-[#282828] flex items-center gap-2">
+          <span className="h-2 w-2 rounded-full bg-[#a48b65]" />
+          {title}
+        </span>
+        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#a48b65]/10 text-[#a48b65] transition-transform duration-200">
+          {open ? <MinusIcon className="h-3.5 w-3.5" /> : <PlusIcon className="h-3.5 w-3.5" />}
         </span>
       </button>
+
       <div
         id={panelId}
         className={cn(
           "grid transition-[grid-template-rows] duration-300 ease-in-out",
-          open ? "grid-rows-[1fr]" : "grid-rows-[0fr]",
+          open ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
         )}
       >
-        <div className="min-h-0 overflow-hidden" inert={!open}>
-          <div className="flex bg-black p-5 text-white">
-            {items.map((col, c) => (
-              <ul key={c} className={cn("m-0 list-none p-2.5", c === 0 ? "w-[43.6%]" : "w-[56.4%]")}>
-                {col.map((item) => (
-                  <li key={item} className="flex items-center text-base font-extralight leading-[26.4px]">
-                    <CheckIcon className="mr-2 h-[14px] w-[14px] shrink-0 text-white" />
-                    {/* live site: item text boxes wrap at ~100px (col 1) / ~118px (col 2) */}
-                    <span className={c === 0 ? "max-w-[100px]" : "max-w-[118px]"}>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            ))}
+        <div className="min-h-0 overflow-hidden" aria-hidden={!open}>
+          <div className="border-t border-black/5 bg-[#faf8f5] p-5 sm:p-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+              {items.map((col, c) => (
+                <ul key={c} className="m-0 list-none space-y-2.5 p-0">
+                  {col.map((item) => (
+                    <li key={item} className="flex items-start gap-2.5 text-xs sm:text-sm font-normal text-[#444444]">
+                      <span className="flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-[#a48b65] text-white mt-0.5">
+                        <CheckIcon className="h-2.5 w-2.5" />
+                      </span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              ))}
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
 }
+
+export default RoomBreakdownAccordion;

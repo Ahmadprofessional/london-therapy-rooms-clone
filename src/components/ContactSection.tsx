@@ -13,27 +13,36 @@ import {
   SOCIAL_LINKS,
 } from "@/data/site";
 import {
-  AddressBookIcon,
   PhoneAltIcon,
   EnvelopeOutlineIcon,
   FacebookIcon,
   InstagramIcon,
-  CaretDownIcon,
+  LocationDotIcon,
+  CalendarIcon,
+  SparklesIcon,
+  ClockIcon,
+  CheckIcon,
 } from "@/components/icons";
 import { Reveal } from "@/components/Reveal";
 import { cn } from "@/lib/utils";
+import { SectionReveal } from "@/components/SectionReveal";
 
-/* Elementor form field styles (computed on the live site) */
-const fieldBase =
-  "w-full max-w-full min-h-[40px] bg-white border border-solid border-[#69727d] shadow-[0_1px_2px_0_rgba(0,0,0,0.05)] font-normal text-[#1f2124] outline-none focus:shadow-[0_0_0_1px_#69727d]";
-const inputCls = cn(fieldBase, "h-[40px] rounded-[4px] px-[16px] py-[12px] text-[16px] leading-[24px]");
-const labelCls = "block w-full text-[14px] font-medium leading-[20px] text-black";
-const groupCls = "mb-[10px] flex flex-wrap items-center px-[5px]";
+const SOCIAL_ICON = { Facebook: FacebookIcon, Instagram: InstagramIcon } as const;
 
-function Field({ label, htmlFor, half, children }: { label: string; htmlFor: string; half?: boolean; children: ReactNode }) {
+function FormField({
+  label,
+  htmlFor,
+  children,
+  className,
+}: {
+  label: string;
+  htmlFor: string;
+  children: ReactNode;
+  className?: string;
+}) {
   return (
-    <div className={cn(groupCls, half ? "w-1/2 max-[767px]:w-full" : "w-full")}>
-      <label htmlFor={htmlFor} className={labelCls}>
+    <div className={cn("flex flex-col gap-1.5", className)}>
+      <label htmlFor={htmlFor} className="text-xs sm:text-sm font-medium text-[#282828]">
         {label}
       </label>
       {children}
@@ -41,156 +50,268 @@ function Field({ label, htmlFor, half, children }: { label: string; htmlFor: str
   );
 }
 
-const SOCIAL_ICON = { Facebook: FacebookIcon, Instagram: InstagramIcon } as const;
-
 export function ContactSection() {
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    e.currentTarget.reset();
-    setSubmitted(true);
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+      setSubmitted(true);
+    }, 600);
   }
 
-  const infoItems = [
-    { Icon: AddressBookIcon, text: ADDRESS, href: MAPS_HREF, external: true },
-    { Icon: PhoneAltIcon, text: PHONE_LANDLINE, href: PHONE_LANDLINE_HREF },
-    { Icon: PhoneAltIcon, text: PHONE_MOBILE, href: PHONE_MOBILE_HREF },
-    { Icon: EnvelopeOutlineIcon, text: EMAIL, href: `mailto:${EMAIL}` },
-  ];
+  const inputCls =
+    "w-full rounded-xl border border-black/15 bg-white px-4 py-3 text-sm sm:text-base font-normal text-[#282828] placeholder:text-[#888888] shadow-xs transition-all duration-200 outline-none focus:border-[#a48b65] focus:ring-2 focus:ring-[#a48b65]/20";
 
   return (
-    <>
-      {/* Heading (raw section 22) */}
-      <Reveal as="section" className="relative mt-[70px] text-ink">
-        <div className="mx-auto flex max-w-[1140px]">
-          <div className="flex w-full flex-wrap p-[10px]">
-            <div className="mb-[20px] w-full text-center">
-              <h2 className="text-[35px] font-medium italic leading-[45.5px] text-black">
-                {CONTACT.eyebrow}
-              </h2>
-            </div>
-            <div className="w-full text-center">
-              <h3 className="text-[22px] font-semibold leading-[28.6px]">{CONTACT.heading}</h3>
-            </div>
+    <section id="Contact" className="relative py-16 md:py-32 bg-[#faf8f5] scroll-mt-20">
+      <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8">
+        {/* Section Header */}
+        <Reveal className="mb-12 md:mb-16 text-center">
+          <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-[#a48b65]/30 bg-white px-4 py-1.5 text-xs font-semibold tracking-widest text-[#a48b65] uppercase">
+            <SparklesIcon className="h-3.5 w-3.5" />
+            <span>CLINIC TOUR &amp; ENQUIRIES</span>
           </div>
-        </div>
-      </Reveal>
 
-      {/* Form + info (raw section 23) */}
-      <section id="Contact" className="relative mt-[50px] scroll-mt-[100px] text-ink">
-        <div className="mx-[70px] flex max-w-[1300px] max-[1024px]:mx-[20px] max-[767px]:mx-0 max-[767px]:flex-col min-[1440px]:mx-auto">
-          {/* Form column */}
-          <div className="relative flex w-1/2 flex-wrap max-[767px]:w-full max-[767px]:px-[30px]">
-            <form onSubmit={handleSubmit} className="w-full">
-              <div className="-mx-[5px] -mb-[10px] flex flex-wrap">
-                <Field label="First Name" htmlFor="cf-first" half>
-                  <input id="cf-first" name="first_name" type="text" required className={inputCls} />
-                </Field>
-                <Field label="Last Name" htmlFor="cf-last" half>
-                  <input id="cf-last" name="last_name" type="text" required className={inputCls} />
-                </Field>
-                <Field label="Email" htmlFor="cf-email">
-                  <input id="cf-email" name="email" type="email" required className={inputCls} />
-                </Field>
-                <Field label="Phone No" htmlFor="cf-phone">
-                  <input id="cf-phone" name="phone" type="tel" required className={inputCls} />
-                </Field>
-                <Field label="Profession" htmlFor="cf-profession">
-                  <input id="cf-profession" name="profession" type="text" required className={inputCls} />
-                </Field>
-                <Field label="Which room?" htmlFor="cf-room">
-                  <div className="relative flex w-full max-w-full">
-                    <select
-                      id="cf-room"
-                      name="room"
-                      required
-                      defaultValue=""
-                      className={cn(
-                        fieldBase,
-                        "h-[40px] cursor-pointer appearance-none rounded-[3px] py-[5px] pl-[14px] pr-[20px] text-[15px] font-extralight text-[#1f2124] invalid:text-[#1f2124]",
-                      )}
-                    >
-                      <option value="">Select Room</option>
-                      {CONTACT.roomOptions.map((o) => (
-                        <option key={o} value={o}>
-                          {o}
-                        </option>
-                      ))}
-                    </select>
-                    <CaretDownIcon
-                      aria-hidden="true"
-                      className="pointer-events-none absolute right-[10px] top-1/2 h-[11px] w-[11px] -translate-y-1/2 fill-current text-[#1f2124]"
-                    />
-                  </div>
-                </Field>
-                <Field label="Detail of your enquiry" htmlFor="cf-message">
-                  <textarea
-                    id="cf-message"
-                    name="message"
-                    rows={6}
-                    placeholder={CONTACT.enquiryPlaceholder}
-                    className={cn(
-                      fieldBase,
-                      "h-[138px] rounded-[3px] px-[14px] py-[5px] text-[15px] leading-[21px] placeholder:text-[#808285]",
-                    )}
+          <SectionReveal>
+            <h2 className="mb-3 text-3xl font-normal tracking-tight text-[#282828] sm:text-4xl md:text-5xl">
+              {CONTACT.heading}
+            </h2>
+          </SectionReveal>
+
+          <SectionReveal delay={0.1}>
+            <p className="mx-auto max-w-xl text-base font-light text-[#555555]">
+              {CONTACT.eyebrow}. Book an in-person viewing or enquire about hourly, daily, or full-time room availability.
+            </p>
+          </SectionReveal>
+        </Reveal>
+
+        {/* 2-Column Grid */}
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-12">
+          {/* Booking Form */}
+          <div className="rounded-3xl border border-[#a48b65]/25 bg-white p-6 sm:p-10 shadow-[0_15px_45px_rgba(0,0,0,0.05)] lg:col-span-7">
+            <h3 className="mb-6 text-2xl font-normal text-[#282828]">
+              Send an Enquiry / Book a Tour
+            </h3>
+
+            <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5">
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <FormField label="First Name" htmlFor="cf-first">
+                  <input
+                    id="cf-first"
+                    name="first_name"
+                    type="text"
+                    required
+                    placeholder="e.g. Dr. Sarah"
+                    className={inputCls}
                   />
-                </Field>
-                {/* reCAPTCHA badge on the live site omitted */}
-                <div className={cn(groupCls, "mt-[40px] w-full items-end")}>
-                  <button
-                    type="submit"
-                    className="flex min-h-[40px] w-full items-center justify-center gap-[5px] rounded-[5px] bg-gold px-[30px] text-[15px] font-medium leading-[16px] text-white shadow-[0_1px_2px_0_rgba(0,0,0,0.05)] transition-colors duration-300 hover:bg-black"
-                  >
-                    Send
-                  </button>
-                </div>
+                </FormField>
+
+                <FormField label="Last Name" htmlFor="cf-last">
+                  <input
+                    id="cf-last"
+                    name="last_name"
+                    type="text"
+                    required
+                    placeholder="e.g. Jenkins"
+                    className={inputCls}
+                  />
+                </FormField>
               </div>
+
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <FormField label="Email Address" htmlFor="cf-email">
+                  <input
+                    id="cf-email"
+                    name="email"
+                    type="email"
+                    required
+                    placeholder="name@clinic.com"
+                    className={inputCls}
+                  />
+                </FormField>
+
+                <FormField label="Phone Number" htmlFor="cf-phone">
+                  <input
+                    id="cf-phone"
+                    name="phone"
+                    type="tel"
+                    required
+                    placeholder="07..."
+                    className={inputCls}
+                  />
+                </FormField>
+              </div>
+
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <FormField label="Your Profession / Specialty" htmlFor="cf-profession">
+                  <input
+                    id="cf-profession"
+                    name="profession"
+                    type="text"
+                    required
+                    placeholder="e.g. Aesthetic Doctor, Psychotherapist"
+                    className={inputCls}
+                  />
+                </FormField>
+
+                <FormField label="Interested Room" htmlFor="cf-room">
+                  <select
+                    id="cf-room"
+                    name="room"
+                    required
+                    defaultValue=""
+                    className={cn(inputCls, "cursor-pointer")}
+                  >
+                    <option value="" disabled>Select Room</option>
+                    {CONTACT.roomOptions.map((o) => (
+                      <option key={o} value={o}>
+                        {o}
+                      </option>
+                    ))}
+                    <option value="All Rooms">All Rooms / Flexible</option>
+                  </select>
+                </FormField>
+              </div>
+
+              <FormField label="Detail of your enquiry or preferred tour time" htmlFor="cf-message">
+                <textarea
+                  id="cf-message"
+                  name="message"
+                  rows={4}
+                  placeholder={CONTACT.enquiryPlaceholder}
+                  className={cn(inputCls, "resize-none")}
+                />
+              </FormField>
+
+              <button
+                type="submit"
+                disabled={loading}
+                className="group flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#a48b65] via-[#b89f78] to-[#a48b65] bg-[length:200%_auto] py-4 text-base font-medium text-white shadow-md transition-all duration-300 hover:bg-right hover:shadow-lg hover:scale-[1.01] active:scale-[0.99] disabled:opacity-70"
+              >
+                {loading ? (
+                  <span>Sending Enquiry...</span>
+                ) : (
+                  <>
+                    <CalendarIcon className="h-5 w-5" />
+                    <span>Submit Clinic Enquiry</span>
+                  </>
+                )}
+              </button>
+
               {submitted && (
-                <p role="status" className="mt-[20px] text-[14px] font-normal leading-[20px] text-[#46b450]">
-                  Your submission was successful.
-                </p>
+                <div className="flex items-center gap-2 rounded-2xl bg-emerald-50 border border-emerald-200 p-4 text-sm font-medium text-emerald-800">
+                  <CheckIcon className="h-4 w-4 shrink-0 text-emerald-600" />
+                  <span>Thank you! Your enquiry has been received. Our clinic management will be in touch shortly.</span>
+                </div>
               )}
             </form>
           </div>
 
-          {/* Info column */}
-          <div className="relative ml-[50px] flex min-w-0 flex-1 flex-col content-start max-[767px]:ml-0 max-[767px]:mt-[40px] max-[767px]:w-full max-[767px]:px-[30px]">
-            <h3 className="mb-[20px] text-[30px] font-semibold leading-[39px] text-ink">{CONTACT.infoHeading}</h3>
-            <ul className="mb-[20px]">
-              {infoItems.map(({ Icon, text, href, external }, i) => (
-                <li key={text} className={cn("flex items-center", i > 0 && "mt-[4px]", i < infoItems.length - 1 && "pb-[4px]")}>
-                  <a
-                    href={href}
-                    {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-                    className="flex w-full items-center text-[20px] font-light leading-[33px] text-black"
-                  >
-                    <Icon aria-hidden="true" className="mr-[4.75px] h-[19px] w-[19px] shrink-0 fill-black" />
-                    <span className="pl-[5px] text-black">{text}</span>
-                  </a>
-                </li>
-              ))}
-            </ul>
-            <div className="flex gap-[5px]">
-              {SOCIAL_LINKS.map(({ label, href }) => {
-                const Icon = SOCIAL_ICON[label];
-                return (
-                  <a
-                    key={label}
-                    href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={label}
-                    className="inline-flex h-[50px] w-[50px] items-center justify-center rounded-[10%] text-black transition-colors duration-300 hover:text-gold"
-                  >
-                    <Icon aria-hidden="true" className="h-[25px] w-[25px] fill-current" />
-                  </a>
-                );
-              })}
+          {/* Contact Details & Clinic Card */}
+          <div className="flex flex-col justify-between rounded-3xl border border-[#a48b65]/25 bg-gradient-to-b from-[#1c1c1c] to-[#121212] p-8 sm:p-10 text-white shadow-xl lg:col-span-5">
+            <div>
+              <span className="text-xs font-semibold tracking-widest text-[#a48b65] uppercase">
+                DIRECT CONTACT
+              </span>
+              <h3 className="mb-6 text-2xl sm:text-3xl font-normal text-white">
+                {CONTACT.infoHeading}
+              </h3>
+
+              <div className="space-y-5 text-sm sm:text-base">
+                {/* Address */}
+                <a
+                  href={MAPS_HREF}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-start gap-3.5 transition-colors hover:text-[#a48b65]"
+                >
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/10 text-[#a48b65] group-hover:bg-[#a48b65] group-hover:text-white transition-colors">
+                    <LocationDotIcon className="h-5 w-5 fill-current" />
+                  </div>
+                  <div>
+                    <div className="text-xs text-white/60">Clinic Location</div>
+                    <div className="font-medium text-white">{ADDRESS}</div>
+                  </div>
+                </a>
+
+                {/* Mobile */}
+                <a
+                  href={PHONE_MOBILE_HREF}
+                  className="group flex items-start gap-3.5 transition-colors hover:text-[#a48b65]"
+                >
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/10 text-[#a48b65] group-hover:bg-[#a48b65] group-hover:text-white transition-colors">
+                    <PhoneAltIcon className="h-5 w-5 fill-current" />
+                  </div>
+                  <div>
+                    <div className="text-xs text-white/60">Direct Mobile / WhatsApp</div>
+                    <div className="font-medium text-white">{PHONE_MOBILE}</div>
+                  </div>
+                </a>
+
+                {/* Landline */}
+                <a
+                  href={PHONE_LANDLINE_HREF}
+                  className="group flex items-start gap-3.5 transition-colors hover:text-[#a48b65]"
+                >
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/10 text-[#a48b65] group-hover:bg-[#a48b65] group-hover:text-white transition-colors">
+                    <ClockIcon className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <div className="text-xs text-white/60">Clinic Landline</div>
+                    <div className="font-medium text-white">{PHONE_LANDLINE}</div>
+                  </div>
+                </a>
+
+                {/* Email */}
+                <a
+                  href={`mailto:${EMAIL}`}
+                  className="group flex items-start gap-3.5 transition-colors hover:text-[#a48b65]"
+                >
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/10 text-[#a48b65] group-hover:bg-[#a48b65] group-hover:text-white transition-colors">
+                    <EnvelopeOutlineIcon className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <div className="text-xs text-white/60">General Enquiries</div>
+                    <div className="font-medium text-white truncate max-w-[220px]">{EMAIL}</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            {/* Transport & Socials */}
+            <div className="mt-8 border-t border-white/10 pt-6">
+              <div className="mb-4 text-xs font-light text-white/70">
+                🚇 <strong>2 min walk</strong> from Bond Street Station · <strong>5 min</strong> from Oxford Circus
+              </div>
+
+              <div className="flex items-center gap-3">
+                <span className="text-xs text-white/50">Follow our clinic:</span>
+                {SOCIAL_LINKS.map(({ label, href }) => {
+                  const Icon = SOCIAL_ICON[label];
+                  return (
+                    <a
+                      key={label}
+                      href={href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white transition-all hover:bg-[#a48b65] hover:border-[#a48b65] hover:scale-105"
+                      aria-label={label}
+                    >
+                      <Icon className="h-4 w-4 fill-current" />
+                    </a>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }
+
+export default ContactSection;

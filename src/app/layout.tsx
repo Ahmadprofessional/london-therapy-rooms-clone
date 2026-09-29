@@ -1,6 +1,20 @@
 import type { Metadata } from "next";
-import { Poppins, Open_Sans, Roboto } from "next/font/google";
+import { Poppins, Open_Sans, Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import { SmoothScrolling } from "@/components/SmoothScrolling";
+
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+});
+
+const plusJakarta = Plus_Jakarta_Sans({
+  variable: "--font-plus-jakarta",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+});
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -9,8 +23,6 @@ const poppins = Poppins({
   style: ["normal", "italic"],
 });
 
-const roboto = Roboto({ variable: "--font-roboto", subsets: ["latin"], weight: ["400"] });
-
 const openSans = Open_Sans({
   variable: "--font-open-sans",
   subsets: ["latin"],
@@ -18,6 +30,7 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://londontherapyroomstorent.com"),
   title: "London Therapy Rooms to Rent | Prime Locations Available",
   description:
     "Explore a variety of London therapy rooms to rent, perfect for therapists, counsellors, and wellness practitioners. Find your ideal space now!",
@@ -41,8 +54,19 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en-US" className={`${poppins.variable} ${openSans.variable} ${roboto.variable}`}>
-      <body>{children}</body>
+    <html
+      lang="en-US"
+      suppressHydrationWarning
+      className={`${plusJakarta.variable} ${playfair.variable} ${poppins.variable} ${openSans.variable}`}
+    >
+      <body
+        suppressHydrationWarning
+        className="antialiased font-[family-name:var(--font-plus-jakarta)] bg-white text-[#282828] selection:bg-[#a48b65] selection:text-white"
+      >
+        <SmoothScrolling>
+          {children}
+        </SmoothScrolling>
+      </body>
     </html>
   );
 }

@@ -53,13 +53,15 @@
   --color-silver: var(--silver);
   --color-scrolltop: var(--scrolltop);
 
+  --font-playfair: var(--font-playfair);
+  --font-plus-jakarta: var(--font-plus-jakarta);
   --font-poppins: var(--font-poppins);
   --font-open-sans: var(--font-open-sans);
-  --font-sans: var(--font-poppins), sans-serif;
+  --font-sans: var(--font-plus-jakarta), var(--font-poppins), sans-serif;
+  --font-serif: var(--font-playfair), Georgia, serif;
 }
 
-/* ---- Base (matches body computed style: Poppins 200 16px/26.4px #282828) ---- */
-/* In @layer base so Tailwind utilities (layer utilities) always win */
+/* ---- Base ---- */
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -68,15 +70,20 @@
     margin: 0;
     background: #ffffff;
     color: var(--ink);
-    font-family: var(--font-poppins), sans-serif;
-    font-weight: 200;
+    font-family: var(--font-plus-jakarta), var(--font-poppins), sans-serif;
+    font-weight: 300;
     font-size: 16px;
-    line-height: 26.4px;
+    line-height: 1.65;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
   }
-  h1, h2, h3, h4, h5, h6, p { margin: 0; }
-  a { color: var(--orange); text-decoration: none; }
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: var(--font-playfair), serif;
+    letter-spacing: -0.01em;
+  }
+  p { margin: 0; }
+  a { color: var(--gold); text-decoration: none; }
   img { max-width: 100%; height: auto; }
 }
 
@@ -85,9 +92,56 @@
   from { opacity: 0; }
   to { opacity: 1; }
 }
+@keyframes goldShimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+@keyframes pulseSubtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.75; transform: scale(1.08); }
+}
+
 .reveal { opacity: 0; }
 .reveal.is-visible { animation: fadeIn 1.25s both; }
+
+.gold-shimmer {
+  background: linear-gradient(90deg, #a48b65 0%, #f7e6c4 50%, #a48b65 100%);
+  background-size: 200% auto;
+  animation: goldShimmer 4s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-badge-border {
+  border: 1px solid rgba(164, 139, 101, 0.4);
+  background: linear-gradient(135deg, rgba(164, 139, 101, 0.15) 0%, rgba(20, 20, 20, 0.6) 100%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-panel {
+  background: rgba(18, 18, 18, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.glass-panel-hover:hover {
+  background: rgba(28, 28, 28, 0.8);
+  border-color: rgba(164, 139, 101, 0.4);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.5), 0 0 20px -5px rgba(164, 139, 101, 0.2);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .reveal { opacity: 1; }
   .reveal.is-visible { animation: none; }
+  .gold-shimmer { animation: none; }
 }

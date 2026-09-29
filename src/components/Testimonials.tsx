@@ -1,152 +1,144 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
+import Image from "next/image";
 import { FEEDBACK, TESTIMONIALS, TESTIMONIAL_SIDE_IMAGE } from "@/data/site";
-import type { Testimonial } from "@/types/content";
 import { Reveal } from "@/components/Reveal";
+import { StarIcon, SparklesIcon, ChevronLeftIcon, ChevronRightIcon } from "@/components/icons";
+import { SectionReveal } from "@/components/SectionReveal";
 
-const AUTOPLAY_MS = 2000;
-const SPEED_MS = 500;
-const GAP_PX = 10;
-
-function Slide({ t }: { t: Testimonial }) {
-  return (
-    <div className="shrink-0 basis-full overflow-hidden p-[20px]" style={{ marginRight: GAP_PX }}>
-      <div className="text-center">
-        <div className="text-[15px] italic leading-[22.5px] text-white">
-          {t.title && (
-            <>
-              <b className="font-bold">{t.title}</b>
-              <br />
-            </>
-          )}
-          {t.quote}
-        </div>
-        <div className="mt-[25px] flex items-center justify-center">
-          <cite className="flex flex-col text-[14px] not-italic leading-[21px]">
-            <span className="font-bold text-white">{t.name}</span>
-            <span className="text-white">{t.date}</span>
-          </cite>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function Carousel({ items }: { items: Testimonial[] }) {
-  const n = items.length;
-  // Loop clones: [last, ...items, first]; real slides live at indices 1..n
-  const slides = n > 1 ? [items[n - 1], ...items, items[0]] : items;
-  const [index, setIndex] = useState(n > 1 ? 1 : 0);
-  const [animate, setAnimate] = useState(true);
-  const [paused, setPaused] = useState(false);
-  const busy = useRef(false);
-
-  const next = useCallback(() => {
-    if (busy.current) return;
-    busy.current = true;
-    setAnimate(true);
-    setIndex((i) => i + 1);
-  }, []);
-
-  useEffect(() => {
-    if (n <= 1 || paused) return;
-    const id = window.setInterval(next, AUTOPLAY_MS + SPEED_MS);
-    return () => window.clearInterval(id);
-  }, [n, paused, next]);
-
-  // Re-enable transition on the frame after an instant loop jump
-  useEffect(() => {
-    if (animate) return;
-    const raf = requestAnimationFrame(() =>
-      requestAnimationFrame(() => {
-        setAnimate(true);
-        busy.current = false;
-      }),
-    );
-    return () => cancelAnimationFrame(raf);
-  }, [animate]);
-
-  const onTransitionEnd = () => {
-    if (index >= n + 1) {
-      setAnimate(false);
-      setIndex(1);
-    } else if (index <= 0) {
-      setAnimate(false);
-      setIndex(n);
-    } else {
-      busy.current = false;
-    }
-  };
-
-  return (
-    <div
-      className="relative z-[1] mx-[12.5781px] overflow-hidden"
-      onMouseEnter={() => setPaused(true)}
-      onMouseLeave={() => setPaused(false)}
-      aria-roledescription="carousel"
-    >
-      <div
-        className="relative z-[1] flex items-stretch"
-        style={{
-          transform: `translateX(calc(${-index} * (100% + ${GAP_PX}px)))`,
-          transition: animate ? `transform ${SPEED_MS}ms ease` : "none",
-        }}
-        onTransitionEnd={onTransitionEnd}
-      >
-        {slides.map((t, i) => (
-          <Slide key={`${t.name}-${i}`} t={t} />
-        ))}
-      </div>
-    </div>
-  );
-}
+const AUTOPLAY_MS = 4000;
 
 export function Testimonials() {
-  return (
-    <>
-      {/* Feedback band (raw section 20) */}
-      <Reveal as="section" className="relative bg-ink p-[30px] md:p-[40px]">
-        <div className="relative mx-auto flex max-w-[1140px] flex-col md:flex-row">
-          <div className="relative flex flex-wrap md:w-[40.175%]">
-            <div className="relative mb-[20px] w-full">
-              <h5 className="text-[18px] font-medium italic leading-[21.6px] text-orange">
-                {FEEDBACK.eyebrow}
-              </h5>
-            </div>
-            <div className="relative w-full">
-              <div className="mt-[-14px]">
-                <h3 className="text-[20px] font-medium italic leading-[26px] text-white md:text-[32px] md:leading-[41.6px]">
-                  {FEEDBACK.heading}
-                </h3>
-              </div>
-            </div>
-          </div>
-          <div className="relative flex flex-wrap md:w-[59.825%]">
-            <div className="relative w-full max-w-[97.214%] font-[family-name:var(--font-open-sans)] font-light text-white">
-              <div className="ml-[6px]">
-                <p className="leading-[26.4px]">{FEEDBACK.body}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Reveal>
+  const [active, setActive] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const count = TESTIMONIALS.length;
 
-      {/* Carousel + photo row (raw section 21) */}
-      <Reveal as="section" className="relative mt-[43.1875px]">
-        <div className="relative mx-auto flex max-w-[1398px] md:mx-[21px] min-[1440px]:mx-auto">
-          <div className="relative flex w-full flex-wrap bg-ink p-[30px] md:w-[40.272%]">
-            <div className="relative w-full">
-              <Carousel items={TESTIMONIALS} />
+  const prev = useCallback(() => {
+    setActive((i) => (i - 1 + count) % count);
+  }, [count]);
+
+  const next = useCallback(() => {
+    setActive((i) => (i + 1) % count);
+  }, [count]);
+
+  useEffect(() => {
+    if (paused || count <= 1) return;
+    const id = window.setInterval(next, AUTOPLAY_MS);
+    return () => window.clearInterval(id);
+  }, [paused, count, next]);
+
+  const current = TESTIMONIALS[active];
+
+  return (
+    <section className="relative py-16 md:py-32 overflow-hidden bg-[#111111]">
+      <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8">
+        {/* Top Header Card */}
+        <Reveal className="mb-12 rounded-3xl border border-[#a48b65]/20 bg-gradient-to-r from-[#1c1c1c] via-[#242424] to-[#1c1c1c] p-8 md:p-12 text-white shadow-xl">
+          <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-12">
+            <div className="lg:col-span-5">
+              <div className="mb-2 inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/15 px-3.5 py-1 text-xs font-semibold text-gold uppercase tracking-widest">
+                <SparklesIcon className="h-3.5 w-3.5" />
+                <span>{FEEDBACK.eyebrow}</span>
+              </div>
+              <SectionReveal>
+                <h2 className="text-3xl sm:text-4xl font-normal text-white">
+                  {FEEDBACK.heading}
+                </h2>
+              </SectionReveal>
+            </div>
+            <div className="lg:col-span-7 border-t border-white/10 pt-6 lg:border-t-0 lg:border-l lg:pl-8 lg:pt-0">
+              <SectionReveal delay={0.1}>
+                <p className="text-base sm:text-lg font-light leading-relaxed text-white/80">
+                  {FEEDBACK.body}
+                </p>
+              </SectionReveal>
             </div>
           </div>
+        </Reveal>
+
+        {/* Carousel & Visual Showcase Container */}
+        <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-12 lg:gap-12">
+          {/* Testimonial Slider Card */}
           <div
-            className="relative hidden bg-cover bg-center md:flex md:w-[59.728%]"
-            style={{ backgroundImage: `url("${TESTIMONIAL_SIDE_IMAGE}")` }}
-            aria-hidden="true"
-          />
+            className="flex flex-col justify-between rounded-3xl border border-[#a48b65]/25 bg-white p-8 sm:p-10 shadow-[0_15px_40px_rgba(0,0,0,0.06)] lg:col-span-6 min-h-[380px]"
+            onMouseEnter={() => setPaused(true)}
+            onMouseLeave={() => setPaused(false)}
+          >
+            <div>
+              {/* Star Rating */}
+              <div className="mb-4 flex items-center gap-1 text-[#a48b65]">
+                {[...Array(5)].map((_, i) => (
+                  <StarIcon key={i} className="h-4 w-4 fill-current" />
+                ))}
+              </div>
+
+              {/* Review Title */}
+              {current.title && (
+                <h3 className="mb-3 text-xl font-normal text-[#282828]">
+                  &ldquo;{current.title}&rdquo;
+                </h3>
+              )}
+
+              {/* Quote */}
+              <p className="text-base sm:text-lg font-light italic leading-relaxed text-[#444444]">
+                &ldquo;{current.quote}&rdquo;
+              </p>
+            </div>
+
+            {/* Author & Controls */}
+            <div className="mt-8 flex items-center justify-between border-t border-black/5 pt-6">
+              <div>
+                <div className="font-semibold text-[#282828] text-base">{current.name}</div>
+                {current.date && (
+                  <div className="text-xs text-[#888888]">{current.date}</div>
+                )}
+              </div>
+
+              {/* Arrow Controls */}
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  aria-label="Previous review"
+                  onClick={prev}
+                  className="flex h-9 w-9 items-center justify-center rounded-full border border-black/10 bg-[#faf8f5] text-[#282828] transition-all hover:bg-[#a48b65] hover:border-[#a48b65] hover:text-white"
+                >
+                  <ChevronLeftIcon className="h-4 w-4 fill-current" />
+                </button>
+                <button
+                  type="button"
+                  aria-label="Next review"
+                  onClick={next}
+                  className="flex h-9 w-9 items-center justify-center rounded-full border border-black/10 bg-[#faf8f5] text-[#282828] transition-all hover:bg-[#a48b65] hover:border-[#a48b65] hover:text-white"
+                >
+                  <ChevronRightIcon className="h-4 w-4 fill-current" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* Waiting Area Photo Showcase */}
+          <div className="relative h-[340px] sm:h-[380px] w-full overflow-hidden rounded-3xl border border-[#a48b65]/20 shadow-lg lg:col-span-6 bg-[#1a1a1a]">
+            <Image
+              src={TESTIMONIAL_SIDE_IMAGE}
+              alt="Luxury clinic reception and waiting area"
+              fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover object-center filter brightness-[0.95]"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+            <div className="absolute bottom-6 left-6 right-6 flex items-center justify-between text-white">
+              <div>
+                <span className="text-xs uppercase tracking-widest text-[#a48b65] font-semibold">CLINIC LOUNGE</span>
+                <div className="text-lg font-medium">Tranquil Waiting Area for Patients</div>
+              </div>
+              <span className="rounded-full bg-white/20 px-3 py-1 text-xs backdrop-blur-md">Marylebone</span>
+            </div>
+          </div>
         </div>
-      </Reveal>
-    </>
+      </div>
+    </section>
   );
 }
+
+export default Testimonials;

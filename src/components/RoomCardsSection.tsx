@@ -1,112 +1,125 @@
 "use client";
 
 import { useCallback, useState } from "react";
+import Image from "next/image";
 import { ROOM_CARDS, ROOM_CARDS_HEADING } from "@/data/site";
 import type { RoomCard } from "@/types/content";
-import { RoomIcon } from "@/components/icons";
+import { SparklesIcon, ArrowRightIcon } from "@/components/icons";
 import { Reveal } from "@/components/Reveal";
 import { GalleryPopup } from "@/components/GalleryPopup";
-import { cn } from "@/lib/utils";
+import { SectionReveal } from "@/components/SectionReveal";
+import { motion } from "framer-motion";
 
-/**
- * True computed card colours (getComputedStyle, desktop 1440):
- *  - Room 1: bg rgb(40,40,40) (#282828), text #fff
- *  - Room 2 / Waiting Area: bg #fff + overlay #eeeeee @ 0.74 → rendered rgb(242,242,242) (#f2f2f2), text inherits #282828
- *  - Room 3: bg rgb(20,20,20) (#141414), text #fff
- * Overrides the provisional values in ROOM_CARDS (data file left untouched).
- */
-const CARD_STYLE_OVERRIDES: Array<Partial<Pick<RoomCard, "background" | "textColor">>> = [
-  { background: "#282828", textColor: "#ffffff" },
-  { background: "#f2f2f2", textColor: "#282828" },
-  { background: "#141414", textColor: "#ffffff" },
-  { background: "#f2f2f2", textColor: "#282828" },
-];
-
-function RoomCardColumn({ card, index, onOpen }: { card: RoomCard; index: number; onOpen: () => void }) {
-  const o = CARD_STYLE_OVERRIDES[index] ?? {};
-  const background = o.background ?? card.background;
-  const textColor = o.textColor ?? card.textColor;
-  const isLast = index === ROOM_CARDS.length - 1;
-
+function RoomCardColumn({
+  card,
+  index,
+  onOpen,
+}: {
+  card: RoomCard;
+  index: number;
+  onOpen: () => void;
+}) {
   return (
-    <div
-      className="group relative flex w-full flex-wrap content-start px-[60px] py-[80px] md:min-h-[489px] md:w-[550px] md:p-[80px]"
-      style={{ backgroundColor: background }}
+    <motion.div 
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-10% 0px" }}
+      transition={{ duration: 0.6, ease: "easeOut", delay: index * 0.15 }}
+      className="group relative flex flex-col justify-between overflow-hidden rounded-3xl border border-[#a48b65]/25 bg-white p-6 sm:p-8 shadow-[0_10px_35px_rgba(0,0,0,0.06)] transition-all duration-300 hover:border-[#a48b65]/60 hover:shadow-[0_20px_50px_rgba(164,139,101,0.18)] hover:-translate-y-1"
     >
-      {/* Hover: background photo + 50% overlay, 0.3s */}
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-0 bg-cover bg-center bg-no-repeat opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-        style={{ backgroundImage: `url("${card.hoverImage}")` }}
-      />
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-50"
-        style={{ backgroundColor: card.hoverOverlay }}
-      />
+      {/* Top Image Preview with Hover Zoom */}
+      <div className="relative mb-6 aspect-[16/10] w-full overflow-hidden rounded-2xl bg-[#1a1a1a]">
+        <Image
+          src={card.hoverImage}
+          alt={card.title}
+          fill
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-108 filter brightness-[0.95]"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70 transition-opacity duration-300 group-hover:opacity-40" />
 
-      <div className="relative mb-[20px] h-[58px] w-full">
-        <span className="inline-block h-[50px] w-[50px] text-orange">
-          <RoomIcon width={50} height={50} />
-        </span>
+        {/* Room Number Tag */}
+        <div className="absolute top-3 left-3 rounded-full bg-black/60 px-3 py-1 text-xs font-semibold text-white backdrop-blur-md border border-white/10">
+          Suite 0{index + 1}
+        </div>
+
+        {/* Photo Count Badge */}
+        <div className="absolute bottom-3 right-3 rounded-full bg-[#a48b65]/90 px-2.5 py-1 text-[11px] font-medium text-white backdrop-blur-md">
+          {card.gallery.length} Photos
+        </div>
       </div>
 
-      <h3 className="relative mb-[20px] w-full text-[25px] font-medium leading-[32.5px] text-orange">{card.title}</h3>
+      {/* Content */}
+      <div className="flex flex-1 flex-col justify-between">
+        <div>
+          <h3 className="mb-3 text-2xl font-normal text-[#282828] group-hover:text-[#a48b65] transition-colors">
+            {card.title}
+          </h3>
+          <p className="mb-6 text-sm sm:text-base font-light leading-relaxed text-[#555555]">
+            {card.body}
+          </p>
+        </div>
 
-      <div
-        className="relative mb-[20px] w-full font-[family-name:var(--font-open-sans)] text-[16px] font-light leading-[26.4px]"
-        style={{ color: textColor }}
-      >
-        <p>{card.body}</p>
-      </div>
+        {/* Actions */}
+        <div className="flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-black/5">
+          <button
+            type="button"
+            onClick={onOpen}
+            className="inline-flex items-center gap-2 rounded-full border border-[#a48b65]/40 bg-[#faf8f5] px-5 py-2.5 text-xs sm:text-sm font-medium text-[#282828] transition-all duration-200 hover:border-[#a48b65] hover:bg-[#a48b65] hover:text-white"
+          >
+            <span>View Gallery</span>
+            <ArrowRightIcon className="h-3.5 w-3.5" />
+          </button>
 
-      <div className={cn("relative w-full text-left", isLast && "md:pt-[15.59px]")}>
-        <button
-          type="button"
-          onClick={onOpen}
-          className="inline-block cursor-pointer rounded-[5px] bg-gold px-[30px] py-[15px] text-center text-[16px] font-medium leading-[16px] text-white transition-colors duration-300 hover:bg-ink"
-        >
-          View All Images
-        </button>
+          <a
+            href="#Contact"
+            className="text-xs sm:text-sm font-medium text-[#a48b65] hover:underline flex items-center gap-1"
+          >
+            <span>Enquire Rates</span>
+            <span>&rarr;</span>
+          </a>
+        </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
 export function RoomCardsSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const close = useCallback(() => setOpenIndex(null), []);
-  const rows: RoomCard[][] = [ROOM_CARDS.slice(0, 2), ROOM_CARDS.slice(2, 4)];
 
   return (
     <>
-      {/* Heading (raw section 11) */}
-      <Reveal as="section" className="relative mb-[50px]">
-        <div className="mx-auto flex max-w-[1140px]">
-          <div className="flex w-full flex-wrap p-[10px]">
-            <h2 className="w-full text-center text-[28.83px] font-medium italic leading-[37.479px] text-orange max-md:px-[40px]">
-              {ROOM_CARDS_HEADING}
-            </h2>
+      <Reveal as="section" className="relative py-16 md:py-24 bg-[#faf8f5]">
+        <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8">
+          {/* Section Header */}
+          <div className="mb-12 md:mb-16 text-center">
+            <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-[#a48b65]/30 bg-white px-4 py-1.5 text-xs font-semibold tracking-widest text-[#a48b65] uppercase">
+              <SparklesIcon className="h-3.5 w-3.5" />
+              <span>PREMIER SUITES OVERVIEW</span>
+            </div>
+            <SectionReveal>
+              <h2 className="text-3xl font-normal tracking-tight text-[#282828] sm:text-4xl md:text-5xl">
+                {ROOM_CARDS_HEADING}
+              </h2>
+            </SectionReveal>
+          </div>
+
+          {/* Cards 2x2 Grid */}
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-10">
+            {ROOM_CARDS.map((card, index) => (
+              <RoomCardColumn
+                key={card.title}
+                card={card}
+                index={index}
+                onOpen={() => setOpenIndex(index)}
+              />
+            ))}
           </div>
         </div>
       </Reveal>
 
-      {/* Card rows (raw sections 12 + 13): row gap 80px margin − 60px pull-up = 20px */}
-      {rows.map((row, r) => (
-        <Reveal
-          key={r}
-          as="section"
-          className={cn("relative", r === 0 ? "md:mb-[80px]" : "md:mb-[52px] md:mt-[-60px] mb-[52px]")}
-        >
-          <div className="mx-auto flex max-w-[1100px] flex-col md:flex-row">
-            {row.map((card, c) => {
-              const index = r * 2 + c;
-              return <RoomCardColumn key={card.title} card={card} index={index} onOpen={() => setOpenIndex(index)} />;
-            })}
-          </div>
-        </Reveal>
-      ))}
-
+      {/* Lightbox Modal */}
       <GalleryPopup
         images={openIndex !== null ? ROOM_CARDS[openIndex].gallery : []}
         open={openIndex !== null}

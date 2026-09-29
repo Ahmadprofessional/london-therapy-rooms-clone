@@ -1,23 +1,17 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 interface FadeSliderProps {
   images: string[];
-  /** Autoplay delay in ms (Elementor slides "autoplay_speed") */
   interval?: number;
-  /** Crossfade duration in ms (Elementor slides "transition_speed") */
   speed?: number;
   className?: string;
 }
 
-/**
- * Autoplay crossfade background-image slider (Elementor Slides widget with
- * transition "fade"): stacked cover/center backgrounds, active slide opacity 1.
- * Loops, pauses on hover, no arrows or dots.
- */
-export function FadeSlider({ images, interval = 3000, speed = 500, className }: FadeSliderProps) {
+export function FadeSlider({ images, interval = 3500, speed = 700, className }: FadeSliderProps) {
   const [active, setActive] = useState(0);
   const [paused, setPaused] = useState(false);
   const count = images.length;
@@ -30,22 +24,50 @@ export function FadeSlider({ images, interval = 3000, speed = 500, className }: 
 
   return (
     <div
-      className={cn("relative overflow-hidden", className)}
+      className={cn("relative h-full w-full overflow-hidden rounded-3xl group bg-[#1a1a1a]", className)}
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
       {images.map((src, i) => (
         <div
           key={`${src}-${i}`}
-          aria-hidden="true"
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          aria-hidden={i !== active}
+          className="absolute inset-0 transition-opacity ease-in-out"
           style={{
-            backgroundImage: `url("${src}")`,
             opacity: i === active ? 1 : 0,
-            transition: `opacity ${speed}ms ease`,
+            transitionDuration: `${speed}ms`,
           }}
-        />
+        >
+          <Image
+            src={src}
+            alt={`Room view photo ${i + 1}`}
+            fill
+            sizes="(max-width: 768px) 100vw, 50vw"
+            priority={i === 0}
+            className="object-cover object-center"
+          />
+        </div>
       ))}
+
+      {/* Slide Indicators */}
+      {count > 1 && (
+        <div className="absolute bottom-4 left-1/2 z-10 flex -translate-x-1/2 gap-1.5 rounded-full bg-black/50 px-3 py-1.5 backdrop-blur-md">
+          {images.map((_, i) => (
+            <button
+              key={i}
+              type="button"
+              aria-label={`Go to slide ${i + 1}`}
+              onClick={() => setActive(i)}
+              className={cn(
+                "h-1.5 rounded-full transition-all duration-300",
+                i === active ? "w-6 bg-[#a48b65]" : "w-1.5 bg-white/50 hover:bg-white"
+              )}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }
+
+export default FadeSlider;

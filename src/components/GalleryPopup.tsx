@@ -1,11 +1,9 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
+import Image from "next/image";
 import { ChevronLeftIcon, ChevronRightIcon, CloseIcon } from "@/components/icons";
 import { cn } from "@/lib/utils";
-
-const AUTOPLAY_MS = 3000;
-const SLIDE_MS = 500;
 
 export interface GalleryPopupProps {
   images: string[];
@@ -13,182 +11,130 @@ export interface GalleryPopupProps {
   onClose: () => void;
 }
 
-/**
- * Elementor popup: rgba(0,0,0,.8) backdrop, 640×420 white-framed dialog (10px padding → 620×400 image area),
- * Swiper-style infinite horizontal slider (autoplay 3000ms, speed 500ms, pause on hover), arrows + dots.
- */
 export function GalleryPopup({ images, open, onClose }: GalleryPopupProps) {
-  if (!open) return null;
-  // Mounting fresh on each open resets the slider to the first slide.
-  return <GalleryDialog images={images} onClose={onClose} />;
-}
-
-function GalleryDialog({ images, onClose }: Omit<GalleryPopupProps, "open">) {
-  const open = true;
+  const [index, setIndex] = useState(0);
   const count = images.length;
-  // Track = [last, ...images, first]; `pos` is the index within the track (1 = first real slide).
-  const [pos, setPos] = useState(1);
-  const [animate, setAnimate] = useState(true);
-  const [paused, setPaused] = useState(false);
-  const [visible, setVisible] = useState(false);
-  const busy = useRef(false);
 
-  // Fade in (~300ms).
-  useEffect(() => {
-    const id = requestAnimationFrame(() => setVisible(true));
-    return () => cancelAnimationFrame(id);
-  }, []);
+  const prev = useCallback(() => {
+    setIndex((i) => (i - 1 + count) % count);
+  }, [count]);
 
-  // ESC to close + body scroll lock.
+  const next = useCallback(() => {
+    setIndex((i) => (i + 1) % count);
+  }, [count]);
+
   useEffect(() => {
     if (!open) return;
+
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
+      else if (e.key === "ArrowLeft") prev();
+      else if (e.key === "ArrowRight") next();
     };
+
     const prevOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     window.addEventListener("keydown", onKey);
+
     return () => {
       document.body.style.overflow = prevOverflow;
       window.removeEventListener("keydown", onKey);
     };
-  }, [open, onClose]);
+  }, [open, onClose, prev, next]);
 
-  const go = useCallback(
-    (delta: number) => {
-      if (count < 2 || busy.current) return;
-      busy.current = true;
-      setAnimate(true);
-      setPos((p) => p + delta);
-    },
-    [count],
-  );
-
-  const goTo = useCallback(
-    (i: number) => {
-      if (count < 2) return;
-      busy.current = true;
-      setAnimate(true);
-      setPos(i + 1);
-    },
-    [count],
-  );
-
-  // Autoplay.
-  useEffect(() => {
-    if (!open || paused || count < 2) return;
-    const id = window.setInterval(() => go(1), AUTOPLAY_MS);
-    return () => window.clearInterval(id);
-  }, [open, paused, count, go, pos]);
-
-  // Re-enable transitions after an instant jump.
-  useEffect(() => {
-    if (animate) return;
-    const id = requestAnimationFrame(() => requestAnimationFrame(() => setAnimate(true)));
-    return () => cancelAnimationFrame(id);
-  }, [animate]);
-
-  const onTransitionEnd = () => {
-    busy.current = false;
-    if (pos === 0) {
-      setAnimate(false);
-      setPos(count);
-    } else if (pos === count + 1) {
-      setAnimate(false);
-      setPos(1);
-    }
-  };
-
-  const track = count > 1 ? [images[count - 1], ...images, images[0]] : images;
-  const offset = count > 1 ? pos : 0;
-  const active = count > 1 ? (((pos - 1) % count) + count) % count : 0;
+  if (!open || count === 0) return null;
 
   return (
     <div
       role="dialog"
       aria-modal="true"
-      aria-label="Room images"
-      className={cn(
-        "fixed inset-0 z-50 flex items-center justify-center bg-[rgba(0,0,0,0.8)] transition-opacity duration-300",
-        visible ? "opacity-100" : "opacity-0",
-      )}
+      aria-label="Room gallery photo viewer"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 sm:p-6 backdrop-blur-xl animate-in fade-in duration-200"
       onClick={onClose}
     >
+      {/* Modal Container */}
       <div
-        className="relative aspect-[640/420] w-[640px] max-w-[calc(100vw-20px)] bg-white p-[10px]"
+        className="relative flex h-full max-h-[88vh] w-full max-w-5xl flex-col items-center justify-center rounded-3xl border border-white/10 bg-[#121212]/95 p-4 sm:p-6 shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
-        <div
-          className="relative h-full w-full overflow-hidden"
-          onMouseEnter={() => setPaused(true)}
-          onMouseLeave={() => setPaused(false)}
-        >
-          <div
-            className="flex h-full"
-            style={{
-              transform: `translate3d(-${offset * 100}%,0,0)`,
-              transition: animate ? `transform ${SLIDE_MS}ms ease` : "none",
-            }}
-            onTransitionEnd={onTransitionEnd}
-          >
-            {track.map((src, i) => (
-              <div
-                key={`${src}-${i}`}
-                className="h-full w-full shrink-0 bg-cover bg-center bg-no-repeat"
-                style={{ backgroundImage: `url("${src}")` }}
-                role="img"
-                aria-label={`Room image ${((i - 1 + count) % count) + 1}`}
-              />
-            ))}
-          </div>
-
-          {count > 1 && (
-            <>
-              <button
-                type="button"
-                aria-label="Previous slide"
-                onClick={() => go(-1)}
-                className="absolute left-[10px] top-1/2 z-10 flex h-[25px] w-[25px] -translate-y-1/2 cursor-pointer items-center justify-center text-[rgba(237,237,237,0.9)]"
-              >
-                <ChevronLeftIcon width={25} height={25} />
-              </button>
-              <button
-                type="button"
-                aria-label="Next slide"
-                onClick={() => go(1)}
-                className="absolute right-[10px] top-1/2 z-10 flex h-[25px] w-[25px] -translate-y-1/2 cursor-pointer items-center justify-center text-[rgba(237,237,237,0.9)]"
-              >
-                <ChevronRightIcon width={25} height={25} />
-              </button>
-
-              <div className="absolute bottom-[13px] left-0 z-10 flex w-full items-center justify-center gap-[12px]">
-                {images.map((_, i) => (
-                  <button
-                    key={i}
-                    type="button"
-                    aria-label={`Go to slide ${i + 1}`}
-                    onClick={() => goTo(i)}
-                    className={cn(
-                      "block h-[6px] w-[6px] cursor-pointer rounded-full bg-black transition-opacity duration-300",
-                      i === active ? "opacity-100" : "opacity-20",
-                    )}
-                  />
-                ))}
-              </div>
-            </>
-          )}
-        </div>
-
-        {/* Elementor popup close: dark × glyph inside a small box with the site's orange focus frame */}
+        {/* Close Button */}
         <button
           type="button"
-          aria-label="Close"
+          aria-label="Close gallery"
           onClick={onClose}
-          autoFocus
-          className="absolute right-[20px] top-[19px] z-20 flex h-[20px] w-[20px] cursor-pointer items-center justify-center border border-dotted border-orange text-[#1f2124] outline-none"
+          className="absolute right-4 top-4 z-20 flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/10 text-white/90 transition-all hover:bg-white hover:text-black"
         >
-          <CloseIcon width={18} height={18} />
+          <CloseIcon className="h-5 w-5 fill-current" />
         </button>
+
+        {/* Counter */}
+        <div className="absolute left-6 top-5 z-20 rounded-full bg-white/10 px-3.5 py-1 text-xs font-mono font-medium text-white/80 backdrop-blur-md">
+          {index + 1} / {count}
+        </div>
+
+        {/* Main Image Stage */}
+        <div className="relative my-auto flex h-[60vh] w-full items-center justify-center overflow-hidden rounded-2xl">
+          <Image
+            key={images[index]}
+            src={images[index]}
+            alt={`Room photograph ${index + 1}`}
+            fill
+            sizes="(max-width: 1024px) 95vw, 1000px"
+            priority
+            className="object-contain"
+          />
+        </div>
+
+        {/* Navigation Arrows */}
+        {count > 1 && (
+          <>
+            <button
+              type="button"
+              aria-label="Previous photograph"
+              onClick={prev}
+              className="absolute left-4 sm:left-6 top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/10 bg-black/60 text-white transition-all hover:bg-[#a48b65] hover:border-[#a48b65] hover:scale-110"
+            >
+              <ChevronLeftIcon className="h-6 w-6 fill-current" />
+            </button>
+
+            <button
+              type="button"
+              aria-label="Next photograph"
+              onClick={next}
+              className="absolute right-4 sm:right-6 top-1/2 z-20 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/10 bg-black/60 text-white transition-all hover:bg-[#a48b65] hover:border-[#a48b65] hover:scale-110"
+            >
+              <ChevronRightIcon className="h-6 w-6 fill-current" />
+            </button>
+          </>
+        )}
+
+        {/* Thumbnail Strip */}
+        {count > 1 && (
+          <div className="mt-4 flex max-w-full gap-2 overflow-x-auto px-2 py-1">
+            {images.map((src, i) => (
+              <button
+                key={`${src}-${i}`}
+                type="button"
+                aria-label={`Thumbnail ${i + 1}`}
+                onClick={() => setIndex(i)}
+                className={cn(
+                  "relative h-12 w-16 shrink-0 overflow-hidden rounded-lg border transition-all",
+                  i === index
+                    ? "border-[#a48b65] ring-2 ring-[#a48b65]/50 scale-105"
+                    : "border-white/15 opacity-60 hover:opacity-100"
+                )}
+              >
+                <Image
+                  src={src}
+                  alt=""
+                  fill
+                  sizes="64px"
+                  className="object-cover"
+                />
+              </button>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
