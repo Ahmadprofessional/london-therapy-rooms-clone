@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
@@ -19,15 +19,31 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export function SiteHeader() {
   const [scrolled, setScrolled] = useState(false);
+  const [hidden, setHidden] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [activeHash, setActiveHash] = useState("#hero");
+  
+  const lastScrollY = useRef(0);
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 80);
+      const currentScrollY = window.scrollY;
+      
+      // Toggle basic scrolled state for background changes
+      setScrolled(currentScrollY > 80);
 
+      // Headroom logic: Hide when scrolling down, show when scrolling up
+      if (currentScrollY > lastScrollY.current && currentScrollY > 300 && !mobileOpen) {
+        setHidden(true);
+      } else if (currentScrollY < lastScrollY.current) {
+        setHidden(false);
+      }
+      
+      lastScrollY.current = currentScrollY;
+
+      // Active section hash tracking
       const sectionIds = ["hero", "Aboutus", "Rooms", "PRACTITIONERS", "vision", "Contact"];
-      const scrollPosition = window.scrollY + 200;
+      const scrollPosition = currentScrollY + 200;
 
       for (let i = sectionIds.length - 1; i >= 0; i--) {
         const el = document.getElementById(sectionIds[i]);
@@ -41,10 +57,15 @@ export function SiteHeader() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [mobileOpen]);
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 transition-all duration-700 ease-out">
+    <header 
+      className={cn(
+        "fixed top-0 left-0 w-full z-50 transition-transform duration-500 ease-in-out",
+        hidden ? "-translate-y-full" : "translate-y-0"
+      )}
+    >
       {/* Top subtle contact info to retain all copy */}
       <div 
         className={cn(
