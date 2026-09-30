@@ -59,6 +59,7 @@ export function GalleryStrip() {
                 alt={`Clinic interior photo ${i + 1}`}
                 fill
                 sizes="(max-width: 768px) 50vw, 20vw"
+                loading="lazy"
                 className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110 filter brightness-95 group-hover:brightness-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 flex items-end p-3">

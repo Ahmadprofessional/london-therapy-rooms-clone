@@ -9,16 +9,32 @@ import { motion } from "framer-motion";
 export function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [videoLoaded, setVideoLoaded] = useState(false);
+  const [videoError, setVideoError] = useState(false);
 
   useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.playbackRate = 1.0;
-      const playPromise = videoRef.current.play();
+    const video = videoRef.current;
+    if (!video) return;
+
+    video.playbackRate = 1.0;
+
+    const playVideo = () => {
+      const playPromise = video.play();
       if (playPromise !== undefined) {
         playPromise.catch(() => {
-          // Autoplay fallback
+          // Autoplay blocked — poster image stays visible
         });
       }
+    };
+
+    // If the video is already sufficiently buffered, play immediately
+    if (video.readyState >= 3) {
+      setVideoLoaded(true);
+      playVideo();
+    } else {
+      video.addEventListener("canplaythrough", () => {
+        setVideoLoaded(true);
+        playVideo();
+      }, { once: true });
     }
   }, []);
 
@@ -47,24 +63,26 @@ export function Hero() {
           />
         </div>
 
-        {/* HTML5 Background Video (Plays on seamless loop, zero controls shown) */}
-        <video
-          ref={videoRef}
-          autoPlay
-          loop
-          muted
-          playsInline
-          preload="auto"
-          poster={HERO.posterImage || "/images/2024/08/IMG-20240826-WA0037.jpg"}
-          onCanPlayThrough={() => setVideoLoaded(true)}
-          onLoadedData={() => setVideoLoaded(true)}
-          className={`absolute inset-0 h-full w-full object-cover object-center transition-opacity duration-1000 ease-out ${
-            videoLoaded ? "opacity-100" : "opacity-0"
-          }`}
-          style={{ pointerEvents: "none" }}
-        >
-          <source src={HERO.videoSrc || "/videos/hero-section-video.mp4"} type="video/mp4" />
-        </video>
+        {/* HTML5 Background Video — preload metadata only, stream on play */}
+        {!videoError && (
+          <video
+            ref={videoRef}
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="metadata"
+            poster={HERO.posterImage || "/images/2024/08/IMG-20240826-WA0037.jpg"}
+            onCanPlayThrough={() => setVideoLoaded(true)}
+            onError={() => setVideoError(true)}
+            className={`absolute inset-0 h-full w-full object-cover object-center transition-opacity duration-1000 ease-out ${
+              videoLoaded ? "opacity-100" : "opacity-0"
+            }`}
+            style={{ pointerEvents: "none" }}
+          >
+            <source src={HERO.videoSrc || "/videos/hero-section-video.mp4"} type="video/mp4" />
+          </video>
+        )}
       </motion.div>
 
       {/* Cinematic Scrim Gradient - Bottom-up gradient and Top-down gradient for navbar */}

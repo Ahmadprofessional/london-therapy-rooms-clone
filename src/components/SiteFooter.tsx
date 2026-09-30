@@ -42,6 +42,7 @@ export function SiteFooter() {
                   alt={LOGO.alt}
                   fill
                   sizes="176px"
+                  loading="lazy"
                   className="object-contain object-left filter brightness-110"
                 />
               </div>

@@ -28,6 +28,7 @@ function PractitionerCard({ p, index }: { p: Practitioner; index: number }) {
                 alt={p.name}
                 fill
                 sizes="112px"
+                loading="lazy"
                 className="object-cover object-center"
               />
             </div>

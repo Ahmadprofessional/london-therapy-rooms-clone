@@ -81,6 +81,7 @@ export function GalleryPopup({ images, open, onClose }: GalleryPopupProps) {
             fill
             sizes="(max-width: 1024px) 95vw, 1000px"
             priority
+            quality={85}
             className="object-contain"
           />
         </div>
@@ -129,6 +130,7 @@ export function GalleryPopup({ images, open, onClose }: GalleryPopupProps) {
                   alt=""
                   fill
                   sizes="64px"
+                  loading="lazy"
                   className="object-cover"
                 />
               </button>

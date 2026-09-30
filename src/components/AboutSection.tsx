@@ -74,6 +74,7 @@ export function BadgeSplitSection({
                     height={MEMBER_BADGE.height}
                     alt="A proud member of UK Therapy Rooms"
                     sizes="(max-width: 767px) 280px, 340px"
+                    loading="lazy"
                     className="h-full w-full object-contain transition-transform duration-300 group-hover:scale-105"
                   />
                 </div>

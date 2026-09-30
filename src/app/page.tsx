@@ -4,12 +4,15 @@ import { AboutSection } from "@/components/AboutSection";
 import { RoomDetailsSection } from "@/components/RoomDetailsSection";
 import { RoomCardsSection } from "@/components/RoomCardsSection";
 import { MissionSection } from "@/components/MissionSection";
-import { Practitioners } from "@/components/Practitioners";
-import { Testimonials } from "@/components/Testimonials";
-import { ContactSection } from "@/components/ContactSection";
-import { GalleryStrip } from "@/components/GalleryStrip";
-import { SiteFooter } from "@/components/SiteFooter";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import dynamic from "next/dynamic";
+
+// Lazy-load heavy below-the-fold sections to reduce initial JS bundle
+const Practitioners = dynamic(() => import("@/components/Practitioners"), { ssr: true });
+const Testimonials = dynamic(() => import("@/components/Testimonials"), { ssr: true });
+const ContactSection = dynamic(() => import("@/components/ContactSection"), { ssr: true });
+const GalleryStrip = dynamic(() => import("@/components/GalleryStrip"), { ssr: true });
+const SiteFooter = dynamic(() => import("@/components/SiteFooter"), { ssr: true });
 
 // Section order follows docs/research/PAGE_TOPOLOGY.md
 export default function Home() {
