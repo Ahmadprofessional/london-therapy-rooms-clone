@@ -52,7 +52,7 @@ export function GalleryStrip() {
                 setOpen(i);
               }}
               aria-label={`Open clinic interior image ${i + 1}`}
-              className="group relative block aspect-[4/3] overflow-hidden rounded-2xl border border-black/5 bg-[#1a1a1a] shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-[#a48b65]/50"
+              className="group relative block aspect-[4/3] overflow-hidden rounded-2xl border border-black/5 bg-[#faf8f5] shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-[#a48b65]/50"
             >
               <Image
                 src={img.src}
@@ -60,7 +60,7 @@ export function GalleryStrip() {
                 fill
                 sizes="(max-width: 768px) 50vw, 20vw"
                 loading="lazy"
-                className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-110 filter brightness-95 group-hover:brightness-105"
+                className="object-contain object-center transition-transform duration-700 ease-out group-hover:scale-110 filter brightness-95 group-hover:brightness-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 flex items-end p-3">
                 <span className="text-xs font-medium text-white">View Full &rarr;</span>

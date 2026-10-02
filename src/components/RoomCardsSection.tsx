@@ -28,14 +28,14 @@ function RoomCardColumn({
       className="group relative flex flex-col justify-between overflow-hidden rounded-3xl border border-[#a48b65]/25 bg-white p-6 sm:p-8 shadow-[0_10px_35px_rgba(0,0,0,0.06)] transition-all duration-300 hover:border-[#a48b65]/60 hover:shadow-[0_20px_50px_rgba(164,139,101,0.18)] hover:-translate-y-1"
     >
       {/* Top Image Preview with Hover Zoom */}
-      <div className="relative mb-6 aspect-[16/10] w-full overflow-hidden rounded-2xl bg-[#1a1a1a]">
+      <div className="relative mb-6 aspect-[16/10] w-full overflow-hidden rounded-2xl bg-[#faf8f5]">
         <Image
           src={card.hoverImage}
           alt={card.title}
           fill
           sizes="(max-width: 768px) 100vw, 50vw"
           loading="lazy"
-          className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-108 filter brightness-[0.95]"
+          className="object-contain object-center transition-transform duration-700 ease-out group-hover:scale-108 filter brightness-[0.95]"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70 transition-opacity duration-300 group-hover:opacity-40" />
 

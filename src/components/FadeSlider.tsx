@@ -50,7 +50,7 @@ export function FadeSlider({ images, interval = 3500, speed = 700, className }: 
             priority={i === 0}
             // Next.js will naturally lazy load the hidden images without us needing to unmount them
             loading={i === 0 ? "eager" : "lazy"}
-            className="object-cover object-center"
+            className="object-contain object-center"
           />
         </div>
       ))}
