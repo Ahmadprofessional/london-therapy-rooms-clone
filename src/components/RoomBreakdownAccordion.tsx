@@ -13,7 +13,7 @@ interface RoomBreakdownAccordionProps {
 
 export function RoomBreakdownAccordion({
   items,
-  title = "Included Amenities & Medical Equipment",
+  title = "Included Amenities",
   className,
   style,
 }: RoomBreakdownAccordionProps) {

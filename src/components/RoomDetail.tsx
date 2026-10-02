@@ -37,17 +37,15 @@ export function RoomDetail({ room }: RoomDetailProps) {
               )}
             >
               {/* Header & Dimensions */}
-              <div className="mb-4 flex flex-wrap items-center justify-between gap-3 border-b border-[#a48b65]/20 pb-4">
-                <div>
-                  <span className="text-xs font-semibold tracking-widest text-[#a48b65] uppercase">
-                    CLINICAL SUITE
-                  </span>
-                  <h3 className="text-2xl font-normal text-[#282828] sm:text-3xl">
-                    {room.title}
-                  </h3>
-                </div>
+              <div className="mb-4 border-b border-[#a48b65]/20 pb-4">
+                <span className="text-xs font-semibold tracking-widest text-[#a48b65] uppercase">
+                  CLINICAL SUITE
+                </span>
+                <h3 className="mb-3 mt-1 text-2xl font-normal text-[#282828] sm:text-3xl">
+                  {room.title}
+                </h3>
 
-                <div className="flex items-center gap-2 rounded-full border border-[#a48b65]/30 bg-white px-4 py-1.5 shadow-sm">
+                <div className="inline-flex items-center gap-2 rounded-full border border-[#a48b65]/30 bg-white px-4 py-1.5 shadow-sm">
                   <span className="text-xs font-semibold text-[#a48b65]">Dimensions:</span>
                   <span className="text-xs font-mono font-medium text-[#282828]">{room.dimensions}</span>
                 </div>
