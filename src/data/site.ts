@@ -75,9 +75,9 @@ export const ROOM_DETAILS: RoomDetail[] = [
     slides: [
       "/images/new-rooms/room-1/1.webp",
       "/images/new-rooms/room-1/2.webp",
-      "/images/new-rooms/room-1/3.webp",
       "/images/new-rooms/room-1/4.webp",
       "/images/new-rooms/room-1/5.webp",
+      "/images/new-rooms/room-1/6.webp",
     ],
     imageSide: "right",
   },
@@ -114,7 +114,6 @@ export const ROOM_DETAILS: RoomDetail[] = [
       "/images/new-rooms/room-3/3.webp",
       "/images/new-rooms/room-3/4.webp",
       "/images/new-rooms/room-3/5.webp",
-      "/images/new-rooms/room-3/6.webp",
     ],
     imageSide: "right",
   },
@@ -170,9 +169,9 @@ export const ROOM_CARDS: RoomCard[] = [
     gallery: [
       "/images/new-rooms/room-1/1.webp",
       "/images/new-rooms/room-1/2.webp",
-      "/images/new-rooms/room-1/3.webp",
       "/images/new-rooms/room-1/4.webp",
       "/images/new-rooms/room-1/5.webp",
+      "/images/new-rooms/room-1/6.webp",
     ],
   },
   {
@@ -197,7 +196,6 @@ export const ROOM_CARDS: RoomCard[] = [
       "/images/new-rooms/room-3/3.webp",
       "/images/new-rooms/room-3/4.webp",
       "/images/new-rooms/room-3/5.webp",
-      "/images/new-rooms/room-3/6.webp",
     ],
   },
   {
