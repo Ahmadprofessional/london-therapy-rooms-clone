@@ -131,11 +131,25 @@ export const ROOM_DETAILS: RoomDetail[] = [
     slides: [
       "/images/outside-area/1.webp",
       "/images/outside-area/2.webp",
-      "/images/outside-area/3.webp",
-      "/images/outside-area/4.webp",
       "/images/outside-area/5.webp",
     ],
     imageSide: "left",
+  },
+  {
+    title: "Terrace",
+    dimensions: "Outdoor space",
+    suitableFor: [
+      ["Relaxation", "Outdoor Breaks", "Fresh Air"]
+    ],
+    breakdown: [
+      ["Outdoor Seating", "Plants"],
+      ["Quiet Atmosphere", "Natural Light"]
+    ],
+    slides: [
+      "/images/terrace/1.jpeg",
+      "/images/terrace/2.webp",
+    ],
+    imageSide: "right",
   },
 ];
 
@@ -197,6 +211,7 @@ export const ROOM_CARDS: RoomCard[] = [
       "/images/new-rooms/waiting-area/1.webp",
       "/images/new-rooms/waiting-area/2.webp",
       "/images/new-rooms/waiting-area/3.webp",
+      "/images/new-rooms/waiting-area/4.webp",
     ],
   },
   {
@@ -209,9 +224,19 @@ export const ROOM_CARDS: RoomCard[] = [
     gallery: [
       "/images/outside-area/1.webp",
       "/images/outside-area/2.webp",
-      "/images/outside-area/3.webp",
-      "/images/outside-area/4.webp",
       "/images/outside-area/5.webp",
+    ],
+  },
+  {
+    title: "Terrace",
+    body: "Enjoy our beautiful terrace area, perfect for getting some fresh air or relaxing in a peaceful outdoor setting.",
+    background: "#f1f1f1",
+    textColor: "#282828",
+    hoverImage: "/images/terrace/1.jpeg",
+    hoverOverlay: "#ffffff",
+    gallery: [
+      "/images/terrace/1.jpeg",
+      "/images/terrace/2.webp",
     ],
   },
 ];
