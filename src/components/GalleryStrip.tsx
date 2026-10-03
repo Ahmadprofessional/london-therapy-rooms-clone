@@ -46,7 +46,7 @@ export function GalleryStrip() {
         
         {/* Mobile View: Fade Slider like other boxes */}
         <div className="block md:hidden px-4 sm:px-6 h-[400px]">
-          <FadeSlider images={GALLERY.map((g) => g.src)} />
+          <FadeSlider images={GALLERY.map((g) => g.src)} onClick={(i) => setOpen(i)} />
         </div>
 
         {/* Desktop View: Marquee */}

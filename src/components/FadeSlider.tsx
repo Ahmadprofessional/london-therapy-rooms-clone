@@ -9,9 +9,10 @@ interface FadeSliderProps {
   interval?: number;
   speed?: number;
   className?: string;
+  onClick?: (index: number) => void;
 }
 
-export function FadeSlider({ images, interval = 3500, speed = 700, className }: FadeSliderProps) {
+export function FadeSlider({ images, interval = 3500, speed = 700, className, onClick }: FadeSliderProps) {
   const [active, setActive] = useState(0);
   const [paused, setPaused] = useState(false);
   const count = images.length;
@@ -34,7 +35,11 @@ export function FadeSlider({ images, interval = 3500, speed = 700, className }: 
         <div
           key={`${src}-${i}`}
           aria-hidden={i !== active}
-          className="absolute inset-0 transition-opacity ease-in-out"
+          onClick={() => onClick?.(i)}
+          className={cn(
+            "absolute inset-0 transition-opacity ease-in-out",
+            onClick && "cursor-pointer"
+          )}
           style={{
             opacity: i === active ? 1 : 0,
             transitionDuration: `${speed}ms`,
