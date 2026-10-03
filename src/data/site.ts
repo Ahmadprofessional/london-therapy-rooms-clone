@@ -369,6 +369,7 @@ export const CONTACT = {
 };
 
 export const GALLERY: GalleryImage[] = [
+  { src: "/images/bottom-images/0.webp", width: 1000, height: 668 },
   { src: "/images/bottom-images/1.webp", width: 1000, height: 668 },
   { src: "/images/bottom-images/2.webp", width: 1000, height: 668 },
   { src: "/images/bottom-images/3.webp", width: 1000, height: 668 },
