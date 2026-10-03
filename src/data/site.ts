@@ -369,11 +369,11 @@ export const CONTACT = {
 };
 
 export const GALLERY: GalleryImage[] = [
-  { src: "/images/2024/08/WhatsApp-Image-2024-08-28-at-20.24.10_61bbc31c.jpg", width: 1000, height: 668 },
-  { src: "/images/2024/08/WhatsApp-Image-2024-08-28-at-20.23.56_38487895.jpg", width: 1200, height: 1600 },
-  { src: "/images/2024/08/IMG-20240826-WA0055.jpg", width: 900, height: 1600 },
-  { src: "/images/2024/08/IMG-20240826-WA0054.jpg", width: 1600, height: 951 },
-  { src: "/images/2024/08/WhatsApp-Image-2024-08-28-at-20.24.10_33062628.jpg", width: 1190, height: 1588 },
+  { src: "/images/bottom-images/1.webp", width: 1000, height: 668 },
+  { src: "/images/bottom-images/2.webp", width: 1000, height: 668 },
+  { src: "/images/bottom-images/3.webp", width: 1000, height: 668 },
+  { src: "/images/bottom-images/4.webp", width: 1000, height: 668 },
+  { src: "/images/bottom-images/5.webp", width: 1000, height: 668 },
 ];
 
 export const COPYRIGHT = "© Copyright digi focus. Alright Reserved";

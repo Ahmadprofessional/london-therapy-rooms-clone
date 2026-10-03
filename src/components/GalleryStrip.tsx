@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
 import { GALLERY } from "@/data/site";
 import { ChevronLeftIcon, ChevronRightIcon, CloseIcon, SparklesIcon } from "@/components/icons";
+import { FadeSlider } from "@/components/FadeSlider";
 
 export function GalleryStrip() {
   const [open, setOpen] = useState<number | null>(null);
@@ -40,33 +41,72 @@ export function GalleryStrip() {
         </div>
       </div>
 
-      {/* Photo Grid Strip */}
-      <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5 md:gap-4">
-          {GALLERY.map((img, i) => (
-            <a
-              key={img.src}
-              href={img.src}
-              onClick={(e) => {
-                e.preventDefault();
-                setOpen(i);
-              }}
-              aria-label={`Open clinic interior image ${i + 1}`}
-              className="group relative block aspect-[4/3] overflow-hidden rounded-2xl border border-black/5 bg-[#faf8f5] shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-[#a48b65]/50"
-            >
-              <Image
-                src={img.src}
-                alt={`Clinic interior photo ${i + 1}`}
-                fill
-                sizes="(max-width: 768px) 50vw, 20vw"
-                loading="lazy"
-                className="object-contain object-center transition-transform duration-700 ease-out group-hover:scale-110 filter brightness-95 group-hover:brightness-105"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 flex items-end p-3">
-                <span className="text-xs font-medium text-white">View Full &rarr;</span>
-              </div>
-            </a>
-          ))}
+      {/* Photo Grid Strip / Marquee */}
+      <div className="w-full pb-4 md:pb-0">
+        
+        {/* Mobile View: Fade Slider like other boxes */}
+        <div className="block md:hidden px-4 sm:px-6 h-[400px]">
+          <FadeSlider images={GALLERY.map((g) => g.src)} />
+        </div>
+
+        {/* Desktop View: Marquee */}
+        <div className="hidden md:flex group overflow-x-hidden md:w-max md:hover:[animation-play-state:paused] md:animate-marquee md:overflow-visible">
+          {/* Primary Set */}
+          <div className="flex shrink-0 gap-3 sm:gap-4 px-2 w-max items-center">
+            {GALLERY.map((img, i) => (
+              <a
+                key={img.src}
+                href={img.src}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setOpen(i);
+                }}
+                aria-label={`Open clinic interior image ${i + 1}`}
+                className="snap-center shrink-0 w-[24vw] lg:w-[20vw] xl:w-[280px] group/item relative block aspect-[4/3] overflow-hidden rounded-2xl border border-black/5 bg-[#faf8f5] shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-[#a48b65]/50"
+              >
+                <Image
+                  src={img.src}
+                  alt={`Clinic interior photo ${i + 1}`}
+                  fill
+                  sizes="(max-width: 768px) 80vw, 20vw"
+                  loading="lazy"
+                  className="object-contain object-center transition-transform duration-700 ease-out group-hover/item:scale-110 filter brightness-95 group-hover/item:brightness-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover/item:opacity-100 flex items-end p-3">
+                  <span className="text-xs font-medium text-white">View Full &rarr;</span>
+                </div>
+              </a>
+            ))}
+          </div>
+
+          {/* Duplicate Set for Marquee */}
+          <div aria-hidden="true" className="flex shrink-0 gap-3 sm:gap-4 px-2 w-max items-center">
+            {GALLERY.map((img, i) => (
+              <a
+                key={`${img.src}-dup`}
+                href={img.src}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setOpen(i);
+                }}
+                tabIndex={-1}
+                aria-label={`Open clinic interior image ${i + 1}`}
+                className="snap-center shrink-0 w-[24vw] lg:w-[20vw] xl:w-[280px] group/item relative block aspect-[4/3] overflow-hidden rounded-2xl border border-black/5 bg-[#faf8f5] shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-[#a48b65]/50"
+              >
+                <Image
+                  src={img.src}
+                  alt={`Clinic interior photo ${i + 1}`}
+                  fill
+                  sizes="20vw"
+                  loading="lazy"
+                  className="object-contain object-center transition-transform duration-700 ease-out group-hover/item:scale-110 filter brightness-95 group-hover/item:brightness-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover/item:opacity-100 flex items-end p-3">
+                  <span className="text-xs font-medium text-white">View Full &rarr;</span>
+                </div>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
 
