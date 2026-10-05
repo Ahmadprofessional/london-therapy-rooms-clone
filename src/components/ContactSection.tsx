@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, type FormEvent, type ReactNode } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import ReCAPTCHA from "react-google-recaptcha";
 import {
   CONTACT,
@@ -65,16 +66,14 @@ export function ContactSection() {
     const form = e.currentTarget;
     const formData = new FormData(form);
 
-    /* TEMPORARILY DISABLED RECAPTCHA FOR INITIAL TESTING
     const recaptchaValue = recaptchaRef.current?.getValue();
     if (!recaptchaValue) {
       setError("Please complete the reCAPTCHA to submit.");
       setLoading(false);
       return;
     }
-    */
 
-    const accessKey = "84862da0-3b7d-4721-9291-ec24e4c423c8";
+    const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || "";
 
     // Convert FormData to a plain object
     const object = Object.fromEntries(formData.entries());
@@ -83,6 +82,7 @@ export function ContactSection() {
     object.name = `${object.first_name} ${object.last_name}`;
     object.subject = `New Clinic Enquiry from ${object.name}`;
     object.access_key = accessKey;
+    object["g-recaptcha-response"] = recaptchaValue;
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -146,135 +146,164 @@ export function ContactSection() {
               Send an Enquiry / Book a Tour
             </h3>
 
-            <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5">
-              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                <FormField label="First Name" htmlFor="cf-first">
-                  <input
-                    id="cf-first"
-                    name="first_name"
-                    type="text"
-                    required
-                    placeholder="e.g. Dr. Sarah"
-                    className={inputCls}
-                  />
-                </FormField>
-
-                <FormField label="Last Name" htmlFor="cf-last">
-                  <input
-                    id="cf-last"
-                    name="last_name"
-                    type="text"
-                    required
-                    placeholder="e.g. Jenkins"
-                    className={inputCls}
-                  />
-                </FormField>
-              </div>
-
-              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                <FormField label="Email Address" htmlFor="cf-email">
-                  <input
-                    id="cf-email"
-                    name="email"
-                    type="email"
-                    required
-                    placeholder="name@clinic.com"
-                    className={inputCls}
-                  />
-                </FormField>
-
-                <FormField label="Phone Number" htmlFor="cf-phone">
-                  <input
-                    id="cf-phone"
-                    name="phone"
-                    type="tel"
-                    required
-                    placeholder="07..."
-                    className={inputCls}
-                  />
-                </FormField>
-              </div>
-
-              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                <FormField label="Your Profession / Specialty" htmlFor="cf-profession">
-                  <input
-                    id="cf-profession"
-                    name="profession"
-                    type="text"
-                    required
-                    placeholder="e.g. Aesthetic Doctor, Psychotherapist"
-                    className={inputCls}
-                  />
-                </FormField>
-
-                <FormField label="Interested Room" htmlFor="cf-room">
-                  <select
-                    id="cf-room"
-                    name="room"
-                    required
-                    defaultValue=""
-                    className={cn(inputCls, "cursor-pointer")}
+            <div className="relative overflow-hidden">
+              <AnimatePresence mode="wait">
+                {submitted ? (
+                  <motion.div
+                    key="success"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -20 }}
+                    className="flex min-h-[400px] flex-col items-center justify-center text-center space-y-6 py-12"
                   >
-                    <option value="" disabled>Select Room</option>
-                    {CONTACT.roomOptions.map((o) => (
-                      <option key={o} value={o}>
-                        {o}
-                      </option>
-                    ))}
-                    <option value="All Rooms">All Rooms / Flexible</option>
-                  </select>
-                </FormField>
-              </div>
-
-              <FormField label="Detail of your enquiry or preferred tour time" htmlFor="cf-message">
-                <textarea
-                  id="cf-message"
-                  name="message"
-                  rows={4}
-                  placeholder={CONTACT.enquiryPlaceholder}
-                  className={cn(inputCls, "resize-none")}
-                />
-              </FormField>
-
-              {/* The access_key is now handled in the JSON payload above, so we don't need a hidden input for it. */}
-              
-              {/* Temporarily hidden for testing
-              <div className="flex justify-center my-4">
-                <ReCAPTCHA
-                  ref={recaptchaRef}
-                  sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"} 
-                />
-              </div>
-              */}
-
-              {error && (
-                <div className="rounded-2xl bg-red-50 border border-red-200 p-4 text-sm font-medium text-red-800 text-center mb-4">
-                  {error}
-                </div>
-              )}
-
-              <button
-                type="submit"
-                disabled={loading}
-                className="group flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#a48b65] via-[#b89f78] to-[#a48b65] bg-[length:200%_auto] py-4 text-base font-medium text-white shadow-md transition-all duration-300 hover:bg-right hover:shadow-lg hover:scale-[1.01] active:scale-[0.99] disabled:opacity-70"
-              >
-                {loading ? (
-                  <span>Sending Enquiry...</span>
+                    <div className="flex h-20 w-20 items-center justify-center rounded-full bg-emerald-50 border border-emerald-100 shadow-inner">
+                      <CheckIcon className="h-10 w-10 text-emerald-600" />
+                    </div>
+                    <div className="space-y-2">
+                      <h4 className="text-2xl font-normal text-[#282828]">Enquiry Sent Successfully</h4>
+                      <p className="text-[#555555] max-w-sm mx-auto leading-relaxed">
+                        Thank you for reaching out! Our clinic management team has received your details and will be in touch with you shortly.
+                      </p>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => setSubmitted(false)}
+                      className="mt-4 px-6 py-2.5 rounded-full border border-[#a48b65]/30 text-sm font-medium text-[#a48b65] hover:bg-[#a48b65] hover:text-white transition-colors duration-300"
+                    >
+                      Send Another Enquiry
+                    </button>
+                  </motion.div>
                 ) : (
-                  <>
-                    <CalendarIcon className="h-5 w-5" />
-                    <span>Submit Clinic Enquiry</span>
-                  </>
-                )}
-              </button>
+                  <motion.form 
+                    key="form"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    onSubmit={handleSubmit} 
+                    className="space-y-4 sm:space-y-5"
+                  >
+                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                      <FormField label="First Name" htmlFor="cf-first">
+                        <input
+                          id="cf-first"
+                          name="first_name"
+                          type="text"
+                          required
+                          placeholder="e.g. Dr. Sarah"
+                          className={inputCls}
+                        />
+                      </FormField>
 
-              {submitted && (
-                <div className="flex items-center gap-2 rounded-2xl bg-emerald-50 border border-emerald-200 p-4 text-sm font-medium text-emerald-800">
-                  <CheckIcon className="h-4 w-4 shrink-0 text-emerald-600" />
-                  <span>Thank you! Your enquiry has been received. Our clinic management will be in touch shortly.</span>
-                </div>
-              )}
-            </form>
+                      <FormField label="Last Name" htmlFor="cf-last">
+                        <input
+                          id="cf-last"
+                          name="last_name"
+                          type="text"
+                          required
+                          placeholder="e.g. Jenkins"
+                          className={inputCls}
+                        />
+                      </FormField>
+                    </div>
+
+                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                      <FormField label="Email Address" htmlFor="cf-email">
+                        <input
+                          id="cf-email"
+                          name="email"
+                          type="email"
+                          required
+                          placeholder="name@clinic.com"
+                          className={inputCls}
+                        />
+                      </FormField>
+
+                      <FormField label="Phone Number" htmlFor="cf-phone">
+                        <input
+                          id="cf-phone"
+                          name="phone"
+                          type="tel"
+                          required
+                          placeholder="07..."
+                          className={inputCls}
+                        />
+                      </FormField>
+                    </div>
+
+                    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                      <FormField label="Your Profession / Specialty" htmlFor="cf-profession">
+                        <input
+                          id="cf-profession"
+                          name="profession"
+                          type="text"
+                          required
+                          placeholder="e.g. Aesthetic Doctor, Psychotherapist"
+                          className={inputCls}
+                        />
+                      </FormField>
+
+                      <FormField label="Interested Room" htmlFor="cf-room">
+                        <select
+                          id="cf-room"
+                          name="room"
+                          required
+                          defaultValue=""
+                          className={cn(inputCls, "cursor-pointer")}
+                        >
+                          <option value="" disabled>Select Room</option>
+                          {CONTACT.roomOptions.map((o) => (
+                            <option key={o} value={o}>
+                              {o}
+                            </option>
+                          ))}
+                          <option value="All Rooms">All Rooms / Flexible</option>
+                        </select>
+                      </FormField>
+                    </div>
+
+                    <FormField label="Detail of your enquiry or preferred tour time" htmlFor="cf-message">
+                      <textarea
+                        id="cf-message"
+                        name="message"
+                        rows={4}
+                        placeholder={CONTACT.enquiryPlaceholder}
+                        className={cn(inputCls, "resize-none")}
+                      />
+                    </FormField>
+
+                    {/* The access_key is now handled in the JSON payload above, so we don't need a hidden input for it. */}
+                    
+                    <div className="flex justify-center my-4">
+                      <ReCAPTCHA
+                        ref={recaptchaRef}
+                        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"} 
+                      />
+                    </div>
+
+                    {error && (
+                      <div className="rounded-2xl bg-red-50 border border-red-200 p-4 text-sm font-medium text-red-800 text-center mb-4">
+                        {error}
+                      </div>
+                    )}
+
+                    <button
+                      type="submit"
+                      disabled={loading}
+                      className="group flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#a48b65] via-[#b89f78] to-[#a48b65] bg-[length:200%_auto] py-4 text-base font-medium text-white shadow-md transition-all duration-300 hover:bg-right hover:shadow-lg hover:scale-[1.01] active:scale-[0.99] disabled:opacity-70"
+                    >
+                      {loading ? (
+                        <span>Sending Enquiry...</span>
+                      ) : (
+                        <>
+                          <CalendarIcon className="h-5 w-5" />
+                          <span>Submit Clinic Enquiry</span>
+                        </>
+                      )}
+                    </button>
+                  </motion.form>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
 
           {/* Contact Details & Clinic Card */}
