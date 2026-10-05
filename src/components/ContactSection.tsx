@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, type FormEvent, type ReactNode } from "react";
+import { useState, useRef, type FormEvent, type ReactNode } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 import {
   CONTACT,
   ADDRESS,
@@ -53,14 +54,62 @@ function FormField({
 export function ContactSection() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setLoading(true);
-    setTimeout(() => {
+    setError(null);
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    /* TEMPORARILY DISABLED RECAPTCHA FOR INITIAL TESTING
+    const recaptchaValue = recaptchaRef.current?.getValue();
+    if (!recaptchaValue) {
+      setError("Please complete the reCAPTCHA to submit.");
       setLoading(false);
-      setSubmitted(true);
-    }, 600);
+      return;
+    }
+    */
+
+    const accessKey = "84862da0-3b7d-4721-9291-ec24e4c423c8";
+
+    // Convert FormData to a plain object
+    const object = Object.fromEntries(formData.entries());
+    
+    // Web3Forms explicitly looks for a 'name' field for the email template
+    object.name = `${object.first_name} ${object.last_name}`;
+    object.subject = `New Clinic Enquiry from ${object.name}`;
+    object.access_key = accessKey;
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(object),
+      });
+
+      const data = await response.json();
+
+      if (response.status === 200) {
+        setSubmitted(true);
+        form.reset();
+        recaptchaRef.current?.reset();
+      } else {
+        console.error("Web3Forms Error:", data);
+        setError(data.message || "Something went wrong. Please try again.");
+      }
+    } catch (err) {
+      console.error("Network Error:", err);
+      setError("Network error. Please try again later.");
+    } finally {
+      setLoading(false);
+    }
   }
 
   const inputCls =
@@ -186,6 +235,23 @@ export function ContactSection() {
                   className={cn(inputCls, "resize-none")}
                 />
               </FormField>
+
+              {/* The access_key is now handled in the JSON payload above, so we don't need a hidden input for it. */}
+              
+              {/* Temporarily hidden for testing
+              <div className="flex justify-center my-4">
+                <ReCAPTCHA
+                  ref={recaptchaRef}
+                  sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"} 
+                />
+              </div>
+              */}
+
+              {error && (
+                <div className="rounded-2xl bg-red-50 border border-red-200 p-4 text-sm font-medium text-red-800 text-center mb-4">
+                  {error}
+                </div>
+              )}
 
               <button
                 type="submit"
