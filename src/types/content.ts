@@ -9,6 +9,7 @@ export interface SocialLink {
 }
 
 export interface RoomDetail {
+  tag?: string;
   /** "Room 1 Dimensions" */
   title: string;
   /** "4.71m x 3.41m" */

@@ -118,6 +118,7 @@ export const ROOM_DETAILS: RoomDetail[] = [
     imageSide: "right",
   },
   {
+    tag: "STREET VIEW",
     title: "Outside Area",
     dimensions: "Outdoor space",
     suitableFor: [
@@ -135,6 +136,7 @@ export const ROOM_DETAILS: RoomDetail[] = [
     imageSide: "left",
   },
   {
+    tag: "PRIVATE TERRACE",
     title: "Terrace",
     dimensions: "Outdoor space",
     suitableFor: [
