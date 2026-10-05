@@ -91,13 +91,13 @@ export function SiteHeader() {
         <div className="mx-auto flex max-w-[1360px] items-center justify-between px-6 lg:px-8">
           {/* Brand Logo */}
           <Link href="#hero" className="group flex items-center transition-opacity hover:opacity-80 drop-shadow-md">
-            <div className="relative h-[44px] w-[135px] sm:h-[50px] sm:w-[155px]">
+            <div className="relative h-[55px] w-[180px] sm:h-[65px] sm:w-[220px] lg:h-[70px] lg:w-[240px]">
               <Image
                 src={LOGO.src}
                 alt={LOGO.alt || "London Therapy Rooms to Rent"}
                 fill
                 priority
-                sizes="(max-width: 640px) 135px, 155px"
+                sizes="(max-width: 640px) 180px, (max-width: 1024px) 220px, 240px"
                 className="object-contain object-left filter brightness-110"
               />
             </div>

@@ -36,12 +36,12 @@ export function SiteFooter() {
           {/* Col 1: Brand & Bio (4 cols) */}
           <div className="lg:col-span-4">
             <Link href="#hero" className="mb-6 inline-block">
-              <div className="relative h-12 w-44">
+              <div className="relative h-[65px] w-[240px]">
                 <Image
                   src={LOGO.src}
                   alt={LOGO.alt}
                   fill
-                  sizes="176px"
+                  sizes="240px"
                   loading="lazy"
                   className="object-contain object-left filter brightness-110"
                 />
