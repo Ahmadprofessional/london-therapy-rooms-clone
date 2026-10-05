@@ -24,6 +24,7 @@ export interface RoomDetail {
 }
 
 export interface RoomCard {
+  tag?: string;
   title: string;
   body: string;
   /** Default card background colour */

@@ -37,7 +37,7 @@ export function GalleryStrip() {
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8 mb-6 text-center">
         <div className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-[#a48b65]">
           <SparklesIcon className="h-3.5 w-3.5" />
-          <span>CLINIC INTERIOR &amp; FACILITIES</span>
+          <span>CLINIC EXTERIOR</span>
         </div>
       </div>
 
@@ -61,12 +61,12 @@ export function GalleryStrip() {
                   e.preventDefault();
                   setOpen(i);
                 }}
-                aria-label={`Open clinic interior image ${i + 1}`}
+                aria-label={`Open clinic exterior image ${i + 1}`}
                 className="snap-center shrink-0 w-[24vw] lg:w-[20vw] xl:w-[280px] group/item relative block aspect-[4/3] overflow-hidden rounded-2xl border border-black/5 bg-[#faf8f5] shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-[#a48b65]/50"
               >
                 <Image
                   src={img.src}
-                  alt={`Clinic interior photo ${i + 1}`}
+                  alt={`Clinic exterior photo ${i + 1}`}
                   fill
                   sizes="(max-width: 768px) 80vw, 20vw"
                   loading="lazy"
@@ -90,12 +90,12 @@ export function GalleryStrip() {
                   setOpen(i);
                 }}
                 tabIndex={-1}
-                aria-label={`Open clinic interior image ${i + 1}`}
+                aria-label={`Open clinic exterior image ${i + 1}`}
                 className="snap-center shrink-0 w-[24vw] lg:w-[20vw] xl:w-[280px] group/item relative block aspect-[4/3] overflow-hidden rounded-2xl border border-black/5 bg-[#faf8f5] shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-[#a48b65]/50"
               >
                 <Image
                   src={img.src}
-                  alt={`Clinic interior photo ${i + 1}`}
+                  alt={`Clinic exterior photo ${i + 1}`}
                   fill
                   sizes="20vw"
                   loading="lazy"

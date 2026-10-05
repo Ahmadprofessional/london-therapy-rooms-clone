@@ -160,6 +160,7 @@ const CARD_BODY =
 // background/textColor/hoverOverlay are refined in the RoomCards spec (docs/research/components/room-cards.spec.md)
 export const ROOM_CARDS: RoomCard[] = [
   {
+    tag: "Suite 01",
     title: "Room 1 - Large",
     body: CARD_BODY,
     background: "#282828",
@@ -175,6 +176,7 @@ export const ROOM_CARDS: RoomCard[] = [
     ],
   },
   {
+    tag: "Suite 02",
     title: "Room 2 - Medium",
     body: CARD_BODY,
     background: "#f1f1f1",
@@ -184,6 +186,7 @@ export const ROOM_CARDS: RoomCard[] = [
     gallery: ["/images/new-rooms/room-2/1.webp", "/images/new-rooms/room-2/2.webp", "/images/new-rooms/room-2/3.webp"],
   },
   {
+    tag: "Suite 03",
     title: "Room 3 - Small",
     body: CARD_BODY,
     background: "#141414",
@@ -199,6 +202,7 @@ export const ROOM_CARDS: RoomCard[] = [
     ],
   },
   {
+    tag: "Waiting Area",
     title: "Waiting Area",
     body: "Relax in our cozy waiting area, designed with comfort in mind. Enjoy comfortable seating and a calm atmosphere while you wait. Essential amenities are conveniently close by for your convenience.",
     background: "#f1f1f1",
@@ -213,6 +217,7 @@ export const ROOM_CARDS: RoomCard[] = [
     ],
   },
   {
+    tag: "Street View",
     title: "Outside Area",
     body: "Step outside to our peaceful outdoor space. Perfect for taking a break, getting some fresh air, and relaxing between sessions in a quiet environment.",
     background: "#141414",
@@ -226,6 +231,7 @@ export const ROOM_CARDS: RoomCard[] = [
     ],
   },
   {
+    tag: "Private Terrace",
     title: "Terrace",
     body: "Enjoy our beautiful terrace area, perfect for getting some fresh air or relaxing in a peaceful outdoor setting.",
     background: "#f1f1f1",

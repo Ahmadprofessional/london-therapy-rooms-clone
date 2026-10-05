@@ -39,7 +39,7 @@ export function RoomDetail({ room }: RoomDetailProps) {
               {/* Header & Dimensions */}
               <div className="mb-4 border-b border-[#a48b65]/20 pb-4">
                 <span className="text-xs font-semibold tracking-widest text-[#a48b65] uppercase">
-                  CLINICAL SUITE
+                  {room.title.includes("Room") ? "CLINICAL SUITE" : "OUTDOOR SPACE"}
                 </span>
                 <h3 className="mb-3 mt-1 text-2xl font-normal text-[#282828] sm:text-3xl">
                   {room.title}

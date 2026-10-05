@@ -41,7 +41,7 @@ function RoomCardColumn({
 
         {/* Room Number Tag */}
         <div className="absolute top-3 left-3 rounded-full bg-black/60 px-3 py-1 text-xs font-semibold text-white backdrop-blur-md border border-white/10">
-          Suite 0{index + 1}
+          {card.tag || `Suite 0${index + 1}`}
         </div>
 
         {/* Photo Count Badge */}
