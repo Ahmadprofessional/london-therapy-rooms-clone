@@ -82,8 +82,7 @@ export function ContactSection() {
     object.name = `${object.first_name} ${object.last_name}`;
     object.subject = `New Clinic Enquiry from ${object.name}`;
     object.access_key = accessKey;
-    object["g-recaptcha-response"] = recaptchaValue;
-
+    
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
