@@ -73,18 +73,12 @@ export function ContactSection() {
       return;
     }
 
-    const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || "";
-
-    // Convert FormData to a plain object
+    // We no longer need the web3forms access key on the frontend
+    // Send the raw object to our new local Resend API route
     const object = Object.fromEntries(formData.entries());
     
-    // Web3Forms explicitly looks for a 'name' field for the email template
-    object.name = `${object.first_name} ${object.last_name}`;
-    object.subject = `New Clinic Enquiry from ${object.name}`;
-    object.access_key = accessKey;
-    
     try {
-      const response = await fetch("https://api.web3forms.com/submit", {
+      const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -95,13 +89,13 @@ export function ContactSection() {
 
       const data = await response.json();
 
-      if (response.status === 200) {
+      if (response.ok) {
         setSubmitted(true);
         form.reset();
         recaptchaRef.current?.reset();
       } else {
-        console.error("Web3Forms Error:", data);
-        setError(data.message || "Something went wrong. Please try again.");
+        console.error("Resend API Error:", data);
+        setError(data.error || "Something went wrong. Please try again.");
       }
     } catch (err) {
       console.error("Network Error:", err);
