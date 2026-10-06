@@ -12,7 +12,7 @@ export async function POST(request: Request) {
       email, 
       phone, 
       profession, 
-      enquiry_type, 
+      room, 
       message, 
       "g-recaptcha-response": recaptchaResponse 
     } = body;
@@ -27,14 +27,14 @@ export async function POST(request: Request) {
       to: ["info@londontherapyroomstorent.com"],
       cc: ["Sofiabouzi@hotmail.com"], // As requested earlier!
       replyTo: email,
-      subject: `New Clinic Enquiry: ${enquiry_type} - ${name}`,
+      subject: `New Clinic Enquiry: ${room} - ${name}`,
       html: `
         <h2>New Enquiry from London Therapy Rooms Website</h2>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Phone:</strong> ${phone || "Not provided"}</p>
         <p><strong>Profession:</strong> ${profession}</p>
-        <p><strong>Enquiry Type:</strong> ${enquiry_type}</p>
+        <p><strong>Interested Room:</strong> ${room}</p>
         <br/>
         <h3>Message:</h3>
         <p>${message.replace(/\n/g, "<br>")}</p>
