@@ -285,6 +285,24 @@ export function ContactSection() {
                       </FormField>
                     </div>
 
+                    <FormField label="Where did you hear about us?" htmlFor="cf-heard">
+                      <select
+                        id="cf-heard"
+                        name="heard_about"
+                        defaultValue=""
+                        className={cn(inputCls, "cursor-pointer")}
+                      >
+                        <option value="" disabled>Where did you hear about us?</option>
+                        <option value="Google Search">Google Search</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="UK Therapy Rooms Directory">UK Therapy Rooms Directory</option>
+                        <option value="Colleague / Word of Mouth">Colleague / Word of Mouth</option>
+                        <option value="Harley Street / Walk-by">Harley Street / Walk-by</option>
+                        <option value="Other">Other</option>
+                      </select>
+                    </FormField>
+
                     <FormField label="Detail of your enquiry or preferred tour time" htmlFor="cf-message">
                       <textarea
                         id="cf-message"

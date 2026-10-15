@@ -5,6 +5,7 @@ export interface ContactSubmission {
   phone?: string;
   profession?: string;
   room?: string;
+  heard_about?: string;
   message?: string;
 }
 
@@ -297,6 +298,12 @@ export function buildAdminNotificationEmail(
           </td>
         </tr>
         <tr>
+          <td style="padding: 10px 14px; font-weight: 600; border-bottom: 1px solid #e2e8f0; background-color: #f8fafc; color: #334155;">Where did you hear about us:</td>
+          <td style="padding: 10px 14px; border-bottom: 1px solid #e2e8f0; color: #0f172a; font-weight: 500;">
+            ${data.heard_about || '<span style="color: #94a3b8;">Not specified</span>'}
+          </td>
+        </tr>
+        <tr>
           <td style="padding: 10px 14px; font-weight: 600; border-bottom: 1px solid #e2e8f0; background-color: #f8fafc; color: #334155; vertical-align: top;">Enquiry Details:</td>
           <td style="padding: 10px 14px; border-bottom: 1px solid #e2e8f0; color: #1e293b; white-space: pre-wrap; line-height: 1.6; background-color: #ffffff;">${data.message || '<span style="color: #94a3b8;">No additional message</span>'}</td>
         </tr>
@@ -361,6 +368,7 @@ CLIENT DETAILS:
 - Phone:       ${data.phone || "Not provided"}
 - Profession:  ${data.profession || "Not specified"}
 - Room:        ${room}
+- Heard About: ${data.heard_about || "Not specified"}
 - Message:
 ${data.message || "(No additional message provided)"}
 

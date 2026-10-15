@@ -18,6 +18,7 @@ export async function POST(request: Request) {
       phone,
       profession,
       room,
+      heard_about,
       message,
       "g-recaptcha-response": recaptchaResponse,
     } = body;
@@ -45,6 +46,7 @@ export async function POST(request: Request) {
       phone,
       profession,
       room,
+      heard_about,
       message,
     };
 
