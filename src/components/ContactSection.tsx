@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, type FormEvent, type ReactNode } from "react";
+import { useState, useRef, useEffect, type FormEvent, type ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import ReCAPTCHA from "react-google-recaptcha";
 import {
@@ -56,7 +56,23 @@ export function ContactSection() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [recaptchaToken, setRecaptchaToken] = useState<string | null>(null);
+  const [recaptchaErrored, setRecaptchaErrored] = useState(false);
+  const [siteKey, setSiteKey] = useState("6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI");
   const recaptchaRef = useRef<ReCAPTCHA>(null);
+
+  useEffect(() => {
+    // On localhost, always use Google's official test site key to prevent "Invalid domain for site key" error
+    const isLocal =
+      typeof window !== "undefined" &&
+      (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1");
+
+    if (isLocal) {
+      setSiteKey("6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI");
+    } else if (process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY) {
+      setSiteKey(process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY);
+    }
+  }, []);
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -66,16 +82,30 @@ export function ContactSection() {
     const form = e.currentTarget;
     const formData = new FormData(form);
 
-    const recaptchaValue = recaptchaRef.current?.getValue();
-    if (!recaptchaValue) {
-      setError("Please complete the reCAPTCHA to submit.");
+    // Honeypot check for spam bots
+    if (formData.get("_gotcha")) {
+      setSubmitted(true);
       setLoading(false);
       return;
     }
 
-    // We no longer need the web3forms access key on the frontend
-    // Send the raw object to our new local Resend API route
+    const isLocal =
+      typeof window !== "undefined" &&
+      (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1");
+
+    const currentRecaptchaValue = recaptchaToken || recaptchaRef.current?.getValue();
+
+    // In production, require reCAPTCHA unless Google's script errored/blocked
+    if (!currentRecaptchaValue && !recaptchaErrored && !isLocal) {
+      setError("Please complete the reCAPTCHA verification to submit.");
+      setLoading(false);
+      return;
+    }
+
     const object = Object.fromEntries(formData.entries());
+    if (currentRecaptchaValue) {
+      object["g-recaptcha-response"] = currentRecaptchaValue;
+    }
     
     try {
       const response = await fetch("/api/contact", {
@@ -93,6 +123,7 @@ export function ContactSection() {
         setSubmitted(true);
         form.reset();
         recaptchaRef.current?.reset();
+        setRecaptchaToken(null);
       } else {
         console.error("Resend API Error:", data);
         setError(data.error || "Something went wrong. Please try again.");
@@ -106,36 +137,36 @@ export function ContactSection() {
   }
 
   const inputCls =
-    "w-full rounded-xl border border-black/15 bg-white px-4 py-3 text-sm sm:text-base font-normal text-[#282828] placeholder:text-[#888888] shadow-xs transition-all duration-200 outline-none focus:border-[#a48b65] focus:ring-2 focus:ring-[#a48b65]/20";
+    "w-full rounded-xl border border-black/15 bg-white px-3.5 py-2.5 sm:px-4 sm:py-3 text-sm sm:text-base font-normal text-[#282828] placeholder:text-[#888888] shadow-xs transition-all duration-200 outline-none focus:border-[#a48b65] focus:ring-2 focus:ring-[#a48b65]/20";
 
   return (
-    <section id="Contact" className="relative py-16 md:py-32 bg-[#faf8f5] scroll-mt-20">
+    <section id="Contact" className="relative pt-6 pb-16 md:pt-8 md:pb-24 bg-[#faf8f5] scroll-mt-20">
       <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <Reveal className="mb-12 md:mb-16 text-center">
-          <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-[#a48b65]/30 bg-white px-4 py-1.5 text-xs font-semibold tracking-widest text-[#a48b65] uppercase">
-            <SparklesIcon className="h-3.5 w-3.5" />
+        <Reveal className="mb-6 md:mb-8 text-center">
+          <div className="mb-2.5 inline-flex items-center gap-2 rounded-full border border-[#a48b65]/30 bg-white px-3.5 py-1 text-xs font-semibold tracking-widest text-[#a48b65] uppercase">
+            <SparklesIcon className="h-3 w-3" />
             <span>CLINIC TOUR &amp; ENQUIRIES</span>
           </div>
 
           <SectionReveal>
-            <h2 className="mb-3 text-3xl font-normal tracking-tight text-[#282828] sm:text-4xl md:text-5xl">
+            <h2 className="mb-2 text-3xl sm:text-4xl md:text-5xl font-normal tracking-tight text-[#282828]">
               {CONTACT.heading}
             </h2>
           </SectionReveal>
 
           <SectionReveal delay={0.1}>
-            <p className="mx-auto max-w-xl text-base font-light text-[#555555]">
+            <p className="mx-auto max-w-xl text-sm sm:text-base font-light text-[#555555]">
               {CONTACT.eyebrow}. Book an in-person viewing or enquire about hourly, daily, or full-time room availability.
             </p>
           </SectionReveal>
         </Reveal>
 
         {/* 2-Column Grid */}
-        <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-12">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-10 items-stretch">
           {/* Booking Form */}
-          <div className="rounded-3xl border border-[#a48b65]/25 bg-white p-6 sm:p-10 shadow-[0_15px_45px_rgba(0,0,0,0.05)] lg:col-span-7">
-            <h3 className="mb-6 text-2xl font-normal text-[#282828]">
+          <div className="rounded-3xl border border-[#a48b65]/25 bg-white p-5 sm:p-8 md:p-9 shadow-[0_15px_45px_rgba(0,0,0,0.05)] lg:col-span-7">
+            <h3 className="mb-4 sm:mb-5 text-xl sm:text-2xl font-normal text-[#282828]">
               Send an Enquiry / Book a Tour
             </h3>
 
@@ -264,14 +295,34 @@ export function ContactSection() {
                       />
                     </FormField>
 
-                    {/* The access_key is now handled in the JSON payload above, so we don't need a hidden input for it. */}
-                    
-                    <div className="flex justify-center my-4">
-                      <ReCAPTCHA
-                        ref={recaptchaRef}
-                        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"} 
-                      />
-                    </div>
+                    {/* Hidden anti-spam honeypot */}
+                    <input
+                      type="text"
+                      name="_gotcha"
+                      tabIndex={-1}
+                      autoComplete="off"
+                      style={{ display: "none" }}
+                      aria-hidden="true"
+                    />
+
+                    {!recaptchaErrored && (
+                      <div className="flex justify-center my-4 overflow-hidden rounded-md min-h-[78px]">
+                        <ReCAPTCHA
+                          key={siteKey}
+                          ref={recaptchaRef}
+                          sitekey={siteKey}
+                          onChange={(token) => {
+                            setRecaptchaToken(token);
+                            setError(null);
+                          }}
+                          onExpired={() => setRecaptchaToken(null)}
+                          onErrored={() => {
+                            console.warn("reCAPTCHA encountered a script/domain error; falling back gracefully.");
+                            setRecaptchaErrored(true);
+                          }}
+                        />
+                      </div>
+                    )}
 
                     {error && (
                       <div className="rounded-2xl bg-red-50 border border-red-200 p-4 text-sm font-medium text-red-800 text-center mb-4">

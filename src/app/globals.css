@@ -70,7 +70,7 @@
 /* ---- Base ---- */
 @layer base {
   html {
-    scroll-behavior: smooth;
+    /* Lenis manages smooth scrolling physics */
   }
   body {
     margin: 0;

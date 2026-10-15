@@ -52,3 +52,7 @@ scripts/
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# agent files
+AGENTS.md
+CLAUDE.md

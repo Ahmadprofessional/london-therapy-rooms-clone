@@ -59,6 +59,23 @@ export function SiteHeader() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [mobileOpen]);
 
+  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, targetHref: string) => {
+    if (!targetHref.startsWith("#")) return;
+    const targetId = targetHref.slice(1);
+    const el = document.getElementById(targetId);
+    if (el) {
+      e.preventDefault();
+      const lenis = (window as any).__lenis;
+      if (lenis) {
+        lenis.scrollTo(el, { offset: -80, duration: 1.2 });
+      } else {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+      setActiveHash(targetHref);
+      window.history.pushState(null, "", targetHref);
+    }
+  };
+
   return (
     <header 
       className={cn(
@@ -90,7 +107,11 @@ export function SiteHeader() {
       >
         <div className="mx-auto flex max-w-[1360px] items-center justify-between px-6 lg:px-8">
           {/* Brand Logo */}
-          <Link href="#hero" className="group flex items-center transition-opacity hover:opacity-80 drop-shadow-md">
+          <Link 
+            href="#hero" 
+            onClick={(e) => scrollToSection(e, "#hero")}
+            className="group flex items-center transition-opacity hover:opacity-80 drop-shadow-md"
+          >
             <div className="relative h-[55px] w-[180px] sm:h-[65px] sm:w-[220px] lg:h-[70px] lg:w-[240px]">
               <Image
                 src={LOGO.src}
@@ -112,6 +133,7 @@ export function SiteHeader() {
                 <Link
                   key={link.label}
                   href={link.href}
+                  onClick={(e) => scrollToSection(e, link.href)}
                   className={cn(
                     "relative py-2 text-[12px] font-medium tracking-[0.1em] uppercase transition-all duration-300 drop-shadow-md",
                     isActive
@@ -137,6 +159,7 @@ export function SiteHeader() {
           <div className="hidden lg:flex items-center gap-4 drop-shadow-md">
             <Link
               href="#Contact"
+              onClick={(e) => scrollToSection(e, "#Contact")}
               className={cn(
                 "inline-flex items-center justify-center rounded-[2px] px-8 py-3 text-[11px] font-semibold tracking-[0.15em] uppercase transition-all duration-300",
                 scrolled 
@@ -179,7 +202,10 @@ export function SiteHeader() {
                   <Link
                     key={link.label}
                     href={link.href}
-                    onClick={() => setMobileOpen(false)}
+                    onClick={(e) => {
+                      setMobileOpen(false);
+                      scrollToSection(e, link.href);
+                    }}
                     className={cn(
                       "flex items-center justify-between py-3 text-[13px] font-medium tracking-[0.1em] uppercase border-b border-white/10 transition-colors",
                       isActive ? "text-[#a48b65]" : "text-white/80 hover:text-white"
@@ -194,7 +220,10 @@ export function SiteHeader() {
               <div className="pt-6 flex flex-col gap-4">
                 <Link
                   href="#Contact"
-                  onClick={() => setMobileOpen(false)}
+                  onClick={(e) => {
+                    setMobileOpen(false);
+                    scrollToSection(e, "#Contact");
+                  }}
                   className="flex w-full items-center justify-center rounded-[2px] bg-[#a48b65] py-4 text-center text-[12px] font-semibold tracking-[0.15em] text-white uppercase transition-colors hover:bg-[#b89f78]"
                 >
                   Book Now / Enquire

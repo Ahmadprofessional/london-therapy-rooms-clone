@@ -72,13 +72,21 @@ function RoomCardColumn({
             <ArrowRightIcon className="h-3.5 w-3.5" />
           </button>
 
-          <a
-            href="#Contact"
-            className="text-xs sm:text-sm font-medium text-[#a48b65] hover:underline flex items-center gap-1"
-          >
-            <span>Enquire Rates</span>
-            <span>&rarr;</span>
-          </a>
+          {!["waiting", "outside", "terrace"].some((term) =>
+            card.title.toLowerCase().includes(term) || (card.tag && card.tag.toLowerCase().includes(term))
+          ) ? (
+            <a
+              href="#Contact"
+              className="text-xs sm:text-sm font-medium text-[#a48b65] hover:underline flex items-center gap-1"
+            >
+              <span>Enquire Rates</span>
+              <span>&rarr;</span>
+            </a>
+          ) : (
+            <span className="text-xs font-medium text-[#888888]">
+              Clinic Amenity Space
+            </span>
+          )}
         </div>
       </div>
     </motion.div>

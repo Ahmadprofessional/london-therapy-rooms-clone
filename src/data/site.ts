@@ -2,9 +2,9 @@
 import type { GalleryImage, NavLink, Practitioner, RoomCard, RoomDetail, SocialLink, Testimonial } from "@/types/content";
 
 export const PHONE_MOBILE = "078 1847 4041";
-export const PHONE_MOBILE_HREF = "tel:078%201847%204041";
+export const PHONE_MOBILE_HREF = "tel:07818474041";
 export const PHONE_LANDLINE = "0207 225 3582";
-export const PHONE_LANDLINE_HREF = "tel:0207%20225%203582";
+export const PHONE_LANDLINE_HREF = "tel:02072253582";
 export const EMAIL = "info@londontherapyroomstorent.com";
 export const ADDRESS = "2 Wimpole Street W1G 0EB / London, UK";
 export const MAPS_HREF = "https://maps.app.goo.gl/pS2CLPf6JFyT61ik7";
@@ -13,7 +13,7 @@ export const MEMBER_BADGE = {
   src: "/images/uk-therapy-rooms-member-badge.jpeg",
   width: 1678,
   height: 1286,
-  href: "https://www.uktherapyrooms.co.uk/united-kingdom/london/therapy-room/wimpole-street-harley-street-newly-decorated-treatment-consulting-rooms-to-rent-in-harley-street-area-w1g-0eb-next-to-wigmore-pharmacy?from=badge",
+  href: "https://www.uktherapyrooms.co.uk/united-kingdom/london/therapy-room/therapy-treatment-consulting-rooms-to-rent-wimpole-street-harley-street-area-london-w1?from=badge",
 };
 
 export const NAV_LINKS: NavLink[] = [
@@ -46,7 +46,7 @@ export const ABOUT = {
     "We are proud to provide our practitioners state of the art treatment and London therapy rooms to rent.",
     "Situated in the heart of Marylebone, our clinic has been fitted to the highest standard possible. It is a calming and therapeutic environment, housing some of the best dedicated and established therapy experts under one room…….",
   ],
-  cta: { label: "Learn more", href: "https://londontherapyroomstorent.com/about/" },
+  cta: { label: "Learn more", href: "#vision" },
 };
 
 export const ROOMS_INTRO = {

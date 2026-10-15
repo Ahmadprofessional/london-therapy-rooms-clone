@@ -161,8 +161,17 @@ export function SiteFooter() {
         </div>
 
         {/* Copyright Bar */}
-        <div className="mt-16 flex flex-col items-center justify-between border-t border-white/10 pt-8 sm:flex-row text-xs text-white/50">
+        <div className="mt-16 flex flex-col items-center justify-between border-t border-white/10 pt-8 sm:flex-row text-xs text-white/50 gap-4">
           <p>{COPYRIGHT}</p>
+          <div className="flex items-center gap-5">
+            <Link href="/privacy" className="transition-colors hover:text-[#a48b65]">
+              Privacy Policy
+            </Link>
+            <span className="text-white/20">•</span>
+            <Link href="/terms" className="transition-colors hover:text-[#a48b65]">
+              Terms of Service
+            </Link>
+          </div>
           <p className="mt-2 sm:mt-0">London Therapy Rooms to Rent · Harley Street District W1G 0EB</p>
         </div>
       </div>

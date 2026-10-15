@@ -29,7 +29,7 @@ export function BadgeSplitSection({
   bgClassName = "bg-[#faf8f5]",
   reverse = false,
 }: BadgeSplitSectionProps) {
-  const external = /^https?:\/\//.test(cta.href) && !cta.href.startsWith("https://londontherapyroomstorent.com");
+  const external = /^https?:\/\//.test(cta.href);
 
   return (
     <Reveal as="section" id={id} className={cn("relative py-16 md:py-24 scroll-mt-24", bgClassName)}>

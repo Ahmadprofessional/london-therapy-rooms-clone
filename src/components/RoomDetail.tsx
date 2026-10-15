@@ -74,17 +74,21 @@ export function RoomDetail({ room }: RoomDetailProps) {
                 <RoomBreakdownAccordion items={room.breakdown} />
               </div>
 
-              {/* Action Button */}
-              <div className="flex items-center gap-4 pt-2">
-                <Link
-                  href="#Contact"
-                  className="group inline-flex items-center gap-2.5 rounded-full bg-[#a48b65] px-7 py-3.5 text-sm font-medium text-white shadow-[0_4px_15px_rgba(164,139,101,0.3)] transition-all duration-300 hover:bg-[#282828] hover:shadow-[0_8px_25px_rgba(40,40,40,0.3)] hover:scale-[1.02]"
-                >
-                  <CalendarIcon className="h-4 w-4" />
-                  <span>Enquire for {room.title.replace(" Dimensions", "")}</span>
-                  <ArrowRightIcon className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />
-                </Link>
-              </div>
+              {/* Action Button for rentable consulting rooms */}
+              {!["outside", "terrace"].some((term) =>
+                room.title.toLowerCase().includes(term) || (room.tag && room.tag.toLowerCase().includes(term))
+              ) && (
+                <div className="flex items-center gap-4 pt-2">
+                  <Link
+                    href="#Contact"
+                    className="group inline-flex items-center gap-2.5 rounded-full bg-[#a48b65] px-7 py-3.5 text-sm font-medium text-white shadow-[0_4px_15px_rgba(164,139,101,0.3)] transition-all duration-300 hover:bg-[#282828] hover:shadow-[0_8px_25px_rgba(40,40,40,0.3)] hover:scale-[1.02]"
+                  >
+                    <CalendarIcon className="h-4 w-4" />
+                    <span>Enquire for {room.title.replace(" Dimensions", "")}</span>
+                    <ArrowRightIcon className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />
+                  </Link>
+                </div>
+              )}
             </div>
           </div>
         </div>
