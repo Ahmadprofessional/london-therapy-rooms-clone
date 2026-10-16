@@ -254,7 +254,10 @@ export const MISSION = {
     "We strive to provide to all our clients with a relaxing environment and safe space to practice to our practitioners and their clients. We empower our practitioners and help them meet their aspirations and support each other. Our location Based in central London, only 2 minutes walk from Bond Street Station and 5 minutes walk from Oxford Circus underground which makes a very easy access to the public transport. Mayfair is only few minutes walk.",
     "Our London therapy rooms to rent, each exuding a serene and uncluttered ambience, are designed to promote a sense of safety and relaxation, essential for the therapeutic relationship to flourish with the other practitioners and their clients. The rooms are with full natural light, and the new and comfortable furniture enhances the overall experience of luxury. Unlike their previous experiences, therapists here won’t encounter the stress of quick handovers or neglected spaces. Everything is meticulously maintained, clean allowing therapists to focus on their clients.",
   ],
-  cta: { label: "ENQUIRE", href: "/contact" },
+  cta: {
+    label: "Read My Article",
+    href: "https://www.uktherapyrooms.co.uk/articles/empowering-practitioners-to-thrive-a-spotlight-on-health-skin-clinic",
+  },
 };
 
 export const PRACTITIONERS_INTRO = {

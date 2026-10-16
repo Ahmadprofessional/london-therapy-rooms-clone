@@ -127,7 +127,7 @@ export function BadgeSplitSection({
             {/* CTA Button */}
             <SectionReveal delay={0.3}>
               <div>
-                {external ? (
+                {external || cta.href.startsWith("http") ? (
                   <a
                     href={cta.href}
                     target="_blank"
