@@ -22,7 +22,7 @@ export const NAV_LINKS: NavLink[] = [
   { label: "Rooms & Rates", href: "#Rooms" },
   { label: "Practitioners", href: "#PRACTITIONERS" },
   { label: "Our Mission", href: "#vision" },
-  { label: "Contact Us", href: "#Contact" },
+  { label: "Contact Us", href: "/contact" },
 ];
 
 export const SOCIAL_LINKS: SocialLink[] = [
@@ -35,8 +35,8 @@ export const HERO = {
   titleLines: ["Rent in Marylebone, Harley Street", "District Central London , W1G 0EB"],
   videoSrc: "/videos/hero-section-video.mp4",
   posterImage: "/images/2024/08/IMG-20240826-WA0037.jpg",
-  primaryCta: { label: "BOOK NOW", href: "#Contact" },
-  secondaryCta: { label: "ENQUIRE", href: "#Contact" },
+  primaryCta: { label: "BOOK NOW", href: "/contact" },
+  secondaryCta: { label: "ENQUIRE", href: "/contact" },
 };
 
 export const ABOUT = {
@@ -254,7 +254,7 @@ export const MISSION = {
     "We strive to provide to all our clients with a relaxing environment and safe space to practice to our practitioners and their clients. We empower our practitioners and help them meet their aspirations and support each other. Our location Based in central London, only 2 minutes walk from Bond Street Station and 5 minutes walk from Oxford Circus underground which makes a very easy access to the public transport. Mayfair is only few minutes walk.",
     "Our London therapy rooms to rent, each exuding a serene and uncluttered ambience, are designed to promote a sense of safety and relaxation, essential for the therapeutic relationship to flourish with the other practitioners and their clients. The rooms are with full natural light, and the new and comfortable furniture enhances the overall experience of luxury. Unlike their previous experiences, therapists here won’t encounter the stress of quick handovers or neglected spaces. Everything is meticulously maintained, clean allowing therapists to focus on their clients.",
   ],
-  cta: { label: "ENQUIRE", href: "#Contact" },
+  cta: { label: "ENQUIRE", href: "/contact" },
 };
 
 export const PRACTITIONERS_INTRO = {

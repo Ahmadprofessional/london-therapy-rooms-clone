@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import {
   LOGO,
@@ -18,12 +19,21 @@ import { CloseIcon, MenuIcon } from "@/components/icons";
 import { motion, AnimatePresence } from "framer-motion";
 
 export function SiteHeader() {
+  const pathname = usePathname();
+  const isContactPage = pathname === "/contact";
+
   const [scrolled, setScrolled] = useState(false);
   const [hidden, setHidden] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [activeHash, setActiveHash] = useState("#hero");
+  const [activeHash, setActiveHash] = useState(isContactPage ? "/contact" : "#hero");
   
   const lastScrollY = useRef(0);
+
+  useEffect(() => {
+    if (isContactPage) {
+      setActiveHash("/contact");
+    }
+  }, [isContactPage]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -41,15 +51,17 @@ export function SiteHeader() {
       
       lastScrollY.current = currentScrollY;
 
-      // Active section hash tracking
-      const sectionIds = ["hero", "Aboutus", "Rooms", "PRACTITIONERS", "vision", "Contact"];
-      const scrollPosition = currentScrollY + 200;
+      // Active section hash tracking only on home page
+      if (pathname === "/") {
+        const sectionIds = ["hero", "Aboutus", "Rooms", "PRACTITIONERS", "vision", "Contact"];
+        const scrollPosition = currentScrollY + 200;
 
-      for (let i = sectionIds.length - 1; i >= 0; i--) {
-        const el = document.getElementById(sectionIds[i]);
-        if (el && el.offsetTop <= scrollPosition) {
-          setActiveHash(`#${sectionIds[i]}`);
-          break;
+        for (let i = sectionIds.length - 1; i >= 0; i--) {
+          const el = document.getElementById(sectionIds[i]);
+          if (el && el.offsetTop <= scrollPosition) {
+            setActiveHash(`#${sectionIds[i]}`);
+            break;
+          }
         }
       }
     };
@@ -57,10 +69,33 @@ export function SiteHeader() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [mobileOpen]);
+  }, [mobileOpen, pathname]);
 
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, targetHref: string) => {
+    // If target is /contact
+    if (targetHref === "/contact") {
+      if (isContactPage) {
+        e.preventDefault();
+        const el = document.getElementById("Contact") || document.getElementById("contact-form");
+        if (el) {
+          const lenis = (window as any).__lenis;
+          if (lenis) {
+            lenis.scrollTo(el, { offset: -80, duration: 1.2 });
+          } else {
+            el.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        }
+      }
+      return;
+    }
+
     if (!targetHref.startsWith("#")) return;
+
+    // If not on home page, let the link navigate to /#section
+    if (pathname !== "/") {
+      return;
+    }
+
     const targetId = targetHref.slice(1);
     const el = document.getElementById(targetId);
     if (el) {
@@ -87,7 +122,7 @@ export function SiteHeader() {
       <div 
         className={cn(
           "hidden lg:flex w-full justify-end px-8 py-2 text-[11px] font-medium tracking-widest uppercase transition-all duration-700 ease-out",
-          scrolled ? "opacity-0 h-0 overflow-hidden py-0" : "opacity-100 text-white shadow-sm"
+          (scrolled || pathname !== "/") ? "opacity-0 h-0 overflow-hidden py-0" : "opacity-100 text-white shadow-sm"
         )}
       >
         <div className="flex gap-8">
@@ -100,16 +135,20 @@ export function SiteHeader() {
         aria-label="Primary"
         className={cn(
           "w-full transition-all duration-700 ease-out",
-          scrolled
-            ? "bg-[#111111]/90 backdrop-blur-md border-b border-white/[0.05] py-4 shadow-lg"
+          (scrolled || pathname !== "/")
+            ? "bg-[#111111]/95 backdrop-blur-md border-b border-white/[0.05] py-4 shadow-lg"
             : "bg-transparent border-transparent py-4"
         )}
       >
         <div className="mx-auto flex max-w-[1360px] items-center justify-between px-6 lg:px-8">
           {/* Brand Logo */}
           <Link 
-            href="#hero" 
-            onClick={(e) => scrollToSection(e, "#hero")}
+            href="/" 
+            onClick={(e) => {
+              if (pathname === "/") {
+                scrollToSection(e, "#hero");
+              }
+            }}
             className="group flex items-center transition-opacity hover:opacity-80 drop-shadow-md"
           >
             <div className="relative h-[55px] w-[180px] sm:h-[65px] sm:w-[220px] lg:h-[70px] lg:w-[240px]">
@@ -127,12 +166,13 @@ export function SiteHeader() {
           {/* Desktop Navigation Links */}
           <div className="hidden lg:flex items-center gap-7 xl:gap-9">
             {NAV_LINKS.map((link) => {
-              const isActive = activeHash === link.href;
+              const linkHref = pathname !== "/" && link.href.startsWith("#") ? `/${link.href}` : link.href;
+              const isActive = (link.href === "/contact" && isContactPage) || activeHash === link.href;
 
               return (
                 <Link
                   key={link.label}
-                  href={link.href}
+                  href={linkHref}
                   onClick={(e) => scrollToSection(e, link.href)}
                   className={cn(
                     "relative py-2 text-[12px] font-medium tracking-[0.1em] uppercase transition-all duration-300 drop-shadow-md",
@@ -158,8 +198,12 @@ export function SiteHeader() {
           {/* Action Button */}
           <div className="hidden lg:flex items-center gap-4 drop-shadow-md">
             <Link
-              href="#Contact"
-              onClick={(e) => scrollToSection(e, "#Contact")}
+              href="/contact"
+              onClick={(e) => {
+                if (isContactPage) {
+                  scrollToSection(e, "/contact");
+                }
+              }}
               className={cn(
                 "inline-flex items-center justify-center rounded-[2px] px-8 py-3 text-[11px] font-semibold tracking-[0.15em] uppercase transition-all duration-300",
                 scrolled 
@@ -196,12 +240,13 @@ export function SiteHeader() {
           >
             <div className="flex flex-col space-y-2">
               {NAV_LINKS.map((link) => {
-                const isActive = activeHash === link.href;
+                const linkHref = pathname !== "/" && link.href.startsWith("#") ? `/${link.href}` : link.href;
+                const isActive = (link.href === "/contact" && isContactPage) || activeHash === link.href;
 
                 return (
                   <Link
                     key={link.label}
-                    href={link.href}
+                    href={linkHref}
                     onClick={(e) => {
                       setMobileOpen(false);
                       scrollToSection(e, link.href);
@@ -219,10 +264,12 @@ export function SiteHeader() {
 
               <div className="pt-6 flex flex-col gap-4">
                 <Link
-                  href="#Contact"
+                  href="/contact"
                   onClick={(e) => {
                     setMobileOpen(false);
-                    scrollToSection(e, "#Contact");
+                    if (isContactPage) {
+                      scrollToSection(e, "/contact");
+                    }
                   }}
                   className="flex w-full items-center justify-center rounded-[2px] bg-[#a48b65] py-4 text-center text-[12px] font-semibold tracking-[0.15em] text-white uppercase transition-colors hover:bg-[#b89f78]"
                 >

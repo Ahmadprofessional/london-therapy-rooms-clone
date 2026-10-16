@@ -2,6 +2,7 @@
 
 import { useCallback, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { ROOM_CARDS, ROOM_CARDS_HEADING } from "@/data/site";
 import type { RoomCard } from "@/types/content";
 import { SparklesIcon, ArrowRightIcon } from "@/components/icons";
@@ -62,7 +63,7 @@ function RoomCardColumn({
         </div>
 
         {/* Actions */}
-        <div className="flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-black/5">
+        <div className="flex items-center justify-start pt-4 border-t border-black/5">
           <button
             type="button"
             onClick={onOpen}
@@ -71,22 +72,6 @@ function RoomCardColumn({
             <span>View Gallery</span>
             <ArrowRightIcon className="h-3.5 w-3.5" />
           </button>
-
-          {!["waiting", "outside", "terrace"].some((term) =>
-            card.title.toLowerCase().includes(term) || (card.tag && card.tag.toLowerCase().includes(term))
-          ) ? (
-            <a
-              href="#Contact"
-              className="text-xs sm:text-sm font-medium text-[#a48b65] hover:underline flex items-center gap-1"
-            >
-              <span>Enquire Rates</span>
-              <span>&rarr;</span>
-            </a>
-          ) : (
-            <span className="text-xs font-medium text-[#888888]">
-              Clinic Amenity Space
-            </span>
-          )}
         </div>
       </div>
     </motion.div>

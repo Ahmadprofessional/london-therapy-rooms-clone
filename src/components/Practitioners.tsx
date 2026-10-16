@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { PRACTITIONERS_INTRO, PRACTITIONER_ROWS } from "@/data/site";
 import type { Practitioner } from "@/types/content";
 import { Reveal } from "@/components/Reveal";
@@ -64,12 +65,12 @@ function PractitionerCard({ p, index }: { p: Practitioner; index: number }) {
       {/* Card Footer: Location Note */}
       <div className="mt-6 flex items-center justify-between border-t border-black/5 pt-4 text-xs text-[#888888]">
         <span>Harley Street Clinic</span>
-        <a
-          href="#Contact"
+        <Link
+          href="/contact"
           className="font-medium text-[#a48b65] hover:underline"
         >
           Book Consultation &rarr;
-        </a>
+        </Link>
       </div>
     </motion.div>
   );

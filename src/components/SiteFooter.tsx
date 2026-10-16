@@ -149,7 +149,7 @@ export function SiteFooter() {
               <div>🚇 <strong>5 mins</strong> from Oxford Circus</div>
               <div className="pt-2 border-t border-white/10">
                 <Link
-                  href="#Contact"
+                  href="/contact"
                   className="inline-flex items-center gap-1.5 font-medium text-[#a48b65] hover:underline"
                 >
                   <CalendarIcon className="h-3.5 w-3.5" />

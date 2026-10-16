@@ -60,10 +60,10 @@ export function buildUserConfirmationEmail(data: ContactSubmission) {
                 <tr>
                   <td align="left" style="font-size: 12px; font-weight: 500; letter-spacing: 0.05em;">
                     <a href="${SITE_URL}/" style="color: #ffffff; text-decoration: none; margin-right: 14px;">Home</a>
-                    <a href="${SITE_URL}/#Rooms" style="color: #d1be9f; text-decoration: none; margin-right: 14px;">Rooms &amp; Rates</a>
+                    <a href="${SITE_URL}/#Rooms" style="color: #d1be9f; text-decoration: none; margin-right: 14px;">Rooms</a>
                     <a href="${SITE_URL}/#Aboutus" style="color: #ffffff; text-decoration: none; margin-right: 14px;">About Us</a>
                     <a href="${SITE_URL}/#PRACTITIONERS" style="color: #ffffff; text-decoration: none; margin-right: 14px;">Practitioners</a>
-                    <a href="${SITE_URL}/#Contact" style="color: #a48b65; text-decoration: none; font-weight: 600;">Contact</a>
+                    <a href="${SITE_URL}/contact" style="color: #a48b65; text-decoration: none; font-weight: 600;">Contact</a>
                   </td>
                   <td align="right">
                     <a href="${FB_URL}" style="color: #ffffff; text-decoration: none; margin-left: 8px; font-size: 11px;">FB</a>
@@ -341,10 +341,10 @@ export function buildAdminNotificationEmail(
       <p style="margin: 0 0 8px; color: #64748b;">2 Wimpole Street, Marylebone, London W1G 0EB · Landline: ${CLINIC_LANDLINE} · Mobile: ${CLINIC_MOBILE}</p>
       <p style="margin: 0;">
         <a href="${SITE_URL}/" style="color: #475569; text-decoration: underline; margin: 0 6px;">Home</a>·
-        <a href="${SITE_URL}/#Rooms" style="color: #475569; text-decoration: underline; margin: 0 6px;">Rooms &amp; Rates</a>·
+        <a href="${SITE_URL}/#Rooms" style="color: #475569; text-decoration: underline; margin: 0 6px;">Rooms</a>·
         <a href="${SITE_URL}/#Aboutus" style="color: #475569; text-decoration: underline; margin: 0 6px;">About Us</a>·
         <a href="${SITE_URL}/#PRACTITIONERS" style="color: #475569; text-decoration: underline; margin: 0 6px;">Practitioners</a>·
-        <a href="${SITE_URL}/#Contact" style="color: #475569; text-decoration: underline; margin: 0 6px;">Contact</a>·
+        <a href="${SITE_URL}/contact" style="color: #475569; text-decoration: underline; margin: 0 6px;">Contact</a>·
         <a href="${SITE_URL}/privacy" style="color: #475569; text-decoration: underline; margin: 0 6px;">Privacy</a>·
         <a href="${SITE_URL}/terms" style="color: #475569; text-decoration: underline; margin: 0 6px;">Terms</a>
       </p>

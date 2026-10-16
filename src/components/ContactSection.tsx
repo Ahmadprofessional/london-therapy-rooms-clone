@@ -52,7 +52,23 @@ function FormField({
   );
 }
 
-export function ContactSection() {
+function normalizeRoom(raw?: string | null): string {
+  if (!raw) return "";
+  const lower = raw.toLowerCase().trim();
+  if (lower.includes("room 1")) return "Room 1";
+  if (lower.includes("room 2")) return "Room 2";
+  if (lower.includes("room 3")) return "Room 3";
+  if (lower.includes("all")) return "All Rooms";
+  return raw;
+}
+
+export interface ContactSectionProps {
+  initialRoom?: string;
+  isStandalonePage?: boolean;
+}
+
+export function ContactSection({ initialRoom, isStandalonePage }: ContactSectionProps = {}) {
+  const [selectedRoom, setSelectedRoom] = useState(() => normalizeRoom(initialRoom));
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -60,6 +76,12 @@ export function ContactSection() {
   const [recaptchaErrored, setRecaptchaErrored] = useState(false);
   const [siteKey, setSiteKey] = useState("6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI");
   const recaptchaRef = useRef<ReCAPTCHA>(null);
+
+  useEffect(() => {
+    if (initialRoom) {
+      setSelectedRoom(normalizeRoom(initialRoom));
+    }
+  }, [initialRoom]);
 
   useEffect(() => {
     // On localhost, always use Google's official test site key to prevent "Invalid domain for site key" error
@@ -124,6 +146,7 @@ export function ContactSection() {
         form.reset();
         recaptchaRef.current?.reset();
         setRecaptchaToken(null);
+        setSelectedRoom("");
       } else {
         console.error("Resend API Error:", data);
         setError(data.error || "Something went wrong. Please try again.");
@@ -157,7 +180,7 @@ export function ContactSection() {
 
           <SectionReveal delay={0.1}>
             <p className="mx-auto max-w-xl text-sm sm:text-base font-light text-[#555555]">
-              {CONTACT.eyebrow}. Book an in-person viewing or enquire about hourly, daily, or full-time room availability.
+              {CONTACT.eyebrow}
             </p>
           </SectionReveal>
         </Reveal>
@@ -206,6 +229,22 @@ export function ContactSection() {
                     onSubmit={handleSubmit} 
                     className="space-y-4 sm:space-y-5"
                   >
+                    {selectedRoom && (
+                      <div className="flex items-center justify-between rounded-xl border border-[#a48b65]/35 bg-[#faf8f5] px-4 py-2.5 text-xs">
+                        <span className="flex items-center gap-2 text-[#282828] font-medium">
+                          <SparklesIcon className="h-4 w-4 text-[#a48b65]" />
+                          <span>Pre-selected: <strong>{selectedRoom}</strong></span>
+                        </span>
+                        <button
+                          type="button"
+                          onClick={() => setSelectedRoom("")}
+                          className="text-[#a48b65] hover:underline text-[11px]"
+                        >
+                          Change
+                        </button>
+                      </div>
+                    )}
+
                     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                       <FormField label="First Name" htmlFor="cf-first">
                         <input
@@ -271,7 +310,8 @@ export function ContactSection() {
                           id="cf-room"
                           name="room"
                           required
-                          defaultValue=""
+                          value={selectedRoom}
+                          onChange={(e) => setSelectedRoom(e.target.value)}
                           className={cn(inputCls, "cursor-pointer")}
                         >
                           <option value="" disabled>Select Room</option>
