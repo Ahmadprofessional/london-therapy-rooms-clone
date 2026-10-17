@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Privacy Policy for London Therapy Rooms to Rent. Learn how we handle practitioner and client data in accordance with UK GDPR.",
   alternates: {
-    canonical: "https://londontherapyroomstorent.com/privacy",
+    canonical: "https://www.londontherapyroomstorent.com/privacy",
   },
 };
 

@@ -38,8 +38,8 @@ const jsonLd = {
   "@type": "LocalBusiness",
   name: "London Therapy Rooms to Rent",
   alternateName: "Health & Skin Clinic Marylebone",
-  image: "https://londontherapyroomstorent.com/images/2024/09/logo-Copypng-11-11-11-11-300x179.png",
-  url: "https://londontherapyroomstorent.com",
+  image: "https://www.londontherapyroomstorent.com/images/2024/09/logo-Copypng-11-11-11-11-300x179.png",
+  url: "https://www.londontherapyroomstorent.com",
   telephone: "+44 207 225 3582",
   priceRange: "£25 - £45 per hour",
   address: {
@@ -69,7 +69,7 @@ const jsonLd = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://londontherapyroomstorent.com"),
+  metadataBase: new URL("https://www.londontherapyroomstorent.com"),
   title: {
     default: "London Therapy Rooms to Rent | Prime Locations Available",
     template: "%s | London Therapy Rooms to Rent",
@@ -87,7 +87,7 @@ export const metadata: Metadata = {
     "treatment rooms to rent London",
   ],
   alternates: {
-    canonical: "https://londontherapyroomstorent.com",
+    canonical: "https://www.londontherapyroomstorent.com",
   },
   robots: {
     index: true,
@@ -111,7 +111,7 @@ export const metadata: Metadata = {
     title: "London Therapy Rooms to Rent | Prime Locations Available",
     description:
       "Find serene and professional London therapy rooms to rent. Book fully-equipped spaces for counseling, psychotherapy, and wellness services in Marylebone W1.",
-    url: "https://londontherapyroomstorent.com",
+    url: "https://www.londontherapyroomstorent.com",
     siteName: "London Therapy Rooms To Rent",
     locale: "en_GB",
     type: "website",

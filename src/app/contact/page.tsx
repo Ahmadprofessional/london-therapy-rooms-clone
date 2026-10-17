@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Enquire about London therapy and consulting rooms to rent in Marylebone, London W1G 0EB. Schedule a tour or check availability.",
   alternates: {
-    canonical: "https://londontherapyroomstorent.com/contact",
+    canonical: "https://www.londontherapyroomstorent.com/contact",
   },
 };
 

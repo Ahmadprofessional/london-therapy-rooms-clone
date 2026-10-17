@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Terms of Service and Room Rental Licensing conditions for London Therapy Rooms to Rent at 2 Wimpole Street, Marylebone.",
   alternates: {
-    canonical: "https://londontherapyroomstorent.com/terms",
+    canonical: "https://www.londontherapyroomstorent.com/terms",
   },
 };
 
