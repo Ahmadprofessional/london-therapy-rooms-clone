@@ -5,9 +5,12 @@ import { ADDRESS, EMAIL, LOGO, PHONE_LANDLINE, PHONE_LANDLINE_HREF } from "@/dat
 import { ArrowLeftIcon, ShieldCheckIcon } from "@/components/icons";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | London Therapy Rooms to Rent",
+  title: "Terms of Service",
   description:
     "Terms of Service and Room Rental Licensing conditions for London Therapy Rooms to Rent at 2 Wimpole Street, Marylebone.",
+  alternates: {
+    canonical: "https://londontherapyroomstorent.com/terms",
+  },
 };
 
 export default function TermsPage() {

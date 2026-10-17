@@ -5,9 +5,12 @@ import { ADDRESS, EMAIL, LOGO, PHONE_LANDLINE, PHONE_LANDLINE_HREF } from "@/dat
 import { ArrowLeftIcon, ShieldCheckIcon } from "@/components/icons";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | London Therapy Rooms to Rent",
+  title: "Privacy Policy",
   description:
     "Privacy Policy for London Therapy Rooms to Rent. Learn how we handle practitioner and client data in accordance with UK GDPR.",
+  alternates: {
+    canonical: "https://londontherapyroomstorent.com/privacy",
+  },
 };
 
 export default function PrivacyPage() {

@@ -6,9 +6,12 @@ import { ScrollToTop } from "@/components/ScrollToTop";
 import { ContactClient } from "./ContactClient";
 
 export const metadata: Metadata = {
-  title: "Contact Us | London Therapy Rooms to Rent",
+  title: "Contact Us",
   description:
-    "Enquire about London therapy and consulting rooms to rent in Marylebone, London W1G 0EB.",
+    "Enquire about London therapy and consulting rooms to rent in Marylebone, London W1G 0EB. Schedule a tour or check availability.",
+  alternates: {
+    canonical: "https://londontherapyroomstorent.com/contact",
+  },
 };
 
 export default function ContactPage() {
